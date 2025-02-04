@@ -1,4 +1,4 @@
-// File: /Users/berkcan/Dropbox/Mac (2)/Documents/GentleWD/02 Kunden/22_skinbloom/website/skinbloomeshetics/app/page.js
+// File: /home/tariqmuhammad/Desktop/skinbloom/skinbloomeshetics/app/page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
