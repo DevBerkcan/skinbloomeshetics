@@ -6,7 +6,7 @@ import WeitereBehandlungen from "../../components/Modals/WeitereBehandlungen/Wei
 function Treatments() {
   const [activeModal, setActiveModal] = useState(null);
 
-  // Function to open a specific modal
+  // Function to open a specific modals
   const openModal = (modalName) => {
     setActiveModal(modalName);
   };
@@ -76,8 +76,8 @@ function Treatments() {
               <p>Skinbooster</p>
               <p>Profhilo</p>
               <p>Fett-weg-Spritze</p>
-              <p>Eigenbluttherapie/ PRP bei Haarausfall</p>
-              <p>Vampire lifting/ PRP</p>
+              <p>Eigenbluttherapie / PRP bei Haarausfall</p>
+              <p>Vampire lifting / PRP</p>
               <p>Infusionstherapie</p>
               <p>Radiofrequenz - Microneedling</p>
               <p>Hydrafacial</p>

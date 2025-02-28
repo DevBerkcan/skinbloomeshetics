@@ -493,8 +493,8 @@ footer h6 {
     margin-right: auto;
     border-radius: 20px;
     object-fit: cover;
-    object-position: bottom;
   }
+
   .section-3 .title, .section-5 .title, .section-6 .title, .contact .title, .faq .title {
     font-family: "Playfair Display", serif;
     font-size: 63px;
@@ -554,8 +554,6 @@ footer h6 {
     font-size: 25px;
   }
   .contact img {
-    width: 450px;
-    height: 435px;
     display: block;
     margin-left: auto;
     object-fit: cover;

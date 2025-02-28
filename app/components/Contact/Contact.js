@@ -159,8 +159,21 @@ function Contact() {
             </form>
           </div>
           <div className="col-md-6">
-            <img src="assets/images/contact-img.png" alt="Contact" />
-          </div>
+  <img
+    src="assets/images/me2.jpeg"
+    alt="Contact"
+    style={{
+      width: "400px",
+      height: "600px",
+      display: "block",
+      marginLeft: "auto",
+      marginRight: "auto",
+      borderRadius: "20px",
+      objectFit: "cover",
+    }}
+  />
+</div>
+
         </div>
       </div>
     </section>

@@ -9,14 +9,10 @@ function About() {
             <div className="position-relative">
               <img
                 className="about-img1"
-                src="assets/images/about1.png"
+                src="assets/images/me.jpeg"
                 alt="About Image 1"
               />
-              <img
-                className="about-img2"
-                src="assets/images/about2.png"
-                alt="About Image 2"
-              />
+             
             </div>
           </div>
           <div className="col-xl-7">
@@ -27,18 +23,15 @@ function About() {
             <p className="subtitle mb-5">Ihre Schönheit verdient das Rampenlicht</p>
             <div className="text-left">
               <p className="border-text">
-                Bei Skinbloom Aesthetics steht Ihre individuelle Schönheit im
-                Mittelpunkt. Unsere maßgeschneiderten Behandlungen lassen Ihre
-                Haut strahlen und geben Ihnen das Selbstbewusstsein, das Sie
-                verdienen. Jede Frau sollte im Rampenlicht stehen – mit
-                gesunder, jugendlicher Haut.
+              Bei Skinbloom Aesthetics steht Ihre individuelle Schönheit im Mittelpunkt. 
+              Als medizinisches Fachpersonal & Heilpraktikerin bieten wir Ihnen maßgeschneiderte Behandlungen, 
+              die Ihre Haut strahlen lassen und Ihnen das Selbstbewusstsein geben, 
+              das Sie verdienen. Jede Frau sollte im Rampenlicht stehen – mit gesunder, jugendlicher Haut.
               </p>
               <p className="description">
-                Vertrauen Sie auf unser Fachwissen und erleben Sie sichtbare
-                Ergebnisse, die auf natürlichen Prozessen basieren. Unsere
-                innovativen Methoden zur Hautverjüngung und -pflege bieten Ihnen
-                den perfekten Mix aus Entspannung und Effektivität. Machen Sie
-                den ersten Schritt zu Ihrer besten Version.
+              Vertrauen Sie auf unser Fachwissen und erleben Sie sichtbare Ergebnisse, die auf natürlichen Prozessen basieren. Unsere innovativen Methoden zur Hautverjüngung und -pflege 
+              bieten Ihnen den perfekten Mix aus Entspannung und Effektivität. 
+              Machen Sie den ersten Schritt zu Ihrer besten Version.
               </p>
             </div>
             <img
