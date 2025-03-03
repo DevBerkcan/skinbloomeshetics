@@ -34,33 +34,33 @@ function Preisliste({ isOpen, handleClose }) {
                   <span className="fs-6 fw-bold d-block">Wangenaufbau</span>
                   <span className="fs-6 fw-bold d-block">Nasolabialfalte</span>
                 </div>
-                <span className="fs-5 fw-bold d-block">ab 249€</span>
+                <span className="fs-5 fw-bold d-block">ab CHF 249.-</span>
               </div>
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-5 fw-bold d-block">Hylase</span>
-                <span className="fs-5 fw-bold d-block">ab 150€</span>
+                <span className="fs-5 fw-bold d-block">ab CHF 150.-</span>
               </div>
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-5 fw-bold d-block">Mesotherapie</span>
-                <span className="fs-5 fw-bold d-block">ab 199€</span>
+                <span className="fs-5 fw-bold d-block">ab CHF 199.-</span>
               </div>
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-5 fw-bold d-block">Skinbooster</span>
-                <span className="fs-5 fw-bold d-block">ab 199€</span>
+                <span className="fs-5 fw-bold d-block">ab CHF 199.-</span>
               </div>
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-5 fw-bold d-block">Profhilo</span>
-                <span className="fs-5 fw-bold d-block">349€</span>
+                <span className="fs-5 fw-bold d-block">CHF 349.-</span>
               </div>
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-5 fw-bold d-block">Fettwegspritze</span>
-                <span className="fs-5 fw-bold d-block">ab 200€</span>
+                <span className="fs-5 fw-bold d-block">CHF 200.-</span>
               </div>
             </div>
             <div className="col-md-6">
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-5 fw-bold d-block">PRP bei Haarausfall /<br/> Eigenbluttherapie</span>
-                <span className="fs-5 fw-bold d-block">ab 450€</span>
+                <span className="fs-5 fw-bold d-block">ab CHF 450€.-</span>
               </div>
 
 
@@ -69,39 +69,39 @@ function Preisliste({ isOpen, handleClose }) {
                 
                 <span className="fs-5 fw-bold d-block"></span>
                 
-                <span className="fs-5 fw-bold d-block">ab 450€</span>
+                <span className="fs-5 fw-bold d-block">ab CHF 450.-</span>
               </div>
              
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-5 fw-bold d-block">Infusionstherapie</span>
-                <span className="fs-5 fw-bold d-block">ab 129€</span>
+                <span className="fs-5 fw-bold d-block">ab CHF 129€.-</span>
               </div>
               <span className="fs-5 fw-bold d-block font-playfair">Radiofrequenz - Microneedling</span>
               <div className="d-flex justify-content-between font-playfair">
                 <span className="fs-6 fw-bold d-block">Gesicht</span>
-                <span className="fs-6 fw-bold d-block">299€</span>
+                <span className="fs-6 fw-bold d-block">CHF 299.-</span>
               </div>
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-6 fw-bold d-block">Gesicht , Hals, Dekolleté</span>
-                <span className="fs-6 fw-bold d-block">399€</span>
+                <span className="fs-6 fw-bold d-block">CHF 399.-</span>
               </div>
               <span className="fs-5 fw-bold d-block font-playfair">BioPeelX Gesicht</span>
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-5 fw-bold d-block">inkl. Maske 60 Min </span>
-                <span className="fs-5 fw-bold d-block">ab 170€</span>
+                <span className="fs-5 fw-bold d-block">ab CHF 170.-</span>
               </div>
               <span className="fs-5 fw-bold d-block font-playfair">HydraFacial</span>
               <div className="d-flex justify-content-between font-playfair">
                 <span className="fs-6 fw-bold d-block">Basic</span>
-                <span className="fs-6 fw-bold d-block">189€</span>
+                <span className="fs-6 fw-bold d-block">CHF 189.-</span>
               </div>
               <div className="d-flex justify-content-between font-playfair">
                 <span className="fs-6 fw-bold d-block">MD</span>
-                <span className="fs-6 fw-bold d-block">199€</span>
+                <span className="fs-6 fw-bold d-block">CHF 199.-</span>
               </div>
               <div className="d-flex justify-content-between font-playfair">
                 <span className="fs-6 fw-bold d-block">Deluxe</span>
-                <span className="fs-6 fw-bold d-block">229€</span>
+                <span className="fs-6 fw-bold d-block">CHF 229.-</span>
               </div>
             </div>
           </div>

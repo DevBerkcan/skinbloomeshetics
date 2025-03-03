@@ -160,11 +160,11 @@ function Contact() {
           </div>
           <div className="col-md-6">
   <img
-    src="assets/images/me2.jpeg"
+    src="assets/images/contact-img.png"
     alt="Contact"
     style={{
-      width: "400px",
-      height: "600px",
+      width: "350px",
+      height: "550px",
       display: "block",
       marginLeft: "auto",
       marginRight: "auto",

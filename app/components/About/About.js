@@ -23,10 +23,8 @@ function About() {
             <p className="subtitle mb-5">Ihre Schönheit verdient das Rampenlicht</p>
             <div className="text-left">
               <p className="border-text">
-              Bei Skinbloom Aesthetics steht Ihre individuelle Schönheit im Mittelpunkt. 
-              Als medizinisches Fachpersonal & Heilpraktikerin bieten wir Ihnen maßgeschneiderte Behandlungen, 
-              die Ihre Haut strahlen lassen und Ihnen das Selbstbewusstsein geben, 
-              das Sie verdienen. Jede Frau sollte im Rampenlicht stehen – mit gesunder, jugendlicher Haut.
+              Bei Skinbloom Aesthetics steht Ihre individuelle Schönheit im Mittelpunkt. Als medizinische Fachperson & Heilpraktikerin biete ich Ihnen Behandlungen, 
+              die auf Ihre einzigartigen Bedürfnisse abgestimmt sind, um Ihre Haut zum Strahlen zu bringen
               </p>
               <p className="description">
               Vertrauen Sie auf unser Fachwissen und erleben Sie sichtbare Ergebnisse, die auf natürlichen Prozessen basieren. Unsere innovativen Methoden zur Hautverjüngung und -pflege 

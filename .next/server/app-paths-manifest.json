@@ -1,6 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/icon.png/route": "app/icon.png/route.js",
-  "/impressum/page": "app/impressum/page.js",
-  "/datenschutzrichtlinien/page": "app/datenschutzrichtlinien/page.js"
-}
