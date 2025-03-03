@@ -16,8 +16,8 @@ const Impressum = () => (
         {/* Contact Information */}
         <p className="fs-4 font-playfair mb-4">Kontakt:</p>
         <p className="fs-6 font-display mb-1">Telefon: <a href="tel:+41782418704">+41 78 241 87 04</a></p>
-        <p className="fs-6 font-display mb-1">E-Mail: [bitte E-Mail-Adresse einfügen]</p>
-        <p className="fs-6 font-display mb-4">Website: [bitte Website-Adresse einfügen]</p>
+        <p className="fs-6 font-display mb-1">E-Mail: [info@skinbloom-aesthetics.ch]</p>
+        <p className="fs-6 font-display mb-4">Website: [www.skinbloom-aesthetics.ch]</p>
 
         {/* Representative Information */}
         <p className="fs-4 font-playfair mb-4">Vertreten durch:</p>
