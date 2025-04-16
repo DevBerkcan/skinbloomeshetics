@@ -60,7 +60,7 @@ function Preisliste({ isOpen, handleClose }) {
             <div className="col-md-6">
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-5 fw-bold d-block">PRP bei Haarausfall /<br/> Eigenbluttherapie</span>
-                <span className="fs-5 fw-bold d-block">ab CHF 450€.-</span>
+                <span className="fs-5 fw-bold d-block">ab CHF 450.-</span>
               </div>
 
 
@@ -74,7 +74,7 @@ function Preisliste({ isOpen, handleClose }) {
              
               <div className="d-flex justify-content-between font-playfair mb-3">
                 <span className="fs-5 fw-bold d-block">Infusionstherapie</span>
-                <span className="fs-5 fw-bold d-block">ab CHF 129€.-</span>
+                <span className="fs-5 fw-bold d-block">ab CHF 129.-</span>
               </div>
               <span className="fs-5 fw-bold d-block font-playfair">Radiofrequenz - Microneedling</span>
               <div className="d-flex justify-content-between font-playfair">
