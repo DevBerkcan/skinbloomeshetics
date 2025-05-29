@@ -17,20 +17,14 @@ const Faq = () => {
         <Accordion.Item eventKey="1">
           <Accordion.Header>Natürliche Ergebnisse</Accordion.Header>
           <Accordion.Body>
-            A payment system is a way to transfer money from one person or
-            organization to another. It is a complex process that involves many
-            different parties, including banks, credit card companies, and
-            merchants.
+          Bei Skinbloom Aesthetics stehen natürliche Ergebnisse im Mittelpunkt. Unsere Behandlungen sind darauf ausgelegt, Ihre individuelle Schönheit sanft zu unterstreichen – ohne künstlich zu wirken. Das Ziel: Ein frisches, harmonisches Aussehen, das zu Ihnen passt und Ihre Persönlichkeit strahlen lässt.
           </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="2">
           <Accordion.Header>Individuelle Beratung</Accordion.Header>
           <Accordion.Body>
-            Whether or not taxes are included in your monthly invoice depends on
-            a number of factors, including your location, the type of services
-            you are receiving, and the policies of the company providing you
-            with those services.
+          Jede Haut ist einzigartig – genau wie Ihre Wünsche. Deshalb nehmen wir uns Zeit für eine persönliche und ausführliche Beratung. Gemeinsam analysieren wir Ihre Bedürfnisse und entwickeln ein maßgeschneidertes Behandlungskonzept, das zu Ihnen passt – ehrlich, transparent und mit fachlicher Kompetenz.
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
