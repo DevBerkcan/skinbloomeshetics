@@ -22,6 +22,7 @@ const Impressum = () => (
         {/* Representative Information */}
         <p className="fs-4 font-playfair mb-4">Vertreten durch:</p>
         <p className="fs-6 font-display mb-4">Marianna Topchanali (Geschäftsführerin)</p>
+        <p className="fs-6 font-display mb-4">UID: CHE-166.888.392</p>
 
         {/* Content Responsibility */}
         <p className="fs-4 font-playfair mb-4">Verantwortlich für den Inhalt:</p>
