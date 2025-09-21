@@ -1,23 +1,20 @@
-// app/layout.tsx
-"use client";
-
+// app/layout.js
 import { Montserrat, Playfair_Display, Lato } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
-
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-
 // Font Awesome
 import "@fortawesome/fontawesome-svg-core/styles.css";
-
 // Local Fonts
 import localFont from "next/font/local";
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -29,9 +26,8 @@ const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "700"] });
 const playfairDisplay = Playfair_Display({ subsets: ["latin"], weight: ["400", "700"] });
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
-import Script from "next/script";
-
-const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-52KB99G3"; // optional .env
+// GTM ID
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-52KB99G3";
 
 export const metadata = {
   title: "Skinbloom",
@@ -42,37 +38,38 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* --- Google Tag Manager: so weit oben im <head> wie möglich --- */}
-        <Script id="gtm-init" strategy="afterInteractive">
-          {`
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','${GTM_ID}');
-          `}
-        </Script>
-
-        {/* --- Dein bestehendes gtag (Google Ads) – kann bleiben oder in GTM umziehen --- */}
-        <Script
-          id="gtag-src"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16908246874"
-          strategy="afterInteractive"
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','${GTM_ID}');
+            `,
+          }}
         />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-16908246874');
-          `}
-        </Script>
+        {/* Google Ads */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16908246874"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16908246874');
+            `,
+          }}
+        />
       </head>
-
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.className} ${playfairDisplay.className} ${lato.className}`}
       >
-        {/* --- Google Tag Manager (noscript) – direkt unter <body> --- */}
+        {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
             src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
@@ -81,7 +78,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-
+        
         <Header />
         {children}
         <Footer />
