@@ -100,7 +100,7 @@ export default function Footer() {
                 </p>
                 <p className="d-flex">
                   <FontAwesomeIcon icon={faMapMarker} className="me-3" />
-                  Steinbühlallee 206A, Allschwil, Switzerland 4123
+                  Elisabethenstrasse 41, Basel Switzerland 4051
                 </p>
                 <p>
                   <FontAwesomeIcon icon={faPhone} className="me-3" />
