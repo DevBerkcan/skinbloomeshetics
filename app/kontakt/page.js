@@ -28,7 +28,7 @@ const ContactUs = () => (
             </p>
             <p className="d-flex">
               <FontAwesomeIcon icon={faMapMarker} className="me-3" />
-              Steinbühlallee 206A, Allschwil, Switzerland 4123
+              Elisabethenstrasse 41, Basel, 4051 Switzerland 
             </p>
           </div>
           <div className="col-md-2 d-flex justify-content-center">

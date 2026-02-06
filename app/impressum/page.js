@@ -9,8 +9,8 @@ const Impressum = () => (
         {/* Business Information */}
         <p className="fs-4 font-playfair mb-4">Skinbloom Aesthetics</p>
         <p className="fs-6 font-display">Inhaberin: Marianna Topchanali</p>
-        <p className="fs-6 font-display mb-1">Steinbühlallee 206A</p>
-        <p className="fs-6 font-display mb-1">4123 Allschwil</p>
+        <p className="fs-6 font-display mb-1">Elisabethenstrasse 41</p>
+        <p className="fs-6 font-display mb-1">4051 Basel</p>
         <p className="fs-6 font-display mb-4">Schweiz</p>
 
         {/* Contact Information */}
@@ -27,8 +27,8 @@ const Impressum = () => (
         {/* Content Responsibility */}
         <p className="fs-4 font-playfair mb-4">Verantwortlich für den Inhalt:</p>
         <p className="fs-6 font-display">Marianna Topchanali</p>
-        <p className="fs-6 font-display mb-1">Steinbühlallee 206A</p>
-        <p className="fs-6 font-display mb-1">4123 Allschwil</p>
+        <p className="fs-6 font-display mb-1">Elisabethenstrasse 41</p>
+        <p className="fs-6 font-display mb-1">4051 Basel</p>
         <p className="fs-6 font-display mb-4">Schweiz</p>
 
         {/* Disclaimer */}
