@@ -28,6 +28,7 @@ const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
 // GTM ID
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-52KB99G3";
+const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || "vbnguu902y";
 
 export const metadata = {
   title: "Skinbloom",
@@ -62,6 +63,18 @@ export default function RootLayout({ children }) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'AW-16908246874');
+            `,
+          }}
+        />
+        {/* Microsoft Clarity */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "${CLARITY_ID}");
             `,
           }}
         />
