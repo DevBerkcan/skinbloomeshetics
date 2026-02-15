@@ -9,15 +9,26 @@ function Contact() {
     email: "",
     phone: "",
     content: "",
+    privacyAccepted: false,
   });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    const { name, value, type, checked } = e.target;
+    setFormData({ ...formData, [name]: type === "checkbox" ? checked : value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!formData.privacyAccepted) {
+      Swal.fire({
+        icon: "warning",
+        title: "Datenschutzhinweis fehlt",
+        text: "Bitte akzeptieren Sie die Datenschutzerklaerung, um das Formular zu senden.",
+      });
+      return;
+    }
+
     setLoading(true);
     try {
       const res = await fetch("/api/sendEmail", {
@@ -46,6 +57,7 @@ function Contact() {
             email: "",
             phone: "",
             content: "",
+            privacyAccepted: false,
           });
         } else {
           // Error Alert using SweetAlert
@@ -147,6 +159,29 @@ function Contact() {
                     onChange={handleChange}
                     required
                   />
+                </div>
+              </div>
+              <div className="row mb-4">
+                <div className="col">
+                  <div className="form-check contact-privacy-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      id="privacyAccepted"
+                      name="privacyAccepted"
+                      checked={formData.privacyAccepted}
+                      onChange={handleChange}
+                      required
+                    />
+                    <label className="form-check-label" htmlFor="privacyAccepted">
+                      Ich habe die{" "}
+                      <a href="/datenschutzrichtlinien">
+                        Datenschutzerklaerung
+                      </a>{" "}
+                      gelesen und stimme der Verarbeitung meiner Daten zur
+                      Bearbeitung meiner Anfrage zu.
+                    </label>
+                  </div>
                 </div>
               </div>
               <div className="row mb-4">
