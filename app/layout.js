@@ -31,10 +31,62 @@ const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-52KB99G3";
 const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || "vbnguu902y";
 const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-16908246874";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.skinbloom-aesthetics.ch";
 
 export const metadata = {
-  title: "Skinbloom",
-  description: "skinbloom aesthetics",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Skinbloom Aesthetics Basel",
+    template: "%s | Skinbloom Aesthetics",
+  },
+  description:
+    "Skinbloom Aesthetics in Basel: professionelle Behandlungen fuer natuerliche Ergebnisse bei Anti-Aging, Hyaluron und Aesthetik.",
+  keywords: [
+    "Skinbloom Aesthetics",
+    "Aesthetik Basel",
+    "Hyaluron Basel",
+    "Anti Aging Basel",
+    "Lippenunterspritzung Basel",
+    "Beauty Klinik Basel",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "de_CH",
+    url: SITE_URL,
+    siteName: "Skinbloom Aesthetics",
+    title: "Skinbloom Aesthetics Basel",
+    description:
+      "Professionelle Anti-Aging- und Aesthetik-Behandlungen in Basel mit individueller Beratung.",
+    images: [
+      {
+        url: "/assets/images/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Skinbloom Aesthetics",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Skinbloom Aesthetics Basel",
+    description:
+      "Professionelle Anti-Aging- und Aesthetik-Behandlungen in Basel mit individueller Beratung.",
+    images: ["/assets/images/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

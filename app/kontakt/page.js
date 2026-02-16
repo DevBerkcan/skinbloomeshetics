@@ -1,4 +1,5 @@
 "use client";
+
 import Faq from "./Faq/Faq";
 import ContactUsEmail from "./ContactUsEmail/ContactUsEmail";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -52,9 +53,10 @@ const ContactUs = () => (
               <img
                 className="w-100 rounded-4 object-fit-cover h-250"
                 src="assets/images/contact-page-img.png"
+                alt="Kontakt Skinbloom Aesthetics Basel"
               />
               <a href="#" onClick={(e) => e.preventDefault()}>
-                <img className="arrow-btn" src="assets/images/arrow-btn.png" />
+                <img className="arrow-btn" src="assets/images/arrow-btn.png" alt="" />
               </a>
             </div>
           </div>

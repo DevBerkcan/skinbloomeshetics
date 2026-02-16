@@ -18,7 +18,7 @@ export default function Footer() {
                 <img
                   className="footer-logo mb-2"
                   src="assets/images/footer-logo.png"
-                  alt=""
+                  alt="Skinbloom Aesthetics Logo"
                 />
                 <p>
                   Ihr Partner für professionelle Anti-Aging- und
@@ -30,6 +30,7 @@ export default function Footer() {
                   <a
                     href="https://www.facebook.com/profile.php?id=61565493292168"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-reset"
                   >
                     <FontAwesomeIcon icon={faFacebookF} />
@@ -37,6 +38,7 @@ export default function Footer() {
                   <a
                     href="https://www.instagram.com/skinbloom._aesthetics/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-reset"
                   >
                     <FontAwesomeIcon icon={faInstagram} />
