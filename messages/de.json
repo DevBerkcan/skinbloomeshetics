@@ -1,0 +1,661 @@
+{
+  "nav": {
+    "aboutUs": "Über Uns",
+    "treatments": "Behandlungen",
+    "allTreatments": "Alle Behandlungen",
+    "catHyaluron": "Hyaluron",
+    "catWeitere": "Weitere Behandlungen",
+    "catKosmetik": "Medizinische Kosmetik",
+    "prices": "Preise",
+    "contact": "Kontakt",
+    "bookNow": "Termin buchen"
+  },
+  "banner": {
+    "title": "Verleihen Sie Ihrer Haut neuen Glanz.",
+    "subtitle": "Skinbloom Aesthetics - Ihre Experten für Anti Aging, PRP Behandlung, Faltenreduktion und Lippenoptimierung, in der Schweiz.",
+    "cta": "Jetzt Termin vereinbaren",
+    "allReviews": "zu allen Bewertungen"
+  },
+  "about": {
+    "titleBrown": "Willkommen bei",
+    "titleMain": "Skinbloom Aesthetics",
+    "subtitle": "Ihre Schönheit verdient das Rampenlicht",
+    "borderText": "Bei Skinbloom Aesthetics steht Ihre individuelle Schönheit im Mittelpunkt. Als medizinische Fachperson & Heilpraktikerin biete ich Ihnen Behandlungen, die auf Ihre einzigartigen Bedürfnisse abgestimmt sind, um Ihre Haut zum Strahlen zu bringen",
+    "description": "Vertrauen Sie auf unser Fachwissen und erleben Sie sichtbare Ergebnisse, die auf natürlichen Prozessen basieren. Unsere innovativen Methoden zur Hautverjüngung und -pflege bieten Ihnen den perfekten Mix aus Entspannung und Effektivität. Machen Sie den ersten Schritt zu Ihrer besten Version."
+  },
+  "team": {
+    "title": "Unser",
+    "titleBrown": "Team",
+    "subtitle": "Die Menschen hinter Skinbloom Aesthetics",
+    "members": [
+      {
+        "name": "Marianna",
+        "role": "Medical Aesthetics Specialist",
+        "imgAlt": "Marianna – Medical Aesthetics Specialist bei Skinbloom Aesthetics",
+        "badges": ["Hyaluron", "PRP", "Skinbooster", "Vampire Lifting", "Heilpraktikerin"],
+        "description": "Mit ihrer fundierten medizinischen Ausbildung und ihrer Vision als Gründerin von Skinbloom leitet Marianna die Praxis mit höchster Präzision und fachlicher Tiefe. Sie schloss 2016 ihre Ausbildung zur medizinischen Fachperson erfolgreich ab und sammelte wertvolle Erfahrungen im klinischen sowie notfallmedizinischen Bereich, was ihr sicheres Arbeiten garantiert.\nSeit 2020 liegt ihr Fokus spezialisiert auf der ästhetischen Medizin und minimalinvasiven Behandlungen. Ihr Ansatz vereint technisches Können mit einem ausgeprägten Blick für Ästhetik, um stets natürlich wirkende Ergebnisse und eine optimale Hautgesundheit zu erzielen.\nIhre Expertise wird durch ihren unternehmerischen Hintergrund und ihren aktuellen akademischen Weg stetig vertieft:\n• Founder von Skinbloom – Innovative Konzepte für ganzheitliche Skin-Health.\n• Studium der Zahnmedizin zur Erweiterung der Kenntnisse in Anatomie und funktionellen Zusammenhängen des Gesichts.\n• Spezialisierung auf präzise Injektionstechniken und minimalinvasive Ästhetik.\nDurch die Kombination aus praktischer Erfahrung, Unternehmertum und laufender wissenschaftlicher Weiterbildung bietet Marianna Behandlungen auf höchstem medizinischem Niveau. Als Medical Aesthetics Specialist steht sie für Sicherheit, Präzision und eine ganzheitliche Beratung für dein perfektes Ergebnis."
+      },
+      {
+        "name": "Christina",
+        "role": "Medical Skin Expert",
+        "imgAlt": "Christina – Medical Skin Expert bei Skinbloom Aesthetics",
+        "badges": ["Kosmetik", "Hautpflege", "Gesichtsbehandlungen","Weitere Behandlungen"],
+        "description": "Mit 39 Jahren und einer fundierten akademischen Basis bringt Christina umfassendes Fachwissen in unser Team ein. Sie hat ihr Studium an der Hochschule für Gesundheit und Prävention in Berlin erfolgreich abgeschlossen und blickt auf eine langjährige Erfahrung in der ästhetischen Medizin zurück.\nAls zertifizierte Kosmetikerin und Ernährungsberaterin verfolgt sie einen ganzheitlichen Ansatz: Sie kombiniert ihr tiefgreifendes Verständnis für Hautphysiologie mit moderner Präventionsmedizin, um sichtbare und nachhaltige Ergebnisse zu erzielen.\nIhre technische Expertise im Bereich der apparativen Kosmetik ist auf dem aktuellsten Stand:\n• Qualifizierte Laserschutzbeauftragte\n• V-NISSG-zertifiziert für den professionellen Einsatz von:\n• Ultraschall\n• Radiofrequenz\n• Optischer Strahlung (zur effektiven Hautverjüngung und Hautstraffung)\nDurch diese spezialisierten Qualifikationen stellt Christina sicher, dass alle Behandlungen nicht nur hochwirksam, sondern auch nach den höchsten gesetzlichen Sicherheitsstandards durchgeführt werden. Als Medical Skin Expert begleitet sie dich kompetent auf dem Weg zu einem gesunden und strahlenden Hautbild."
+      }
+    ]
+  },
+  "treatments": {
+    "sectionTitle": "Unsere",
+    "sectionTitleBrown": "Behandlungen",
+    "moreDetails": "Mehr Details",
+    "priceList": "Preisliste",
+    "hyaluron": {
+      "subtitle": "Hyaluron",
+      "items": ["Jawline", "Kinn-Aufbau", "Lippenfalten", "Lippenunterspritzung", "Marionettenfalte", "Wangenaufbau", "Nasolabialfalte"]
+    },
+    "weitere": {
+      "subtitle": "Weitere Behandlungen",
+      "items": ["Hylase", "Mesotherapie", "Skinbooster", "Profhilo", "Fett-weg-Spritze", "Eigenbluttherapie / PRP bei Haarausfall", "Vampire lifting / PRP", "Infusionstherapie", "Radiofrequenz - Microneedling", "Hydrafacial"]
+    }
+  },
+  "cosmeticTreatments": {
+    "subtitle": "Medizinische Kosmetik",
+    "items": ["Chemische Peelings", "Radiofrequenz-Needling", "Carboxytherapie", "HIFU Ultraschall", "Microneedling"],
+    "moreDetails": "Mehr Details"
+  },
+  "reviews": {
+    "title": "Was unsere",
+    "titleBrown": "Kunden",
+    "titleSuffix": "sagen",
+    "items": [
+      {
+        "text": "Ich habe vor Kurzem Skinbloom Aesthetics besucht und bin absolut begeistert von den Leistungen. Das Team war sehr professionell und freundlich. Meine Haut sieht nach der Behandlung deutlich frischer und gesünder aus. Ich kann das Studio nur weiterempfehlen!",
+        "name": "Laura S."
+      },
+      {
+        "text": "Meine Jawline-Behandlung bei Skinbloom war ein voller Erfolg! Die Ergebnisse sind unglaublich natürlich und ich habe mich während der gesamten Behandlung bestens betreut gefühlt. Vielen Dank an das großartige Team!",
+        "name": "Anna W."
+      },
+      {
+        "text": "Ich war für eine Hyaluron-Behandlung bei Skinbloom Aesthetics, nachdem ein anderes Studio es ruiniert hatte. Das Team hat wahre Wunder bewirkt und meine Lippen sehen jetzt wieder wunderschön aus. Absolut empfehlenswert!",
+        "name": "Sophie M."
+      },
+      {
+        "text": "Die PRP-Behandlung bei Skinbloom war fantastisch. Schon nach wenigen Wochen habe ich eine deutliche Verbesserung meiner Hautstruktur bemerkt. Ich bin super zufrieden und werde definitiv wiederkommen!",
+        "name": "Julia H."
+      },
+      {
+        "text": "Ich habe mich für die Nasolabialfalten-Behandlung entschieden und bin begeistert! Das Team war äußerst kompetent und die Ergebnisse sind sehr natürlich. Ich fühle mich endlich wieder wohl in meiner Haut. Danke Skinbloom!",
+        "name": "Maria K."
+      }
+    ]
+  },
+  "philosophy": {
+    "title": "Unsere",
+    "titleBrown": "Philosophie",
+    "description": "Bei Skinbloom Aesthetics glauben wir daran, dass wahre Schönheit in der Harmonie von Ästhetik und Wohlbefinden liegt. Unsere Mission ist es, Ihre natürliche Ausstrahlung zu unterstreichen, indem wir individuelle Behandlungen anbieten, die auf Ihre Bedürfnisse und Wünsche zugeschnitten sind. Dabei setzen wir auf modernste Methoden und hochwertige Produkte, um Ergebnisse zu erzielen, die nicht nur sichtbar, sondern auch spürbar sind. Denn Ihre Zufriedenheit und Ihr Vertrauen sind unser größtes Anliegen.",
+    "faq": [
+      {
+        "question": "Modernste Techniken",
+        "answer": "Wir nutzen die neuesten Techniken und Technologien in der ästhetischen Medizin, um sichere und effektive Ergebnisse zu gewährleisten. Ihre Haut verdient nur das Beste."
+      },
+      {
+        "question": "Natürliche Ergebnisse",
+        "answer": "Unsere Mission ist es, Ihre natürliche Ausstrahlung zu unterstreichen. Wir arbeiten präzise und individuell, um Ergebnisse zu erzielen, die harmonisch und authentisch wirken."
+      },
+      {
+        "question": "Individuelle Beratung",
+        "answer": "Jede Haut ist einzigartig. Deshalb nehmen wir uns Zeit für eine ausführliche Beratung, um Ihre Bedürfnisse und Wünsche zu verstehen und die beste Behandlung für Sie auszuwählen."
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "Wie läuft eine typische Behandlungssitzung ab?",
+        "answer": "Nach einer individuellen Beratung und Hautanalyse beginnen wir mit der auf Ihren Hauttyp und Ihre Bedürfnisse abgestimmten Behandlung. Dabei legen wir besonderen Wert auf Hygiene, Entspannung und hochwertige Produkte. Am Ende erhalten Sie Pflegehinweise für zu Hause."
+      },
+      {
+        "question": "Welche Behandlungen sind für meinen Hauttyp geeignet?",
+        "answer": "Jede Haut ist einzigartig, daher führen wir vor der Behandlung eine umfassende Analyse durch. Ob Feuchtigkeitsbehandlungen, Anti-Aging-Therapien oder klärende Anwendungen – wir empfehlen Ihnen die beste Option für Ihre Haut."
+      },
+      {
+        "question": "Wie lange halten die Ergebnisse der Lippenbehandlung an?",
+        "answer": "Die Dauer der Ergebnisse hängt von der Art der Behandlung ab. In der Regel halten Ergebnisse von Hyaluron-Behandlungen 6 bis 12 Monate an. Eine regelmäßige Auffrischung kann die Ergebnisse verlängern."
+      },
+      {
+        "question": "Sind die Behandlungen schmerzhaft?",
+        "answer": "Die meisten Behandlungen sind sanft und gut verträglich. Bei minimal-invasiven Verfahren wie Microneedling oder Lippenbehandlungen kann ein leichtes Ziehen oder Druckgefühl auftreten, das jedoch schnell nachlässt. Auf Wunsch bieten wir eine betäubende Creme an."
+      },
+      {
+        "question": "Was ist eine Jawline-Behandlung?",
+        "answer": "Eine Jawline-Behandlung dient dazu, die Kieferlinie zu definieren und zu konturieren. Mit der gezielten Injektion von Hyaluron oder anderen Fillern können wir das Gesicht harmonisieren, die Kieferpartie betonen und ein jüngeres, strafferes Erscheinungsbild erzeugen."
+      },
+      {
+        "question": "Was ist eine Hyaluron-Behandlung?",
+        "answer": "Eine Hyaluron-Behandlung ist eine sanfte Methode, um Volumen und Feuchtigkeit in der Haut wiederherzustellen. Hyaluronsäure ist ein natürlicher Bestandteil der Haut, der Feuchtigkeit bindet und die Haut strafft. Bei der Behandlung wird ein hochwertiges Hyaluron-Gel gezielt in die gewünschten Bereiche injiziert, um Falten zu glätten oder Volumen aufzubauen."
+      },
+      {
+        "question": "Was ist eine PRP-Behandlung und wie funktioniert sie?",
+        "answer": "Die PRP-Behandlung (Platelet Rich Plasma) ist eine innovative Methode, bei der mit Eigenblutplasma gearbeitet wird. Dabei wird eine kleine Menge Blut entnommen, zentrifugiert und das konzentrierte Plasma mit seinen reichhaltigen Wachstumsfaktoren in die Haut injiziert. Diese Behandlung regt die Zellregeneration an, verbessert die Hautstruktur und sorgt für ein strahlendes, jüngeres Aussehen."
+      },
+      {
+        "question": "Sind die Behandlungen auch für empfindliche Haut geeignet?",
+        "answer": "Ja, unsere Behandlungen sind auch für empfindliche Haut geeignet. Wir verwenden sanfte Produkte und Techniken, die speziell auf empfindliche Haut abgestimmt sind. Lassen Sie uns Ihre Hautbedürfnisse vorab besprechen."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Haben Sie Fragen zu unseren Behandlungen oder möchten Sie einen Termin vereinbaren? Wir sind für Sie da! Kontaktieren Sie uns telefonisch, per E-Mail oder über das Kontaktformular. Unser erfahrenes Team berät Sie gerne persönlich und findet die beste Lösung für Ihre individuellen Bedürfnisse. Wir freuen uns darauf, von Ihnen zu hören.",
+    "contactTitle": "Kontaktieren Sie",
+    "contactTitleBrown": "uns",
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefonnummer",
+      "treatmentPlaceholder": "Welche Behandlung interessiert Sie?",
+      "groupHyaluron": "Hyaluron",
+      "groupWeitere": "Weitere Behandlungen",
+      "groupKosmetik": "Med. Kosmetik",
+      "hyaluronOptions": ["Jawline", "Kinn-Aufbau", "Lippenfalten", "Lippenunterspritzung", "Marionettenfalte", "Wangenaufbau", "Nasolabialfalte"],
+      "weitereOptions": ["Mesotherapie", "Skinbooster", "Profhilo", "Fett-weg-Spritze", "PRP bei Haarausfall", "Vampire lifting / PRP", "Radiofrequenz-Microneedling", "Hydrafacial"],
+      "kosmetikOptions": ["Chemische Peelings", "Radiofrequenz-Needling", "Carboxytherapie", "HIFU Ultraschall", "Microneedling"],
+      "message": "Meine Nachricht",
+      "submit": "Nachricht absenden",
+      "privacy": "Ich habe die",
+      "privacyLink": "Datenschutzerklärung",
+      "privacySuffix": "gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu."
+    },
+    "alerts": {
+      "missingPrivacyTitle": "Datenschutzhinweis fehlt",
+      "missingPrivacyText": "Bitte akzeptieren Sie die Datenschutzerklärung, um das Formular zu senden.",
+      "successTitle": "E-Mail erfolgreich versendet!",
+      "successText": "Vielen Dank für Ihre Nachricht. Wir werden Sie bald kontaktieren!",
+      "errorTitle": "Fehler beim Senden der Nachricht",
+      "errorText": "Bitte versuchen Sie es später erneut."
+    },
+    "advantages": "Unsere",
+    "advantagesBrown": "Vorteile",
+    "contactUsText": "Wir bietet maßgeschneiderte Behandlungen für Anti-Aging, Faltenreduktion und Lippenoptimierung. Mit modernster Technik und persönlicher Beratung sorgen wir für natürliche und langanhaltende Ergebnisse.",
+    "faqItems": [
+      {
+        "question": "Modernste Techniken",
+        "answer": "Wir nutzen die neuesten Techniken und Technologien in der ästhetischen Medizin, um sichere und effektive Ergebnisse zu gewährleisten. Ihre Haut verdient nur das Beste."
+      },
+      {
+        "question": "Natürliche Ergebnisse",
+        "answer": "Bei Skinbloom Aesthetics stehen natürliche Ergebnisse im Mittelpunkt. Unsere Behandlungen sind darauf ausgelegt, Ihre individuelle Schönheit sanft zu unterstreichen – ohne künstlich zu wirken. Das Ziel: Ein frisches, harmonisches Aussehen, das zu Ihnen passt und Ihre Persönlichkeit strahlen lässt."
+      },
+      {
+        "question": "Individuelle Beratung",
+        "answer": "Jede Haut ist einzigartig – genau wie Ihre Wünsche. Deshalb nehmen wir uns Zeit für eine persönliche und ausführliche Beratung. Gemeinsam analysieren wir Ihre Bedürfnisse und entwickeln ein maßgeschneidertes Behandlungskonzept, das zu Ihnen passt – ehrlich, transparent und mit fachlicher Kompetenz."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Ihr Partner für professionelle Anti-Aging- und Ästhetik-Behandlungen in Basel. Wir bieten individuelle Lösungen, die auf Ihre Bedürfnisse abgestimmt sind und natürliche, langanhaltende Ergebnisse liefern.",
+    "quickLinks": "Quick Links",
+    "aboutUs": "Über Uns",
+    "treatments": "Behandlungen",
+    "contact": "Kontakt",
+    "reviews": "Bewertungen",
+    "faq": "FAQ",
+    "legal": "Rechtliches",
+    "imprint": "Impressum",
+    "privacy": "Datenschutzrichtlinien",
+    "contactTitle": "Kontakt",
+    "copyright": "© 2026 Skinbloom Aesthetics. Alle Rechte vorbehalten."
+  },
+  "modals": {
+    "customersTitle": "Was unsere",
+    "customersTitleBrown": "Kunden",
+    "customersTitleSuffix": "sagen",
+    "bookAppointment": "Jetzt Termin vereinbaren",
+    "hyaluron": {
+      "title": "Hyaluron",
+      "items": [
+        {
+          "name": "Jawline",
+          "description": "Bei der Jawline-Behandlung wird Hyaluronsäure entlang der Kieferlinie injiziert, um diese klarer und definierter erscheinen zu lassen. Das Verfahren betont die Gesichtskonturen und kann die Kieferlinie straffer und jugendlicher wirken lassen."
+        },
+        {
+          "name": "Kinn-Aufbau",
+          "description": "Beim Kinnaufbau wird Hyaluronsäure gezielt in das Kinn injiziert, um dessen Form zu optimieren. Dies kann dazu dienen, das Kinn zu verlängern, Volumen hinzuzufügen oder Asymmetrien auszugleichen, wodurch das Gesicht harmonischer wirkt."
+        },
+        {
+          "name": "Lippenfalten",
+          "description": "Diese Behandlung zielt darauf ab, die feinen Falten um die Lippen herum zu glätten. Mit Hyaluronsäure werden die Falten aufgefüllt, sodass die Haut wieder glatter und praller aussieht."
+        },
+        {
+          "name": "Lippenunterspritzung",
+          "description": "Hierbei wird Hyaluronsäure in die Lippen injiziert, um ihnen mehr Volumen, Form und Definition zu verleihen. Diese Technik wird verwendet, um schmale Lippen zu vergrößern oder ihnen mehr Fülle zu verleihen, während gleichzeitig das natürliche Aussehen erhalten bleibt."
+        },
+        {
+          "name": "Marionettenfalte",
+          "description": "Die Marionettenfalten verlaufen von den Mundwinkeln abwärts zum Kinn. Durch das Injizieren von Hyaluronsäure werden diese Falten gemildert und das Gesicht wirkt frischer und freundlicher."
+        },
+        {
+          "name": "Wangenaufbau",
+          "description": "Bei dieser Behandlung wird Hyaluronsäure in die Wangen injiziert, um Volumenverlust auszugleichen oder die Wangenknochen stärker zu betonen. Dies verleiht dem Gesicht eine jugendliche Fülle und definiert die Wangenpartie."
+        },
+        {
+          "name": "Nasolabialfalte",
+          "description": "Diese Falten verlaufen von den Nasenflügeln zu den Mundwinkeln. Mit Hyaluronsäure werden diese Linien sanft aufgefüllt, um die Falten zu glätten und das Gesicht weicher und weniger müde wirken zu lassen."
+        }
+      ]
+    },
+    "weitere": {
+      "title": "Weitere Behandlungen",
+      "items": [
+        {
+          "name": "Hylase",
+          "description": "Hylase ist ein Enzym, das Hyaluronsäure gezielt abbaut und auflöst. Es wird eingesetzt, um unerwünschte Ergebnisse von Hyaluron-Behandlungen zu korrigieren oder überschüssiges Hyaluron sanft zu entfernen. Die Behandlung ist präzise und ermöglicht eine schnelle Rückbildung unerwünschter Effekte."
+        },
+        {
+          "name": "Mesotherapie",
+          "description": "Die Mesotherapie ist eine minimal-invasive Behandlung, bei der individuell abgestimmte Wirkstoffcocktails direkt in die Haut injiziert werden. Diese enthalten Vitamine, Mineralstoffe, Aminosäuren und Hyaluronsäure, um die Haut intensiv zu nähren, die Durchblutung zu fördern und die Hautstruktur zu verbessern."
+        },
+        {
+          "name": "Skinbooster",
+          "description": "Skinbooster sind spezielle Hyaluronsäure-Injektionen, die tief in die Haut eindringen und intensive Feuchtigkeit spenden. Sie verbessern die Hautelastizität, reduzieren feine Linien und sorgen für ein frisches, strahlendes Hautbild."
+        },
+        {
+          "name": "Profhilo",
+          "description": "Profhilo ist eine innovative Anti-Aging-Behandlung, die hochkonzentrierte Hyaluronsäure verwendet, um die Hautstruktur von innen heraus zu verbessern. Es stimuliert die körpereigene Kollagen- und Elastinproduktion, wodurch die Haut gestrafft und verjüngt wird."
+        },
+        {
+          "name": "Marionettenfalte",
+          "description": "Die Marionettenfalten verlaufen von den Mundwinkeln abwärts zum Kinn. Durch das Injizieren von Hyaluronsäure werden diese Falten gemildert und das Gesicht wirkt frischer und freundlicher."
+        },
+        {
+          "name": "Fett-weg-Spritze",
+          "description": "Die Fett-weg-Spritze ist eine minimal-invasive Behandlung zur gezielten Reduktion von hartnäckigen Fettpolstern. Durch eine Injektion von Wirkstoffen, die die Fettzellen auflösen, können Problemzonen wie Doppelkinn, Bauch oder Hüften sanft modelliert werden."
+        },
+        {
+          "name": "Eigenbluttherapie / PRP bei Haarausfall",
+          "description": "Bei der PRP-Therapie wird körpereigenes, plättchenreiches Plasma aus dem Blut gewonnen und in die Kopfhaut injiziert. Die enthaltenen Wachstumsfaktoren stimulieren die Haarfollikel, fördern das Haarwachstum und stärken die Haarstruktur."
+        },
+        {
+          "name": "Vampire Lifting / PRP",
+          "description": "Das Vampire Lifting ist eine natürliche Anti-Aging-Behandlung, bei der mit körpereigenem Plasma die Hautregeneration angeregt wird. Die Behandlung verbessert die Hautelastizität, reduziert Falten und verleiht dem Gesicht ein frisches, jugendliches Aussehen."
+        },
+        {
+          "name": "Infusionstherapie",
+          "description": "Die Infusionstherapie versorgt den Körper direkt über die Vene mit wichtigen Nährstoffen, Vitaminen und Antioxidantien. Sie verbessert das Wohlbefinden, stärkt das Immunsystem und fördert die Zellregeneration."
+        },
+        {
+          "name": "Hydrafacial",
+          "description": "Hydrafacial ist eine sanfte, nicht-invasive Behandlung, die die Haut tiefenreinigt, peelt, hydratisiert und mit Antioxidantien versorgt. Die Methode entfernt Unreinheiten, versorgt die Haut intensiv mit Feuchtigkeit und hinterlässt einen frischen, strahlenden Teint."
+        }
+      ]
+    },
+    "kosmetik": {
+      "title": "Kosmetische Behandlungen",
+      "items": [
+        {
+          "name": "Chemische Peelings",
+          "description": "Chemische Peelings verbessern das Hautbild durch gezielte Exfoliation mit Fruchtsäuren oder anderen Wirkstoffen. Sie reduzieren Pigmentflecken, Aknenarben und ungleichmässigen Teint und fördern die Zellerneuerung für eine frischere, glattere Haut."
+        },
+        {
+          "name": "Radiofrequenz-Needling",
+          "description": "Das Radiofrequenz-Needling kombiniert feine Nadeln mit Wärmeenergie, um tief in die Haut einzuwirken. Die Behandlung strafft erschlaffte Hautpartien, fördert die körpereigene Kollagenbildung und reduziert sichtbar Falten sowie Narben."
+        },
+        {
+          "name": "Carboxytherapie",
+          "description": "Bei der Carboxytherapie wird medizinisches CO₂-Gas unter die Haut injiziert, um die Durchblutung zu verbessern und den Zellstoffwechsel anzuregen. Die Behandlung wirkt sichtbar bei dunklen Augenringen, Narben, Cellulite und Erschlaffung."
+        },
+        {
+          "name": "HIFU Ultraschall",
+          "description": "HIFU (High Intensity Focused Ultrasound) ist eine nicht-invasive Lifting-Methode, die gebündelte Ultraschallenergie in die tieferen Hautschichten überträgt. Sie strafft Gesicht, Hals und Dekolleté langanhaltend und stimuliert die Kollagenproduktion – ganz ohne Operation."
+        },
+        {
+          "name": "Microneedling",
+          "description": "Beim Microneedling erzeugen feine Nadeln kontrollierte Mikrokanäle in der Haut, die die körpereigene Kollagen- und Elastinproduktion anregen. Die Behandlung minimiert Narben, verfeinert das Hautbild und verbessert die Textur."
+        }
+      ]
+    },
+    "preisliste": {
+      "title": "Preisliste",
+      "bookAppointment": "Jetzt Termin vereinbaren"
+    }
+  },
+  "cookies": {
+    "text": "Wir verwenden Cookies und Analyse-Tools (Google Tag Manager, Google Ads, Microsoft Clarity), um die Website zu verbessern. Du kannst zustimmen oder ablehnen. Mehr Infos in unserer",
+    "privacyLink": "Datenschutzerklärung",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "settings": "Cookie-Einstellungen"
+  },
+  "behandlungen": {
+    "pageTitle": "Unsere Behandlungen",
+    "pageSubtitle": "Professionelle Ästhetik-Behandlungen in Basel – individuell & natürlich.",
+    "backLink": "Alle Behandlungen",
+    "categoryLabels": {
+      "hyaluron": "Hyaluron",
+      "weitere": "Weitere Behandlungen",
+      "kosmetik": "Med. Kosmetik"
+    },
+    "definitionTitle": "Was ist",
+    "benefitsTitle": "Ihre Vorteile",
+    "beforeAfterTitle": "Vorher & Nachher",
+    "beforeAfterPlaceholder": "Bilder folgen in Kürze",
+    "reviewsTitle": "Was unsere Kunden sagen",
+    "ctaTitle": "Bereit für Ihre Behandlung?",
+    "ctaText": "Vereinbaren Sie jetzt Ihren persönlichen Beratungstermin.",
+    "ctaButton": "Termin buchen",
+    "moreInfo": "Mehr erfahren",
+    "items": {
+      "jawline": {
+        "name": "Jawline",
+        "metaTitle": "Jawline Basel | Skinbloom Aesthetics",
+        "metaDescription": "Jawline-Behandlung in Basel: Hyaluronsäure entlang der Kieferlinie für klare Gesichtskonturen. Jetzt Termin buchen.",
+        "shortDescription": "Klare, definierte Kieferlinie mit Hyaluronsäure.",
+        "definition": "Bei der Jawline-Behandlung wird Hyaluronsäure entlang der Kieferlinie injiziert, um diese klarer und definierter erscheinen zu lassen. Das Verfahren betont die Gesichtskonturen und kann die Kieferlinie straffer und jugendlicher wirken lassen.",
+        "benefits": [
+          "Definierte, klare Gesichtskonturen",
+          "Sofortiges, sichtbares Ergebnis",
+          "Minimal-invasiv ohne Ausfallzeit",
+          "Natürliches Aussehen durch gezielte Injektion",
+          "Langanhaltende Wirkung"
+        ]
+      },
+      "kinn-aufbau": {
+        "name": "Kinn-Aufbau",
+        "metaTitle": "Kinn-Aufbau Basel | Skinbloom Aesthetics",
+        "metaDescription": "Kinnaufbau mit Hyaluronsäure in Basel: Harmonie und Balance im Gesichtsprofil. Jetzt Termin buchen.",
+        "shortDescription": "Optimale Kinnform für ein harmonischeres Gesicht.",
+        "definition": "Beim Kinnaufbau wird Hyaluronsäure gezielt in das Kinn injiziert, um dessen Form zu optimieren. Dies kann dazu dienen, das Kinn zu verlängern, Volumen hinzuzufügen oder Asymmetrien auszugleichen, wodurch das Gesicht harmonischer wirkt.",
+        "benefits": [
+          "Harmonisches Gesichtsprofil",
+          "Ausgleich von Asymmetrien",
+          "Natürliche, stimmige Proportionen",
+          "Kein chirurgischer Eingriff nötig",
+          "Sofort sichtbares Ergebnis"
+        ]
+      },
+      "lippenfalten": {
+        "name": "Lippenfalten",
+        "metaTitle": "Lippenfalten Basel | Skinbloom Aesthetics",
+        "metaDescription": "Lippenfalten glätten in Basel mit Hyaluronsäure – sanft und effektiv. Jetzt Termin buchen.",
+        "shortDescription": "Feine Falten um die Lippen sanft glätten.",
+        "definition": "Diese Behandlung zielt darauf ab, die feinen Falten um die Lippen herum zu glätten. Mit Hyaluronsäure werden die Falten aufgefüllt, sodass die Haut wieder glatter und praller aussieht.",
+        "benefits": [
+          "Glattere Haut rund um die Lippen",
+          "Frischeres, jüngeres Aussehen",
+          "Schnell und unkompliziert",
+          "Minimal-invasive Methode",
+          "Natürliche Ergebnisse"
+        ]
+      },
+      "lippenunterspritzung": {
+        "name": "Lippenunterspritzung",
+        "metaTitle": "Lippenunterspritzung Basel | Skinbloom Aesthetics",
+        "metaDescription": "Vollere, natürliche Lippen mit Hyaluronsäure in Basel. Professionelle Lippenunterspritzung bei Skinbloom Aesthetics.",
+        "shortDescription": "Vollere Lippen mit Hyaluronsäure – natürlich und harmonisch.",
+        "definition": "Hierbei wird Hyaluronsäure in die Lippen injiziert, um ihnen mehr Volumen, Form und Definition zu verleihen. Diese Technik wird verwendet, um schmale Lippen zu vergrößern oder ihnen mehr Fülle zu verleihen, während gleichzeitig das natürliche Aussehen erhalten bleibt.",
+        "benefits": [
+          "Sofortige, sichtbare Ergebnisse",
+          "Natürliches und harmonisches Aussehen",
+          "Minimal-invasiv – keine Ausfallzeit",
+          "Individuell angepasstes Volumen",
+          "Geprüfte, hochwertige Hyaluronsäure"
+        ]
+      },
+      "marionettenfalte": {
+        "name": "Marionettenfalte",
+        "metaTitle": "Marionettenfalte Basel | Skinbloom Aesthetics",
+        "metaDescription": "Marionettenfalten in Basel effektiv behandeln – wirken Sie frischer und freundlicher. Jetzt Termin buchen.",
+        "shortDescription": "Marionettenfalten mildern für ein frischeres Erscheinungsbild.",
+        "definition": "Die Marionettenfalten verlaufen von den Mundwinkeln abwärts zum Kinn. Durch das Injizieren von Hyaluronsäure werden diese Falten gemildert und das Gesicht wirkt frischer und freundlicher.",
+        "benefits": [
+          "Frischeres, ausgeglicheneres Aussehen",
+          "Wirkungsvoll gegen Falten von Mund bis Kinn",
+          "Sanfte, gezielte Behandlung",
+          "Sofort sichtbare Verbesserung",
+          "Ohne Operation und lange Heilungszeit"
+        ]
+      },
+      "wangenaufbau": {
+        "name": "Wangenaufbau",
+        "metaTitle": "Wangenaufbau Basel | Skinbloom Aesthetics",
+        "metaDescription": "Wangenaufbau mit Hyaluronsäure in Basel: jugendliche Fülle und definierte Wangenpartie. Jetzt Termin buchen.",
+        "shortDescription": "Jugendliche Wangenfülle und betonte Wangenknochen.",
+        "definition": "Bei dieser Behandlung wird Hyaluronsäure in die Wangen injiziert, um Volumenverlust auszugleichen oder die Wangenknochen stärker zu betonen. Dies verleiht dem Gesicht eine jugendliche Fülle und definiert die Wangenpartie.",
+        "benefits": [
+          "Jugendliche Fülle und Definition",
+          "Ausgleich von Volumenverlust",
+          "Betonung der Wangenknochen",
+          "Natürliches, frisches Ergebnis",
+          "Langanhaltende Wirkung"
+        ]
+      },
+      "nasolabialfalte": {
+        "name": "Nasolabialfalte",
+        "metaTitle": "Nasolabialfalte Basel | Skinbloom Aesthetics",
+        "metaDescription": "Nasolabialfalten behandeln in Basel – sanft auffüllen für ein entspannteres Aussehen. Jetzt Termin buchen.",
+        "shortDescription": "Nasolabialfalten sanft glätten für ein entspannteres Gesicht.",
+        "definition": "Diese Falten verlaufen von den Nasenflügeln zu den Mundwinkeln. Mit Hyaluronsäure werden diese Linien sanft aufgefüllt, um die Falten zu glätten und das Gesicht weicher und weniger müde wirken zu lassen.",
+        "benefits": [
+          "Glatteres, ausgeruhtes Aussehen",
+          "Sanfte Auffüllung der Faltenlinien",
+          "Natürliches Ergebnis ohne OP",
+          "Schnelle Behandlung ohne Ausfallzeit",
+          "Langanhaltend wirksam"
+        ]
+      },
+      "hylase": {
+        "name": "Hylase",
+        "metaTitle": "Hylase Basel | Skinbloom Aesthetics",
+        "metaDescription": "Hylase in Basel: unerwünschte Hyaluron-Ergebnisse gezielt und sicher korrigieren. Jetzt Termin buchen.",
+        "shortDescription": "Gezielter Abbau von Hyaluronsäure – sicher und präzise.",
+        "definition": "Hylase ist ein Enzym, das Hyaluronsäure gezielt abbaut und auflöst. Es wird eingesetzt, um unerwünschte Ergebnisse von Hyaluron-Behandlungen zu korrigieren oder überschüssiges Hyaluron sanft zu entfernen. Die Behandlung ist präzise und ermöglicht eine schnelle Rückbildung unerwünschter Effekte.",
+        "benefits": [
+          "Gezielte Korrektur unerwünschter Ergebnisse",
+          "Schnelle und präzise Wirkung",
+          "Sicheres, geprüftes Verfahren",
+          "Minimale Ausfallzeit",
+          "Individuelle Beratung und Nachsorge"
+        ]
+      },
+      "mesotherapie": {
+        "name": "Mesotherapie",
+        "metaTitle": "Mesotherapie Basel | Skinbloom Aesthetics",
+        "metaDescription": "Mesotherapie in Basel: individuelle Wirkstoffcocktails für intensive Hautpflege und Regeneration. Jetzt Termin buchen.",
+        "shortDescription": "Individuelle Wirkstoffcocktails direkt in die Haut – intensiv und wirksam.",
+        "definition": "Die Mesotherapie ist eine minimal-invasive Behandlung, bei der individuell abgestimmte Wirkstoffcocktails direkt in die Haut injiziert werden. Diese enthalten Vitamine, Mineralstoffe, Aminosäuren und Hyaluronsäure, um die Haut intensiv zu nähren, die Durchblutung zu fördern und die Hautstruktur zu verbessern.",
+        "benefits": [
+          "Intensive Hautnährstoffversorgung",
+          "Verbesserung der Hautstruktur und -elastizität",
+          "Förderung der Durchblutung",
+          "Individuell auf Ihre Haut abgestimmt",
+          "Minimal-invasiv und gut verträglich"
+        ]
+      },
+      "skinbooster": {
+        "name": "Skinbooster",
+        "metaTitle": "Skinbooster Basel | Skinbloom Aesthetics",
+        "metaDescription": "Skinbooster in Basel: tiefe Feuchtigkeitsversorgung und strahlender Teint durch Hyaluronsäure-Injektionen.",
+        "shortDescription": "Tiefe Feuchtigkeitsversorgung für strahlende, elastische Haut.",
+        "definition": "Skinbooster sind spezielle Hyaluronsäure-Injektionen, die tief in die Haut eindringen und intensive Feuchtigkeit spenden. Sie verbessern die Hautelastizität, reduzieren feine Linien und sorgen für ein frisches, strahlendes Hautbild.",
+        "benefits": [
+          "Intensive und langanhaltende Feuchtigkeitspflege",
+          "Verbesserte Hautelastizität",
+          "Frischer, strahlender Teint",
+          "Reduktion feiner Linien",
+          "Sichtbare Ergebnisse nach wenigen Sitzungen"
+        ]
+      },
+      "profhilo": {
+        "name": "Profhilo",
+        "metaTitle": "Profhilo Basel | Skinbloom Aesthetics",
+        "metaDescription": "Profhilo in Basel: hochkonzentrierte Hyaluronsäure für Haustraffung und natürliche Verjüngung. Jetzt Termin buchen.",
+        "shortDescription": "Innovative Anti-Aging-Behandlung mit hochkonzentrierter Hyaluronsäure.",
+        "definition": "Profhilo ist eine innovative Anti-Aging-Behandlung, die hochkonzentrierte Hyaluronsäure verwendet, um die Hautstruktur von innen heraus zu verbessern. Es stimuliert die körpereigene Kollagen- und Elastinproduktion, wodurch die Haut gestrafft und verjüngt wird.",
+        "benefits": [
+          "Stimulation der körpereigenen Kollagenproduktion",
+          "Natürliche Hautraffung und Verjüngung",
+          "Echte Biostimulation ohne Fülleffekte",
+          "Sanft und gut verträglich",
+          "Sichtbare Ergebnisse nach 2 Sitzungen"
+        ]
+      },
+      "fett-weg-spritze": {
+        "name": "Fett-weg-Spritze",
+        "metaTitle": "Fett-weg-Spritze Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fett-weg-Spritze in Basel: hartnäckige Fettpolster gezielt und minimal-invasiv reduzieren. Jetzt Termin buchen.",
+        "shortDescription": "Gezielte Reduktion hartnäckiger Fettpolster ohne OP.",
+        "definition": "Die Fett-weg-Spritze ist eine minimal-invasive Behandlung zur gezielten Reduktion von hartnäckigen Fettpolstern. Durch eine Injektion von Wirkstoffen, die die Fettzellen auflösen, können Problemzonen wie Doppelkinn, Bauch oder Hüften sanft modelliert werden.",
+        "benefits": [
+          "Gezieltes Modellieren von Problemzonen",
+          "Kein chirurgischer Eingriff",
+          "Effektiv bei hartnäckigen Fettpolstern",
+          "Schnelle und unkomplizierte Behandlung",
+          "Sichtbare Konturverbesserung"
+        ]
+      },
+      "prp-haarausfall": {
+        "name": "PRP bei Haarausfall",
+        "metaTitle": "PRP Haarausfall Basel | Skinbloom Aesthetics",
+        "metaDescription": "PRP-Therapie gegen Haarausfall in Basel: körpereigenes Plasma für gesundes Haarwachstum. Jetzt Termin buchen.",
+        "shortDescription": "Körpereigenes Plasma stärkt Haarfollikel und fördert das Haarwachstum.",
+        "definition": "Bei der PRP-Therapie wird körpereigenes, plättchenreiches Plasma aus dem Blut gewonnen und in die Kopfhaut injiziert. Die enthaltenen Wachstumsfaktoren stimulieren die Haarfollikel, fördern das Haarwachstum und stärken die Haarstruktur.",
+        "benefits": [
+          "Natürliche Methode mit körpereigenem Plasma",
+          "Stimulation der Haarfollikel",
+          "Stärkung der Haarstruktur",
+          "Kein Risiko von Fremdkörperreaktionen",
+          "Spürbare Ergebnisse nach mehreren Sitzungen"
+        ]
+      },
+      "vampire-lifting-prp": {
+        "name": "Vampire Lifting / PRP",
+        "metaTitle": "Vampire Lifting PRP Basel | Skinbloom Aesthetics",
+        "metaDescription": "Vampire Lifting mit PRP in Basel: natürliche Hautverjüngung durch körpereigenes Plasma. Jetzt Termin buchen.",
+        "shortDescription": "Natürliche Anti-Aging-Behandlung mit körpereigenem Blutplasma.",
+        "definition": "Das Vampire Lifting ist eine natürliche Anti-Aging-Behandlung, bei der mit körpereigenem Plasma die Hautregeneration angeregt wird. Die Behandlung verbessert die Hautelastizität, reduziert Falten und verleiht dem Gesicht ein frisches, jugendliches Aussehen.",
+        "benefits": [
+          "100% natürlich – körpereigenes Plasma",
+          "Verbesserte Hautelastizität",
+          "Reduktion von Falten und feinen Linien",
+          "Frisches, jugendliches Hautbild",
+          "Keine Allergierisiken"
+        ]
+      },
+      "infusionstherapie": {
+        "name": "Infusionstherapie",
+        "metaTitle": "Infusionstherapie Basel | Skinbloom Aesthetics",
+        "metaDescription": "Infusionstherapie in Basel: Vitamine und Nährstoffe direkt ins Blut für maximale Wirkung. Jetzt Termin buchen.",
+        "shortDescription": "Vitamine und Nährstoffe direkt ins Blut – maximale Wirkung und Wohlbefinden.",
+        "definition": "Die Infusionstherapie versorgt den Körper direkt über die Vene mit wichtigen Nährstoffen, Vitaminen und Antioxidantien. Sie verbessert das Wohlbefinden, stärkt das Immunsystem und fördert die Zellregeneration.",
+        "benefits": [
+          "Sofortige Nährstoffversorgung des Körpers",
+          "Stärkung des Immunsystems",
+          "Förderung der Zellregeneration",
+          "Mehr Energie und Wohlbefinden",
+          "Individuelle Zusammenstellung der Wirkstoffe"
+        ]
+      },
+      "radiofrequenz-microneedling": {
+        "name": "Radiofrequenz-Microneedling",
+        "metaTitle": "Radiofrequenz-Microneedling Basel | Skinbloom Aesthetics",
+        "metaDescription": "Radiofrequenz-Microneedling in Basel: Hautraffung und Kollagenaufbau für jugendliche Haut. Jetzt Termin buchen.",
+        "shortDescription": "Hautraffung und Kollagenaufbau durch Radiofrequenz-Energie.",
+        "definition": "Das Radiofrequenz-Microneedling kombiniert feine Nadeln mit Wärmeenergie, um tief in die Haut einzuwirken. Die Behandlung strafft erschlaffte Hautpartien, fördert die körpereigene Kollagenbildung und reduziert sichtbar Falten sowie Narben.",
+        "benefits": [
+          "Effektive Hautraffung und Konturierung",
+          "Stimulation der körpereigenen Kollagenproduktion",
+          "Reduktion von Falten und Narben",
+          "Langanhaltende Ergebnisse",
+          "Minimal-invasiv mit kurzer Erholungszeit"
+        ]
+      },
+      "hydrafacial": {
+        "name": "Hydrafacial",
+        "metaTitle": "Hydrafacial Basel | Skinbloom Aesthetics",
+        "metaDescription": "Hydrafacial in Basel: tiefe Reinigung, Peeling und intensive Feuchtigkeitsversorgung für strahlende Haut.",
+        "shortDescription": "Tiefe Reinigung, Peeling und Hydratisierung in einer Behandlung.",
+        "definition": "Hydrafacial ist eine sanfte, nicht-invasive Behandlung, die die Haut tiefenreinigt, peelt, hydratisiert und mit Antioxidantien versorgt. Die Methode entfernt Unreinheiten, versorgt die Haut intensiv mit Feuchtigkeit und hinterlässt einen frischen, strahlenden Teint.",
+        "benefits": [
+          "Tiefenreinigung und Peeling in einem Schritt",
+          "Intensive Feuchtigkeitspflege",
+          "Sofort sichtbarer Glow-Effekt",
+          "Sanft und für alle Hauttypen geeignet",
+          "Keine Ausfallzeit"
+        ]
+      },
+      "chemische-peelings": {
+        "name": "Chemische Peelings",
+        "metaTitle": "Chemische Peelings Basel | Skinbloom Aesthetics",
+        "metaDescription": "Chemische Peelings in Basel: Pigmentflecken, Aknenarben und ungleichmässiger Teint effektiv behandeln.",
+        "shortDescription": "Gezielte Exfoliation für frischere, gleichmässigere Haut.",
+        "definition": "Chemische Peelings verbessern das Hautbild durch gezielte Exfoliation mit Fruchtsäuren oder anderen Wirkstoffen. Sie reduzieren Pigmentflecken, Aknenarben und ungleichmässigen Teint und fördern die Zellerneuerung für eine frischere, glattere Haut.",
+        "benefits": [
+          "Reduktion von Pigmentflecken und Aknenarben",
+          "Gleichmässigerer Hautton",
+          "Förderung der Zellerneuerung",
+          "Glattere, frischere Haut",
+          "Individuell dosierbar je nach Hauttyp"
+        ]
+      },
+      "radiofrequenz-needling": {
+        "name": "Radiofrequenz-Needling",
+        "metaTitle": "Radiofrequenz-Needling Basel | Skinbloom Aesthetics",
+        "metaDescription": "Radiofrequenz-Needling in Basel: Hautraffung und Faltenreduktion durch kombinierte Wärme- und Nadeltherapie.",
+        "shortDescription": "Hautraffung und Faltenreduktion durch Wärmeenergie und feine Nadeln.",
+        "definition": "Das Radiofrequenz-Needling kombiniert feine Nadeln mit Wärmeenergie, um tief in die Haut einzuwirken. Die Behandlung strafft erschlaffte Hautpartien, fördert die körpereigene Kollagenbildung und reduziert sichtbar Falten sowie Narben.",
+        "benefits": [
+          "Straffung erschlaffter Hautpartien",
+          "Kollagenaufbau von innen heraus",
+          "Sichtbare Reduktion von Falten und Narben",
+          "Lang anhaltende Ergebnisse",
+          "Minimal-invasiv und sicher"
+        ]
+      },
+      "carboxytherapie": {
+        "name": "Carboxytherapie",
+        "metaTitle": "Carboxytherapie Basel | Skinbloom Aesthetics",
+        "metaDescription": "Carboxytherapie in Basel: CO₂-Injektionen für bessere Durchblutung, weniger Augenringe und Cellulite.",
+        "shortDescription": "CO₂-Injektionen verbessern Durchblutung und Zellstoffwechsel.",
+        "definition": "Bei der Carboxytherapie wird medizinisches CO₂-Gas unter die Haut injiziert, um die Durchblutung zu verbessern und den Zellstoffwechsel anzuregen. Die Behandlung wirkt sichtbar bei dunklen Augenringen, Narben, Cellulite und Erschlaffung.",
+        "benefits": [
+          "Verbesserte Durchblutung und Zellstoffwechsel",
+          "Reduktion dunkler Augenringe",
+          "Wirkung bei Cellulite und Erschlaffung",
+          "Förderung der Hauterneuerung",
+          "Sicheres und geprüftes Verfahren"
+        ]
+      },
+      "hifu-ultraschall": {
+        "name": "HIFU Ultraschall",
+        "metaTitle": "HIFU Ultraschall Basel | Skinbloom Aesthetics",
+        "metaDescription": "HIFU Ultraschall Lifting in Basel: nicht-invasives Gesichtslifting für langanhaltende Straffung. Jetzt buchen.",
+        "shortDescription": "Nicht-invasives Ultraschall-Lifting für langanhaltende Straffung.",
+        "definition": "HIFU (High Intensity Focused Ultrasound) ist eine nicht-invasive Lifting-Methode, die gebündelte Ultraschallenergie in die tieferen Hautschichten überträgt. Sie strafft Gesicht, Hals und Dekolleté langanhaltend und stimuliert die Kollagenproduktion – ganz ohne Operation.",
+        "benefits": [
+          "Nicht-invasives Lifting ohne OP",
+          "Langanhaltende Straffung von Gesicht, Hals und Dekolleté",
+          "Stimulation der Kollagenproduktion",
+          "Sofortiger Lifting-Effekt sichtbar",
+          "Keine Ausfallzeit"
+        ]
+      },
+      "microneedling": {
+        "name": "Microneedling",
+        "metaTitle": "Microneedling Basel | Skinbloom Aesthetics",
+        "metaDescription": "Microneedling in Basel: Kollagenproduktion anregen und Narben sowie Hautbild verbessern. Jetzt Termin buchen.",
+        "shortDescription": "Feine Nadeln regen die körpereigene Kollagenproduktion an.",
+        "definition": "Beim Microneedling erzeugen feine Nadeln kontrollierte Mikrokanäle in der Haut, die die körpereigene Kollagen- und Elastinproduktion anregen. Die Behandlung minimiert Narben, verfeinert das Hautbild und verbessert die Textur.",
+        "benefits": [
+          "Natürliche Kollagen- und Elastinstimulation",
+          "Reduktion von Narben und Poren",
+          "Verfeinertes, ebenmässiges Hautbild",
+          "Gut verträglich und sicher",
+          "Kombinierbar mit anderen Wirkstoffen"
+        ]
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@ export default function Head() {
       <title>Kontakt | Skinbloom Aesthetics</title>
       <meta
         name="description"
-        content="Kontaktieren Sie Skinbloom Aesthetics in Basel fuer Beratung, Terminvereinbarung und Fragen zu Behandlungen."
+        content="Kontaktieren Sie Skinbloom Aesthetics in Basel für Beratung, Terminvereinbarung und Fragen zu Behandlungen. Mo–Sa 09:00–20:00 Uhr."
       />
       <link rel="canonical" href="https://www.skinbloom-aesthetics.ch/kontakt" />
     </>

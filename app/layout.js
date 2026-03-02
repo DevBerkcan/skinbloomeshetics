@@ -2,9 +2,6 @@
 import { Montserrat, Playfair_Display, Lato } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import CookieConsentManager from "./components/CookieConsent/CookieConsentManager";
 // Font Awesome
 import "@fortawesome/fontawesome-svg-core/styles.css";
 // Local Fonts
@@ -27,10 +24,6 @@ const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "700"] });
 const playfairDisplay = Playfair_Display({ subsets: ["latin"], weight: ["400", "700"] });
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
-// GTM ID
-const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-52KB99G3";
-const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || "vbnguu902y";
-const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-16908246874";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.skinbloom-aesthetics.ch";
 
 export const metadata = {
@@ -40,15 +33,28 @@ export const metadata = {
     template: "%s | Skinbloom Aesthetics",
   },
   description:
-    "Skinbloom Aesthetics in Basel: professionelle Behandlungen fuer natuerliche Ergebnisse bei Anti-Aging, Hyaluron und Aesthetik.",
+    "Skinbloom Aesthetics in Basel: professionelle Behandlungen für natürliche Ergebnisse bei Anti-Aging, Hyaluron und Ästhetik.",
   keywords: [
     "Skinbloom Aesthetics",
-    "Aesthetik Basel",
+    "Ästhetik Basel",
     "Hyaluron Basel",
     "Anti Aging Basel",
     "Lippenunterspritzung Basel",
     "Beauty Klinik Basel",
+    "Faltenbehandlung Basel",
+    "PRP Basel",
+    "Microneedling Basel",
+    "Kosmetik Basel",
+    "Mesotherapie Basel",
+    "HIFU Basel",
+    "Skinbooster Basel",
+    "Carboxytherapie Basel",
+    "Radiofrequenz Basel",
   ],
+  icons: {
+    icon: "/assets/images/logo.png",
+    apple: "/assets/images/logo.png",
+  },
   alternates: {
     canonical: "/",
   },
@@ -59,13 +65,13 @@ export const metadata = {
     siteName: "Skinbloom Aesthetics",
     title: "Skinbloom Aesthetics Basel",
     description:
-      "Professionelle Anti-Aging- und Aesthetik-Behandlungen in Basel mit individueller Beratung.",
+      "Professionelle Anti-Aging- und Ästhetik-Behandlungen in Basel mit individueller Beratung.",
     images: [
       {
-        url: "/assets/images/logo.png",
+        url: "/assets/images/banner-bg.png",
         width: 1200,
         height: 630,
-        alt: "Skinbloom Aesthetics",
+        alt: "Skinbloom Aesthetics Basel",
       },
     ],
   },
@@ -73,8 +79,8 @@ export const metadata = {
     card: "summary_large_image",
     title: "Skinbloom Aesthetics Basel",
     description:
-      "Professionelle Anti-Aging- und Aesthetik-Behandlungen in Basel mit individueller Beratung.",
-    images: ["/assets/images/logo.png"],
+      "Professionelle Anti-Aging- und Ästhetik-Behandlungen in Basel mit individueller Beratung.",
+    images: ["/assets/images/banner-bg.png"],
   },
   robots: {
     index: true,
@@ -91,19 +97,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="de-CH">
       <head />
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.className} ${playfairDisplay.className} ${lato.className}`}
       >
-        <CookieConsentManager
-          gtmId={GTM_ID}
-          googleAdsId={GOOGLE_ADS_ID}
-          clarityId={CLARITY_ID}
-        />
-        <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );

@@ -1,47 +1,27 @@
+"use client";
+
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import { useTranslations } from "next-intl";
 
 export default function Reviews() {
-  const reviews = [
-    {
-      id: 1,
-      text: "Ich habe vor Kurzem Skinbloom Aesthetics besucht und bin absolut begeistert von den Leistungen. Das Team war sehr professionell und freundlich. Meine Haut sieht nach der Behandlung deutlich frischer und gesünder aus. Ich kann das Studio nur weiterempfehlen!",
-      name: "Laura S.",
-      rating: 5,
-    },
-    {
-      id: 2,
-      text: "Meine Jawline-Behandlung bei Skinbloom war ein voller Erfolg! Die Ergebnisse sind unglaublich natürlich und ich habe mich während der gesamten Behandlung bestens betreut gefühlt. Vielen Dank an das großartige Team!",
-      name: "Anna W.",
-      rating: 5,
-    },
-    {
-      id: 3,
-      text: "Ich war für eine Hyaluron-Behandlung bei Skinbloom Aesthetics, nachdem ein anderes Studio es ruiniert hatte. Das Team hat wahre Wunder bewirkt und meine Lippen sehen jetzt wieder wunderschön aus. Absolut empfehlenswert!",
-      name: "Sophie M.",
-      rating: 5,
-    },
-    {
-      id: 4,
-      text: "Die PRP-Behandlung bei Skinbloom war fantastisch. Schon nach wenigen Wochen habe ich eine deutliche Verbesserung meiner Hautstruktur bemerkt. Ich bin super zufrieden und werde definitiv wiederkommen!",
-      name: "Julia H.",
-      rating: 5,
-    },
-    {
-      id: 5,
-      text: "Ich habe mich für die Nasolabialfalten-Behandlung entschieden und bin begeistert! Das Team war äußerst kompetent und die Ergebnisse sind sehr natürlich. Ich fühle mich endlich wieder wohl in meiner Haut. Danke Skinbloom!",
-      name: "Maria K.",
-      rating: 5,
-    },
-  ];
+  const t = useTranslations("reviews");
+  const items = t.raw("items");
+
+  const reviews = items.map((item, index) => ({
+    id: index + 1,
+    text: item.text,
+    name: item.name,
+    rating: 5,
+  }));
 
   return (
-    <section id="reviews" className="section-5">
+    <section id="reviews" className="section-5 section-fade">
       <div className="container-fluid">
         <h3 className="title mb-4">
-          Was unsere <span className="text-brown">Kunden</span> sagen
+          {t("title")} <span className="text-brown">{t("titleBrown")}</span> {t("titleSuffix")}
         </h3>
         <div className="row bg-img">
           <div className="col-md-7">
@@ -72,9 +52,7 @@ export default function Reviews() {
                             />
                           </li>
                         ))}
-                        <p className="fw-bold text-dark ms-3">
-                          {review.rating}
-                        </p>
+                        <p className="fw-bold text-dark ms-3">{review.rating}</p>
                       </ul>
                     </div>
                   </div>

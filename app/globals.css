@@ -22,19 +22,31 @@ a {
 .font-playfair {
   font-family: "Playfair Display", serif;
 }
-.topbar {
-  text-align: end;
-  margin: 15px 5px 0px 0px;
+.utility-bar {
+  background: #fafaf9;
+  border-bottom: 1px solid rgba(196, 153, 148, 0.15);
+  padding: 5px 0;
 }
-.topbar a {
-  padding: 8px 12px;
-  border-radius: 40px;
-  font-size: 14px;
-  font-weight: 400;
+.utility-phone {
   font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #888;
+  letter-spacing: 0.03em;
+  transition: color 0.2s;
 }
-.topbar i {
-  margin-right: 10px;
+.utility-phone:hover {
+  color: #C49994;
+}
+.utility-lang {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.utility-divider {
+  font-size: 10px;
+  color: #ccc;
+  margin: 0 2px;
 }
 .navbar-brand img {
   width: 130px;
@@ -91,6 +103,31 @@ a {
   padding: 15px 20px;
   border-radius: 40px;
 }
+.booking-cta {
+  background: linear-gradient(135deg, #017374 0%, #0a9b9c 100%);
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 24px rgba(1, 115, 116, 0.3);
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+.booking-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 26px rgba(1, 115, 116, 0.36);
+  filter: saturate(1.1);
+}
+.booking-cta__title {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+.booking-cta__subtitle {
+  font-size: 0.76rem;
+  font-weight: 500;
+  opacity: 0.95;
+  letter-spacing: 0.01em;
+}
 .banner .review {
   width: 200px;
 }
@@ -118,9 +155,6 @@ a {
     object-position: center;
 }
 .about .title {
-  font-size: 25px;
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
   margin-top: 15px;
 }
 .about .subtitle {
@@ -150,9 +184,6 @@ a {
     margin-right: auto;
 }
 .section-3 .title, .section-5 .title, .section-6 .title, .contact .title, .faq .title {
-  font-size: 25px;
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
   text-align: center;
 }
 .section-3 .subtitle {
@@ -444,6 +475,9 @@ font-weight: 400;
 .bg-light-pink {
   background: #FFFCFC;
 }
+.text-justify {
+  text-align: justify;
+}
 .section-3 .Weitere-btn {
   width: 255px;
 }
@@ -465,6 +499,16 @@ footer h6 {
     font-size: 15px;
     padding: 10px 15px;
   }
+  .booking-cta {
+    border-radius: 24px;
+    padding: 12px 16px;
+  }
+  .booking-cta__title {
+    font-size: 0.92rem;
+  }
+  .booking-cta__subtitle {
+    font-size: 0.72rem;
+  }
   .Transfer-down {
     width: 30px;
     bottom: -47px;
@@ -478,15 +522,53 @@ footer h6 {
   .section-3 .divide-line {
     width: 255px;
   }
+  .section-4 .divide-line {
+    width: 255px;
+  }
   .section-3 a, .section-4 a {
     font-size: 12px;
     padding: 10px 20px;
+  }
+  /* Team Section Mobile */
+  .team-name {
+    font-size: 22px;
+  }
+  .team-role {
+    font-size: 14px;
+  }
+  .team-desc-paragraph,
+  .team-desc-list li {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .team-badge {
+    padding: 4px 10px;
+    font-size: 11px;
+  }
+  .team-member-row {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .team-member-row--reverse {
+    direction: ltr;
+  }
+  .team-rows {
+    gap: 48px;
+  }
+  .team-portrait-wrap {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+  /* Modal flower decoration ausblenden auf Mobile */
+  .modal-content::before {
+    display: none;
   }
   .section-4 img {
     padding: 10px;
   }
   .section-4 .subtitle {
     font-size: 25px;
+    line-height: 30px;
     width: 100%;
   }
   .section-4 p {
@@ -494,7 +576,7 @@ footer h6 {
     width: 100%;
   }
   .section-4 .divide-line {
-    width: 285px;
+    width: 255px;
   }
   .section-5 .subtitle {
     font-size: 25px;
@@ -540,19 +622,21 @@ footer h6 {
     letter-spacing: -0.01em;
     color: #fff;
   }
+  .title {
+    font-size: 60px;
+    line-height: 1.15;
+  }
   .about .title {
-    font-family: "Playfair Display", serif;
-    font-size: 63px;
-    font-weight: 700;
-    line-height: 70px;
+    font-size: 60px;
+    line-height: 1.15;
   }
   .about .subtitle {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     font-weight: 700;
   }
-  .about .text-left {
-    margin-left: 130px;
+  .about .about-text-block {
+    text-align: left;
   }
   .about .about-img2 {
     width: 220px;
@@ -573,10 +657,8 @@ footer h6 {
   }
 
   .section-3 .title, .section-5 .title, .section-6 .title, .contact .title, .faq .title {
-    font-family: "Playfair Display", serif;
-    font-size: 63px;
-    font-weight: 700;
-    line-height: 85px;
+    font-size: 60px;
+    line-height: 1.15;
     text-align: center;
   }
   .section-3 .subtitle {
@@ -671,4 +753,892 @@ footer h6 {
     height: 255px;
     object-fit: cover;
   }
+  .team-name {
+    font-size: 36px;
+  }
+}
+
+/* Team Section */
+.team-section-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #C49994;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Header animation */
+.team-header {
+  text-align: center;
+}
+.team-header--anim {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.team-header--anim.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Rows layout */
+.team-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.team-member-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.team-member-row--reverse {
+  direction: rtl;
+}
+.team-member-row--reverse > * {
+  direction: ltr;
+}
+
+/* Portrait image */
+.team-portrait-wrap {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(196, 153, 148, 0.2);
+}
+.team-portrait-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.team-portrait-wrap:hover .team-portrait-img {
+  transform: scale(1.04);
+}
+.tm-marianna { object-position: center 22%; }
+.tm-christina { object-position: center 24%; }
+
+/* Content */
+.team-name {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1F2D3E;
+  margin-bottom: 4px;
+}
+.team-role {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #C49994;
+  margin-bottom: 0;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+/* Animated accent line under role */
+.team-role-line {
+  width: 0;
+  height: 2px;
+  background: #C49994;
+  border-radius: 2px;
+  margin: 10px 0 20px;
+  transition: width 0.6s ease 0.4s;
+}
+.team-member-row.is-visible .team-role-line {
+  width: 48px;
+}
+
+.team-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.team-badge {
+  display: inline-block;
+  border: 1.5px solid #C49994;
+  border-radius: 40px;
+  padding: 5px 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1F2D3E;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.team-member-row.is-visible .team-badge {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.team-desc {
+  margin-top: 14px;
+  text-align: left;
+}
+.team-desc-paragraph {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1F2D3E;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+.team-desc-list {
+  margin: 0 0 14px 0;
+  padding-left: 20px;
+}
+.team-desc-list li {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #1F2D3E;
+  margin-bottom: 6px;
+}
+
+/* Scroll-triggered slide-in animations */
+.team-member-row .team-col-img {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s;
+}
+.team-member-row--reverse .team-col-img {
+  transform: translateX(50px);
+}
+.team-member-row .team-col-content {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.7s ease 0.25s, transform 0.7s ease 0.25s;
+}
+.team-member-row--reverse .team-col-content {
+  transform: translateX(-50px);
+}
+.team-member-row.is-visible .team-col-img,
+.team-member-row.is-visible .team-col-content {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Language Switcher */
+.lang-btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #888 !important;
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+  text-decoration: none;
+  padding: 0 3px;
+}
+.lang-btn:hover {
+  color: #C49994 !important;
+}
+.lang-active {
+  color: #C49994 !important;
+}
+.utility-booking-btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff !important;
+  background: #017374;
+  border-radius: 40px;
+  padding: 6px 16px;
+  text-decoration: none !important;
+  transition: background 0.2s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+.utility-booking-btn:hover {
+  background: #015f60;
+  transform: translateY(-1px);
+}
+
+/* =============================================
+   Ästhetischer Feinschliff – Premium Beauty
+   ============================================= */
+
+/* 1. Section Fade-In Animation */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.section-fade {
+  animation: fadeUp 0.75s ease both;
+}
+
+/* 2. Team Portrait – Hover Zoom (handled via .team-portrait-wrap:hover .team-portrait-img) */
+
+/* 3. Nav-Link Hover Underline */
+.navbar .navbar-nav .nav-link {
+  position: relative;
+  overflow: hidden;
+}
+.navbar .navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 1.5px;
+  background: #C49994;
+  transition: width 0.25s ease, left 0.25s ease;
+}
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* 4. Treatment Buttons – Mauve accent */
+.Weitere-btn a {
+  border-color: #C49994 !important;
+  color: #C49994 !important;
+}
+.Weitere-btn a:hover {
+  background: #C49994 !important;
+  color: #fff !important;
+}
+
+/* 5. Form Inputs – Mauve Focus Glow */
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(196, 153, 148, 0.25) !important;
+  background: #fff;
+  border: 1px solid rgba(196, 153, 148, 0.6) !important;
+}
+
+/* 6. Divide Line – Gradient */
+.divide-line {
+  border: none !important;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #C49994, transparent);
+}
+
+/* 7. Modal – Warm Background */
+.modal-content {
+  background: linear-gradient(160deg, #fdfaf9 0%, #f5eeec 100%) !important;
+}
+
+/* 8. Footer – Subtle Mauve Top Border */
+footer {
+  border-top: 1px solid rgba(196, 153, 148, 0.25);
+}
+
+/* 9. Scrollbar – Brand Color */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f5f5f5; }
+::-webkit-scrollbar-thumb { background: #C49994; border-radius: 10px; }
+
+/* 10. Typography – Unified Section Titles */
+.title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+.subtitle { letter-spacing: 0.04em; }
+
+/* 11. Review Card Hover */
+.review-border {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.review-border:hover {
+  border-color: rgba(196, 153, 148, 0.7);
+  box-shadow: 0 8px 30px rgba(196, 153, 148, 0.12);
+}
+
+
+/* =============================================
+   Conversion & UX – Sticky Booking + Select
+   ============================================= */
+
+/* Sticky Floating Booking Button */
+.sticky-booking {
+  position: fixed;
+  bottom: 28px;
+  right: 24px;
+  z-index: 1050;
+  background: #017374;
+  color: #fff !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 13px 22px;
+  border-radius: 40px;
+  box-shadow: 0 8px 28px rgba(1, 115, 116, 0.35);
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+.sticky-booking:hover {
+  background: #015f60;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px rgba(1, 115, 116, 0.45);
+  color: #fff !important;
+}
+
+/* Select – Mauve Focus Glow */
+.form-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(196, 153, 148, 0.25) !important;
+  border: 1px solid rgba(196, 153, 148, 0.6) !important;
+}
+
+/* =============================================
+   Behandlungen – Neues Layout
+   ============================================= */
+
+.behandlungen-header {
+  padding: 60px 0 30px;
+  text-align: center;
+}
+/* .behandlungen-title uses the global .title sizing */
+
+.behandlung-block {
+  padding: 70px 0;
+}
+.behandlung-block.bg-grey {
+  background: #fdfaf9;
+}
+
+.behandlung-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+.behandlung-row--reverse {
+  direction: rtl;
+}
+.behandlung-row--reverse > * {
+  direction: ltr;
+}
+
+.behandlung-img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(196, 153, 148, 0.18);
+  display: block;
+}
+
+.behandlung-subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1F2D3E;
+  margin-bottom: 20px;
+}
+
+.behandlung-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+.behandlung-list-item {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #1F2D3E;
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(196, 153, 148, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.behandlung-list-item:last-child {
+  border-bottom: none;
+}
+.behandlung-check {
+  color: #C49994;
+  font-size: 13px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.behandlung-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+.btn-behandlung {
+  border-radius: 40px;
+  padding: 13px 28px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none !important;
+  display: inline-block;
+}
+.btn-primary-teal {
+  background: #017374;
+  color: #fff !important;
+  border: none;
+}
+.btn-primary-teal:hover {
+  background: #015f60;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(1, 115, 116, 0.3);
+  color: #fff !important;
+}
+.btn-outline-mauve {
+  background: transparent;
+  color: #C49994 !important;
+  border: 1.5px solid #C49994;
+}
+.btn-outline-mauve:hover {
+  background: #C49994;
+  color: #fff !important;
+  transform: translateY(-2px);
+}
+
+/* Scroll-Animationen */
+.behandlung-col-img {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.behandlung-col-content {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.7s ease 0.15s, transform 0.7s ease 0.15s;
+}
+.behandlung-row--reverse .behandlung-col-img {
+  transform: translateX(40px);
+}
+.behandlung-row--reverse .behandlung-col-content {
+  transform: translateX(-40px);
+}
+.behandlung-block.is-visible .behandlung-col-img,
+.behandlung-block.is-visible .behandlung-col-content {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 767px) {
+  .behandlungen-header { padding: 40px 0 20px; }
+  .behandlung-block { padding: 44px 0; }
+  .behandlung-row {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .behandlung-row--reverse { direction: ltr; }
+  .behandlung-subtitle { font-size: 22px; }
+  .behandlung-list-item { font-size: 15px; }
+  .btn-behandlung { font-size: 12px; padding: 11px 22px; }
+}
+
+/* =============================================
+   Preisliste Modal – Neu
+   ============================================= */
+
+.preisliste-body {
+  padding: 24px 32px 32px;
+}
+
+.preisliste-kategorie {
+  margin-bottom: 32px;
+}
+.preisliste-kategorie:last-of-type {
+  margin-bottom: 0;
+}
+
+.preisliste-kat-title {
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1F2D3E;
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+.preisliste-divider {
+  height: 1.5px;
+  background: linear-gradient(to right, #C49994, transparent);
+  margin-bottom: 4px;
+}
+
+.preisliste-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(196, 153, 148, 0.12);
+  gap: 16px;
+}
+.preisliste-row:last-child {
+  border-bottom: none;
+}
+
+.preisliste-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1F2D3E;
+}
+.preisliste-subitems {
+  list-style: none;
+  padding: 6px 0 0 0;
+  margin: 0;
+}
+.preisliste-subitems li {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  color: #666;
+  padding: 2px 0;
+}
+.preisliste-preis {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #017374;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 576px) {
+  .preisliste-body { padding: 16px; }
+  .preisliste-kat-title { font-size: 15px; }
+  .preisliste-name, .preisliste-preis { font-size: 13px; }
+}
+
+/* =============================================
+   Behandlung Item-Links
+   ============================================= */
+
+.behandlung-item-link {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1F2D3E;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.behandlung-item-link:hover {
+  color: #C49994;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .behandlung-item-link { font-size: 18px; }
+}
+
+/* =============================================
+   Nav Behandlungen Dropdown
+   ============================================= */
+
+.nav-behandlungen-dropdown > .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.nav-behandlungen-dropdown .dropdown-menu {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(31, 45, 62, 0.1);
+  padding: 8px 0;
+  min-width: 220px;
+}
+.nav-behandlungen-dropdown .dropdown-item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1F2D3E;
+  padding: 10px 20px;
+  transition: background 0.15s ease, color 0.15s ease;
+  text-decoration: none;
+}
+.nav-behandlungen-dropdown .dropdown-item:hover,
+.nav-behandlungen-dropdown .dropdown-item:focus {
+  background: rgba(196, 153, 148, 0.08);
+  color: #C49994;
+}
+.nav-behandlungen-dropdown .dropdown-divider {
+  border-color: rgba(196, 153, 148, 0.2);
+  margin: 4px 0;
+}
+
+/* Mobile Utility Bar */
+@media (max-width: 576px) {
+  .utility-bar { padding: 7px 12px; }
+  .utility-phone { font-size: 12px; }
+  .lang-btn { font-size: 12px; }
+  .sticky-booking { bottom: 16px; right: 16px; font-size: 12px; padding: 11px 18px; }
+}
+
+/* =============================================
+   Behandlungs-Seiten (Übersicht + Einzelseite)
+   ============================================= */
+
+/* --- Übersichtsseite Hero --- */
+.behandlungen-hero-simple {
+  background: #f9f6f5;
+  border-bottom: 1px solid #f0e9e8;
+}
+
+/* --- Kategorie-Abschnitt --- */
+.behandlungen-category-section {
+  border-bottom: 1px solid #f0e9e8;
+}
+.behandlungen-category-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1F2D3E;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #C49994;
+  display: inline-block;
+}
+
+/* --- Treatment Card --- */
+.treatment-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1.5px solid #ede8e8;
+  border-radius: 20px;
+  padding: 28px 24px;
+  background: #fff;
+  height: 100%;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.treatment-card:hover {
+  border-color: #C49994;
+  box-shadow: 0 8px 28px rgba(196, 153, 148, 0.18);
+  transform: translateY(-3px);
+  color: inherit;
+}
+.treatment-badge {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  color: #017374;
+  background: rgba(1, 115, 116, 0.08);
+  border-radius: 20px;
+  padding: 3px 12px;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+.treatment-card-name {
+  font-family: "Playfair Display", serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1F2D3E;
+  margin-bottom: 10px;
+}
+.treatment-card-desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.treatment-card-link {
+  color: #C49994;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* --- Einzelseite Hero --- */
+.treatment-hero {
+  min-height: 420px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.treatment-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(31, 45, 62, 0.60);
+}
+.treatment-hero-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  max-width: 620px;
+}
+.treatment-hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.treatment-hero-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+.treatment-hero-btn {
+  background: #017374;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 13px 28px;
+  border-radius: 40px;
+  border: none;
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+.treatment-hero-btn:hover {
+  background: #015f60;
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+/* --- Einzelseite Sections --- */
+.treatment-section-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1F2D3E;
+  margin-bottom: 20px;
+}
+.treatment-definition-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+.treatment-definition-img {
+  width: 100%;
+  max-width: 340px;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 420px;
+}
+
+/* --- Vorteile --- */
+.treatment-benefits-section {
+  background: #f9f6f5;
+}
+.treatment-benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.treatment-benefits-list li {
+  padding: 12px 0;
+  font-size: 16px;
+  color: #333;
+  border-bottom: 1px solid #f0e9e8;
+  line-height: 1.6;
+}
+.treatment-benefits-list li::before {
+  content: "✓  ";
+  color: #017374;
+  font-weight: 700;
+}
+
+/* --- Vorher/Nachher --- */
+.treatment-before-after-section {
+  background: #fff;
+}
+.before-after-placeholder {
+  border: 2px dashed #C49994;
+  border-radius: 20px;
+  padding: 70px 40px;
+  text-align: center;
+  color: #C49994;
+  font-size: 16px;
+  font-style: italic;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* --- Bewertungen --- */
+.treatment-reviews-section {
+  background: #f9f6f5;
+}
+.treatment-review-card {
+  background: #fff;
+  border: 1.5px solid #ede8e8;
+  border-radius: 20px;
+  padding: 28px 24px;
+  height: 100%;
+}
+.treatment-stars {
+  color: #FFD700;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.treatment-review-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 12px;
+}
+.treatment-review-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #C49994;
+  margin: 0;
+}
+
+/* --- Booking CTA Block --- */
+.treatment-cta-block {
+  background: linear-gradient(135deg, #017374, #0a9b9c);
+  border-radius: 24px;
+  padding: 64px 40px;
+  text-align: center;
+  color: #fff;
+}
+.treatment-cta-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.treatment-cta-text {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 0;
+}
+.treatment-cta-btn {
+  background: #fff;
+  color: #017374;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 13px 32px;
+  border-radius: 40px;
+  border: none;
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+.treatment-cta-btn:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+  color: #017374;
+}
+
+/* --- Back Link --- */
+.treatment-back-link {
+  color: #C49994;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.treatment-back-link:hover {
+  color: #a07a76;
+}
+
+/* --- Mobile --- */
+@media (max-width: 768px) {
+  .treatment-hero { min-height: 320px; }
+  .treatment-hero-title { font-size: 2rem; }
+  .treatment-definition-img { height: 280px; }
+  .treatment-cta-block { padding: 44px 20px; }
+  .treatment-cta-title { font-size: 1.5rem; }
 }

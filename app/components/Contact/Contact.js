@@ -1,13 +1,19 @@
+"use client";
+
 import { useState } from "react";
 import Swal from "sweetalert2";
 import Loader from "../Loader/Loader";
+import { useTranslations } from "next-intl";
+
 function Contact() {
+  const t = useTranslations("contact");
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     fname: "",
     lname: "",
     email: "",
     phone: "",
+    treatment: "",
     content: "",
     privacyAccepted: false,
   });
@@ -23,8 +29,8 @@ function Contact() {
     if (!formData.privacyAccepted) {
       Swal.fire({
         icon: "warning",
-        title: "Datenschutzhinweis fehlt",
-        text: "Bitte akzeptieren Sie die Datenschutzerklaerung, um das Formular zu senden.",
+        title: t("alerts.missingPrivacyTitle"),
+        text: t("alerts.missingPrivacyText"),
       });
       return;
     }
@@ -33,40 +39,31 @@ function Contact() {
     try {
       const res = await fetch("/api/sendEmail", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
 
       if (res.ok) {
         if (res?.status === 200) {
-          // Success Alert using SweetAlert
           Swal.fire({
             icon: "success",
-            title: "E-Mail erfolgreich versendet!",
-            text:
-              res?.message ||
-              "Vielen Dank für Ihre Nachricht. Wir werden Sie bald kontaktieren!",
+            title: t("alerts.successTitle"),
+            text: t("alerts.successText"),
           });
-
-          // Clear form data
           setFormData({
             fname: "",
             lname: "",
             email: "",
             phone: "",
+            treatment: "",
             content: "",
             privacyAccepted: false,
           });
         } else {
-          // Error Alert using SweetAlert
           Swal.fire({
             icon: "error",
-            title: "Fehler beim Senden der Nachricht",
-            text:
-              res?.message ||
-              "Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut.",
+            title: t("alerts.errorTitle"),
+            text: t("alerts.errorText"),
           });
         }
       } else {
@@ -75,31 +72,23 @@ function Contact() {
       }
     } catch (error) {
       console.error("Error:", error);
-      // Generic error alert
       Swal.fire({
         icon: "error",
-        title: "Fehler beim Senden der Nachricht",
-        text: "Bitte versuchen Sie es später erneut.",
+        title: t("alerts.errorTitle"),
+        text: t("alerts.errorText"),
       });
     } finally {
-      setLoading(false); // Set loading to false after processing is complete
+      setLoading(false);
     }
   };
 
   return (
-    <section id="contact" className="contact my-5 pt-5">
+    <section id="contact" className="contact my-5 pt-5 section-fade">
       <div className="container">
-        <h3 className="title">Kontakt</h3>
+        <h3 className="title">{t("title")}</h3>
         <div className="row">
           <div className="col-md-6">
-            <p className="desc">
-              Haben Sie Fragen zu unseren Behandlungen oder möchten Sie einen
-              Termin vereinbaren? Wir sind für Sie da! Kontaktieren Sie uns
-              telefonisch, per E-Mail oder über das Kontaktformular. Unser
-              erfahrenes Team berät Sie gerne persönlich und findet die beste
-              Lösung für Ihre individuellen Bedürfnisse. Wir freuen uns darauf,
-              von Ihnen zu hören.
-            </p>
+            <p className="desc">{t("description")}</p>
             <form onSubmit={handleSubmit}>
               <div className="row mb-4">
                 <div className="col">
@@ -107,7 +96,7 @@ function Contact() {
                     type="text"
                     className="form-control"
                     name="fname"
-                    placeholder="Vorname"
+                    placeholder={t("form.firstName")}
                     value={formData.fname}
                     onChange={handleChange}
                     required
@@ -118,7 +107,7 @@ function Contact() {
                     type="text"
                     className="form-control"
                     name="lname"
-                    placeholder="Nachname"
+                    placeholder={t("form.lastName")}
                     value={formData.lname}
                     onChange={handleChange}
                     required
@@ -131,7 +120,7 @@ function Contact() {
                     type="email"
                     className="form-control"
                     name="email"
-                    placeholder="E-Mail"
+                    placeholder={t("form.email")}
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -142,7 +131,7 @@ function Contact() {
                     type="tel"
                     className="form-control"
                     name="phone"
-                    placeholder="Telefonnummer"
+                    placeholder={t("form.phone")}
                     value={formData.phone}
                     onChange={handleChange}
                     required
@@ -151,10 +140,37 @@ function Contact() {
               </div>
               <div className="row mb-4">
                 <div className="col">
+                  <select
+                    className="form-select"
+                    name="treatment"
+                    value={formData.treatment}
+                    onChange={handleChange}
+                  >
+                    <option value="">{t("form.treatmentPlaceholder")}</option>
+                    <optgroup label={t("form.groupHyaluron")}>
+                      {t.raw("form.hyaluronOptions").map((o) => (
+                        <option key={o} value={o}>{o}</option>
+                      ))}
+                    </optgroup>
+                    <optgroup label={t("form.groupWeitere")}>
+                      {t.raw("form.weitereOptions").map((o) => (
+                        <option key={o} value={o}>{o}</option>
+                      ))}
+                    </optgroup>
+                    <optgroup label={t("form.groupKosmetik")}>
+                      {t.raw("form.kosmetikOptions").map((o) => (
+                        <option key={o} value={o}>{o}</option>
+                      ))}
+                    </optgroup>
+                  </select>
+                </div>
+              </div>
+              <div className="row mb-4">
+                <div className="col">
                   <textarea
                     className="form-control"
                     name="content"
-                    placeholder="Meine Nachricht"
+                    placeholder={t("form.message")}
                     value={formData.content}
                     onChange={handleChange}
                     required
@@ -174,12 +190,9 @@ function Contact() {
                       required
                     />
                     <label className="form-check-label" htmlFor="privacyAccepted">
-                      Ich habe die{" "}
-                      <a href="/datenschutzrichtlinien">
-                        Datenschutzerklaerung
-                      </a>{" "}
-                      gelesen und stimme der Verarbeitung meiner Daten zur
-                      Bearbeitung meiner Anfrage zu.
+                      {t("form.privacy")}{" "}
+                      <a href="/datenschutzrichtlinien">{t("form.privacyLink")}</a>{" "}
+                      {t("form.privacySuffix")}
                     </label>
                   </div>
                 </div>
@@ -187,28 +200,27 @@ function Contact() {
               <div className="row mb-4">
                 <div className="col">
                   <button type="submit" className="bg-green btn-submit">
-                    {loading ? <Loader /> : "Nachricht absenden"}{" "}
+                    {loading ? <Loader /> : t("form.submit")}
                   </button>
                 </div>
               </div>
             </form>
           </div>
           <div className="col-md-6">
-  <img
-    src="assets/images/contact-img.png"
-    alt="Contact"
-    style={{
-      width: "350px",
-      height: "550px",
-      display: "block",
-      marginLeft: "auto",
-      marginRight: "auto",
-      borderRadius: "20px",
-      objectFit: "cover",
-    }}
-  />
-</div>
-
+            <img
+              src="assets/images/contact-img.png"
+              alt="Contact"
+              style={{
+                width: "350px",
+                height: "550px",
+                display: "block",
+                marginLeft: "auto",
+                marginRight: "auto",
+                borderRadius: "20px",
+                objectFit: "cover",
+              }}
+            />
+          </div>
         </div>
       </div>
     </section>

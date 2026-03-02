@@ -1,30 +1,24 @@
-import { Accordion } from 'react-bootstrap';
+"use client";
 
-const CustomAccordion = () => (
-  <div>
-    <Accordion defaultActiveKey="0" flush>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Modernste Techniken</Accordion.Header>
-        <Accordion.Body>
-          Wir nutzen die neuesten Techniken und Technologien in der ästhetischen Medizin, um sichere und effektive Ergebnisse zu gewährleisten. Ihre Haut verdient nur das Beste.
-        </Accordion.Body>
-      </Accordion.Item>
+import { Accordion } from "react-bootstrap";
+import { useTranslations } from "next-intl";
 
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>Natürliche Ergebnisse</Accordion.Header>
-        <Accordion.Body>
-          Unsere Mission ist es, Ihre natürliche Ausstrahlung zu unterstreichen. Wir arbeiten präzise und individuell, um Ergebnisse zu erzielen, die harmonisch und authentisch wirken.
-        </Accordion.Body>
-      </Accordion.Item>
+const CustomAccordion = () => {
+  const t = useTranslations("philosophy");
+  const items = t.raw("faq");
 
-      <Accordion.Item eventKey="2">
-        <Accordion.Header>Individuelle Beratung</Accordion.Header>
-        <Accordion.Body>
-          Jede Haut ist einzigartig. Deshalb nehmen wir uns Zeit für eine ausführliche Beratung, um Ihre Bedürfnisse und Wünsche zu verstehen und die beste Behandlung für Sie auszuwählen.
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
-  </div>
-);
+  return (
+    <div>
+      <Accordion defaultActiveKey="0" flush>
+        {items.map((item, index) => (
+          <Accordion.Item eventKey={String(index)} key={index}>
+            <Accordion.Header>{item.question}</Accordion.Header>
+            <Accordion.Body>{item.answer}</Accordion.Body>
+          </Accordion.Item>
+        ))}
+      </Accordion>
+    </div>
+  );
+};
 
 export default CustomAccordion;

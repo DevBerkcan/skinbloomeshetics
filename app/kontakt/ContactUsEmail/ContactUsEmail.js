@@ -1,8 +1,13 @@
+"use client";
+
 import { useState } from "react";
-import Swal from "sweetalert2"; // Import SweetAlert
+import Swal from "sweetalert2";
 import Loader from "../../components/Loader/Loader";
+import { useTranslations } from "next-intl";
 
 function ContactUsEmail() {
+  const t = useTranslations("contact.form");
+  const tAlerts = useTranslations("contact.alerts");
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     fname: "",
@@ -23,39 +28,23 @@ function ContactUsEmail() {
     try {
       const res = await fetch("/api/sendEmail", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
 
       if (res.ok) {
         if (res?.status === 200) {
-          // Success Alert using SweetAlert
           Swal.fire({
             icon: "success",
-            title: "Email Sent Successfully!",
-            text:
-              res?.message ||
-              "Thank you for your message. We will contact you soon!",
+            title: tAlerts("successTitle"),
+            text: tAlerts("successText"),
           });
-
-          // Clear form data
-          setFormData({
-            fname: "",
-            lname: "",
-            email: "",
-            phone: "",
-            content: "",
-          });
+          setFormData({ fname: "", lname: "", email: "", phone: "", content: "" });
         } else {
-          // Error Alert using SweetAlert
           Swal.fire({
             icon: "error",
-            title: "Fehler beim Senden der Nachricht",
-            text:
-              res?.message ||
-              "Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut.",
+            title: tAlerts("errorTitle"),
+            text: tAlerts("errorText"),
           });
         }
       } else {
@@ -64,11 +53,10 @@ function ContactUsEmail() {
       }
     } catch (error) {
       console.error("Error:", error);
-      // Generic error alert
       Swal.fire({
         icon: "error",
-        title: "Fehler beim Senden der Nachricht",
-        text: "Bitte versuchen Sie es später erneut.",
+        title: tAlerts("errorTitle"),
+        text: tAlerts("errorText"),
       });
     } finally {
       setLoading(false);
@@ -83,7 +71,7 @@ function ContactUsEmail() {
             type="text"
             name="fname"
             className="form-control"
-            placeholder="First Name"
+            placeholder={t("firstName")}
             value={formData.fname}
             onChange={handleChange}
             required
@@ -94,7 +82,7 @@ function ContactUsEmail() {
             type="text"
             name="lname"
             className="form-control"
-            placeholder="Last Name"
+            placeholder={t("lastName")}
             value={formData.lname}
             onChange={handleChange}
             required
@@ -107,7 +95,7 @@ function ContactUsEmail() {
             type="email"
             name="email"
             className="form-control"
-            placeholder="E-Mail"
+            placeholder={t("email")}
             value={formData.email}
             onChange={handleChange}
             required
@@ -118,7 +106,7 @@ function ContactUsEmail() {
             type="tel"
             name="phone"
             className="form-control"
-            placeholder="Phone Number"
+            placeholder={t("phone")}
             value={formData.phone}
             onChange={handleChange}
             required
@@ -130,7 +118,7 @@ function ContactUsEmail() {
           <textarea
             name="content"
             className="form-control"
-            placeholder="Your Message"
+            placeholder={t("message")}
             value={formData.content}
             onChange={handleChange}
             required
@@ -140,7 +128,7 @@ function ContactUsEmail() {
       <div className="row mb-4">
         <div className="col">
           <button type="submit" className="bg-green btn-submit">
-            {loading ? <Loader /> : "Nachricht absenden"}{" "}
+            {loading ? <Loader /> : t("submit")}
           </button>
         </div>
       </div>

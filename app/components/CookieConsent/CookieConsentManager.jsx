@@ -2,12 +2,14 @@
 
 import { useEffect, useState } from "react";
 import Script from "next/script";
+import { useTranslations } from "next-intl";
 
 const CONSENT_KEY = "sb_cookie_consent_v1";
 const ACCEPTED = "accepted";
 const REJECTED = "rejected";
 
 export default function CookieConsentManager({ gtmId, googleAdsId, clarityId }) {
+  const t = useTranslations("cookies");
   const [consent, setConsent] = useState(null);
   const [isBannerOpen, setIsBannerOpen] = useState(false);
 
@@ -28,7 +30,6 @@ export default function CookieConsentManager({ gtmId, googleAdsId, clarityId }) 
         setConsent(storedConsent);
       }
     };
-
     window.addEventListener("storage", handleStorage);
     return () => window.removeEventListener("storage", handleStorage);
   }, []);
@@ -101,10 +102,8 @@ export default function CookieConsentManager({ gtmId, googleAdsId, clarityId }) 
       {isBannerOpen ? (
         <div className="cookie-banner">
           <p className="cookie-banner-text">
-            Wir verwenden Cookies und Analyse-Tools (Google Tag Manager, Google
-            Ads, Microsoft Clarity), um die Website zu verbessern. Du kannst
-            zustimmen oder ablehnen. Mehr Infos in unserer{" "}
-            <a href="/datenschutzrichtlinien">Datenschutzerklaerung</a>.
+            {t("text")}{" "}
+            <a href="/datenschutzrichtlinien">{t("privacyLink")}</a>.
           </p>
           <div className="cookie-banner-actions">
             <button
@@ -112,14 +111,14 @@ export default function CookieConsentManager({ gtmId, googleAdsId, clarityId }) 
               className="cookie-btn cookie-btn-secondary"
               onClick={() => persistConsent(REJECTED)}
             >
-              Ablehnen
+              {t("decline")}
             </button>
             <button
               type="button"
               className="cookie-btn cookie-btn-primary"
               onClick={() => persistConsent(ACCEPTED)}
             >
-              Akzeptieren
+              {t("accept")}
             </button>
           </div>
         </div>
@@ -131,7 +130,7 @@ export default function CookieConsentManager({ gtmId, googleAdsId, clarityId }) 
           className="cookie-settings-btn"
           onClick={() => setIsBannerOpen(true)}
         >
-          Cookie-Einstellungen
+          {t("settings")}
         </button>
       ) : null}
     </>

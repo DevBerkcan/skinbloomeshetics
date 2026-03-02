@@ -2,7 +2,9 @@
 
 import Banner from "./components/Banner/Banner";
 import About from "./components/About/About";
+import Team from "./components/Team/Team";
 import Treatments from "./components/Treatments/Treatments";
+import CosmeticTreatments from "./components/CosmeticTreatments/CosmeticTreatments";
 import Philosophy from "./components/Philosophy/Philosophy";
 import Contact from "./components/Contact/Contact";
 import FAQ from "./components/FAQ/FAQ";
@@ -16,16 +18,40 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     name: "Skinbloom Aesthetics",
+    description:
+      "Skinbloom Aesthetics bietet professionelle ästhetische Behandlungen in Basel – Hyaluron, PRP, Microneedling, HIFU, Kosmetik und mehr. Individuelle Beratung und natürliche Ergebnisse.",
     url: "https://www.skinbloom-aesthetics.ch",
     image: "https://www.skinbloom-aesthetics.ch/assets/images/logo.png",
     email: "info@skinbloom-aesthetics.ch",
     telephone: "+41782418704",
+    priceRange: "CHF 80 - CHF 900",
+    areaServed: "Basel",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Elisabethenstrasse 41",
       addressLocality: "Basel",
       postalCode: "4051",
       addressCountry: "CH",
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ],
+        opens: "09:00",
+        closes: "20:00",
+      },
+    ],
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.8",
+      reviewCount: "30",
     },
     sameAs: [
       "https://www.instagram.com/skinbloom._aesthetics/",
@@ -42,7 +68,9 @@ export default function Home() {
       <WhatsAppButton />
       <Banner />
       <About />
+      <Team />
       <Treatments />
+      <CosmeticTreatments />
       <Reviews />
       <Philosophy />
       <Contact />
