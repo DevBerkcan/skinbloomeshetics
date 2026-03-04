@@ -1,0 +1,110 @@
+"use client";
+
+import React from "react";
+import { ReactCompareSlider, ReactCompareSliderImage, ReactCompareSliderHandle } from "react-compare-slider";
+import { useTranslations } from "next-intl";
+
+// Placeholder pairs – replace with real images in public/assets/images/ba/
+const pairs = [
+  {
+    before: "/assets/images/ba/ba1-before.jpg",
+    after: "/assets/images/ba/ba1-after.jpg",
+    fallbackBefore: "/assets/images/about1.png",
+    fallbackAfter: "/assets/images/about2.png",
+    label: "Lippenunterspritzung",
+  },
+  {
+    before: "/assets/images/ba/ba2-before.jpg",
+    after: "/assets/images/ba/ba2-after.jpg",
+    fallbackBefore: "/assets/images/Hyaluron-img.png",
+    fallbackAfter: "/assets/images/about1.png",
+    label: "Skinbooster",
+  },
+  {
+    before: "/assets/images/ba/ba3-before.jpg",
+    after: "/assets/images/ba/ba3-after.jpg",
+    fallbackBefore: "/assets/images/about2.png",
+    fallbackAfter: "/assets/images/Weitere.png",
+    label: "Microneedling",
+  },
+];
+
+function BACard({ pair, labelBefore, labelAfter }) {
+  const [useFallback, setUseFallback] = React.useState(false);
+
+  const beforeSrc = useFallback ? pair.fallbackBefore : pair.before;
+  const afterSrc = useFallback ? pair.fallbackAfter : pair.after;
+
+  return (
+    <div className="ba-card">
+      <ReactCompareSlider
+        onlyHandleDraggable={false}
+        handle={
+          <ReactCompareSliderHandle
+            buttonStyle={{
+              background: "#017374",
+              border: "3px solid #fff",
+              boxShadow: "0 4px 16px rgba(1,115,116,0.35)",
+            }}
+            linesStyle={{ color: "#fff", opacity: 0.85 }}
+          />
+        }
+        itemOne={
+          <div className="ba-img-wrap">
+            <ReactCompareSliderImage
+              src={beforeSrc}
+              alt="Vorher"
+              onError={() => setUseFallback(true)}
+              style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            />
+            <span className="ba-img-label ba-img-label--before">{labelBefore}</span>
+          </div>
+        }
+        itemTwo={
+          <div className="ba-img-wrap">
+            <ReactCompareSliderImage
+              src={afterSrc}
+              alt="Nachher"
+              onError={() => setUseFallback(true)}
+              style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            />
+            <span className="ba-img-label ba-img-label--after">{labelAfter}</span>
+          </div>
+        }
+        style={{ width: "100%", aspectRatio: "3/2", borderRadius: "16px", overflow: "hidden" }}
+      />
+      <p className="ba-treatment-label">{pair.label}</p>
+      {useFallback && (
+        <p className="ba-placeholder-note">Beispielbild – echte Ergebnisse folgen</p>
+      )}
+    </div>
+  );
+}
+
+export default function BeforeAfter() {
+  const t = useTranslations("beforeAfter");
+
+  return (
+    <section id="vorher-nachher" className="ba-section">
+      <div className="container-fluid">
+        <h2 className="title text-center">
+          {t("sectionTitle")} <span className="text-brown">{t("sectionTitleBrown")}</span>
+        </h2>
+        <p className="ba-subtitle text-center">{t("sectionSubtitle")}</p>
+
+        <div className="ba-grid">
+          {pairs.map((pair, i) => (
+            <BACard
+              key={i}
+              pair={pair}
+              labelBefore={t("labelBefore")}
+              labelAfter={t("labelAfter")}
+            />
+          ))}
+        </div>
+
+        <p className="ba-disclaimer text-center">{t("disclaimer")}</p>
+      </div>
+    </section>
+  );
+}

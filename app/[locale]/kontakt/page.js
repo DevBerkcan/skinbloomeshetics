@@ -4,37 +4,38 @@ import { useTranslations } from "next-intl";
 import ContactPageFaq from "../../kontakt/Faq/Faq";
 import ContactUsEmail from "../../kontakt/ContactUsEmail/ContactUsEmail";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMapMarker, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faLocationDot, faClock } from "@fortawesome/free-solid-svg-icons";
 
 export default function ContactUs() {
   const t = useTranslations("contact");
 
   return (
     <div>
-      <section className="contact">
+      <section className="contact py-6">
         <div className="container">
-          <h3 className="title mb-4">
+          <h3 className="title mb-5">
             {t("contactTitle")} <span className="text-brown">{t("contactTitleBrown")}</span>
           </h3>
-          <div className="row">
-            <div className="col-md-5 pt-md-5">
+          <div className="row align-items-start">
+            <div className="col-md-5">
               <p className="text">{t("contactUsText")}</p>
-              <span className="divide-line"></span>
-              <p>
-                <FontAwesomeIcon icon={faPhone} className="me-3" />
-                <a className="text-reset" href="tel:+41782418704">
-                  +41 78 241 87 04
-                </a>
-              </p>
-              <p className="d-flex">
-                <FontAwesomeIcon icon={faMapMarker} className="me-3" />
-                Elisabethenstrasse 41, Basel, 4051 Switzerland
-              </p>
+              <div className="contact-info-item">
+                <FontAwesomeIcon icon={faPhone} className="contact-info-icon" />
+                <a className="text-reset" href="tel:+41782418704">+41 78 241 87 04</a>
+              </div>
+              <div className="contact-info-item">
+                <FontAwesomeIcon icon={faLocationDot} className="contact-info-icon" />
+                <span>Elisabethenstrasse 41<br />4051 Basel, Schweiz</span>
+              </div>
+              <div className="contact-info-item">
+                <FontAwesomeIcon icon={faClock} className="contact-info-icon" />
+                <span>Mo–Sa: 09:00–20:00 Uhr</span>
+              </div>
             </div>
-            <div className="col-md-2 d-flex justify-content-center">
-              <div className="border-right"></div>
+            <div className="col-md-1 d-none d-md-flex justify-content-center">
+              <div className="contact-divider"></div>
             </div>
-            <div className="col-md-5 pt-md-5">
+            <div className="col-md-6">
               <ContactUsEmail />
             </div>
           </div>
@@ -46,18 +47,13 @@ export default function ContactUs() {
           <h3 className="title mb-4">
             {t("advantages")} <span className="text-brown">{t("advantagesBrown")}</span>
           </h3>
-          <div className="row">
-            <div className="col-md-6 mb-3">
-              <div className="position-relative">
-                <img
-                  className="w-100 rounded-4 object-fit-cover h-250"
-                  src="assets/images/contact-page-img.png"
-                  alt="Kontakt Skinbloom Aesthetics Basel"
-                />
-                <a href="#" onClick={(e) => e.preventDefault()}>
-                  <img className="arrow-btn" src="assets/images/arrow-btn.png" alt="" />
-                </a>
-              </div>
+          <div className="row align-items-start g-4">
+            <div className="col-md-6">
+              <img
+                className="w-100 rounded-4 object-fit-cover h-350"
+                src="assets/images/contact-page-img.png"
+                alt="Kontakt Skinbloom Aesthetics Basel"
+              />
             </div>
             <div className="col-md-6">
               <ContactPageFaq />

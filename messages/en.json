@@ -32,14 +32,25 @@
         "name": "Marianna",
         "role": "Medical Aesthetics Specialist",
         "imgAlt": "Marianna – Medical Aesthetics Specialist at Skinbloom Aesthetics",
-        "badges": ["Hyaluron", "PRP", "Skinbooster", "Vampire Lifting", "Naturopath", "Further Treatments"],
+        "badges": [
+          "Hyaluron",
+          "PRP",
+          "Skinbooster",
+          "Vampire Lifting",
+          "Naturopath",
+          "Further Treatments"
+        ],
         "description": "With her solid medical training and her vision as Skinbloom's founder, Marianna leads the practice with maximum precision and professional depth. In 2016, she successfully completed her training as a medical specialist and gained valuable experience in both clinical and emergency medicine, ensuring safe and reliable treatment standards.\nSince 2020, her focus has been on aesthetic medicine and minimally invasive treatments. Her approach combines technical excellence with a strong aesthetic eye to deliver naturally beautiful results and optimal skin health.\nHer expertise is continuously deepened through her entrepreneurial background and ongoing academic path:\n• Founder of Skinbloom – innovative concepts for holistic skin health.\n• Studies in dentistry to expand her knowledge of facial anatomy and functional relationships.\n• Specialization in precise injection techniques and minimally invasive aesthetics.\nBy combining practical experience, entrepreneurship, and continuous scientific education, Marianna provides treatments at the highest medical level. As a Medical Aesthetics Specialist, she stands for safety, precision, and holistic consultation for your ideal result."
       },
       {
         "name": "Christina",
         "role": "Medical Skin Expert",
         "imgAlt": "Christina – Medical Skin Expert at Skinbloom Aesthetics",
-        "badges": ["Cosmetics", "Skin Care", "Facial Treatments"],
+        "badges": [
+          "Cosmetics",
+          "Skin Care",
+          "Facial Treatments"
+        ],
         "description": "At 39 years old and with a strong academic background, Christina brings extensive professional expertise to our team. She successfully completed her studies at the University of Health and Prevention in Berlin and has many years of experience in aesthetic medicine.\nAs a certified cosmetician and nutrition consultant, she follows a holistic approach: she combines deep knowledge of skin physiology with modern preventive medicine to achieve visible and sustainable results.\nHer technical expertise in device-based cosmetic treatments is fully up to date:\n• Qualified laser safety officer.\n• V-NISSG certified for the professional use of:\n• Ultrasound\n• Radiofrequency\n• Optical radiation (for effective skin rejuvenation and skin tightening)\nThrough these specialized qualifications, Christina ensures that all treatments are not only highly effective, but also carried out according to the highest legal safety standards. As a Medical Skin Expert, she supports you with confidence on your way to healthy, radiant skin."
       }
     ]
@@ -51,16 +62,41 @@
     "priceList": "Price List",
     "hyaluron": {
       "subtitle": "Hyaluron",
-      "items": ["Jawline", "Chin Augmentation", "Lip Wrinkles", "Lip Augmentation", "Marionette Lines", "Cheek Augmentation", "Nasolabial Fold"]
+      "items": [
+        "Jawline",
+        "Chin Augmentation",
+        "Lip Wrinkles",
+        "Lip Augmentation",
+        "Marionette Lines",
+        "Cheek Augmentation",
+        "Nasolabial Fold"
+      ]
     },
     "weitere": {
       "subtitle": "Further Treatments",
-      "items": ["Hylase", "Mesotherapy", "Skinbooster", "Profhilo", "Fat Dissolving Injection", "PRP Hair Loss Therapy", "Vampire Lifting / PRP", "Infusion Therapy", "Radiofrequency Microneedling", "Hydrafacial"]
+      "items": [
+        "Hylase",
+        "Mesotherapy",
+        "Skinbooster",
+        "Profhilo",
+        "Fat Dissolving Injection",
+        "PRP Hair Loss Therapy",
+        "Vampire Lifting / PRP",
+        "Infusion Therapy",
+        "Radiofrequency Microneedling",
+        "Hydrafacial"
+      ]
     }
   },
   "cosmeticTreatments": {
     "subtitle": "Medical Cosmetics",
-    "items": ["Chemical Peels", "Radiofrequency Needling", "Carboxy Therapy", "HIFU Ultrasound", "Microneedling"],
+    "items": [
+      "Chemical Peels",
+      "Radiofrequency Needling",
+      "Carboxy Therapy",
+      "HIFU Ultrasound",
+      "Microneedling"
+    ],
     "moreDetails": "More Details"
   },
   "reviews": {
@@ -160,9 +196,32 @@
       "groupHyaluron": "Hyaluronic Acid",
       "groupWeitere": "Further Treatments",
       "groupKosmetik": "Medical Cosmetics",
-      "hyaluronOptions": ["Jawline", "Chin Augmentation", "Lip Wrinkles", "Lip Augmentation", "Marionette Lines", "Cheek Augmentation", "Nasolabial Fold"],
-      "weitereOptions": ["Mesotherapy", "Skinbooster", "Profhilo", "Fat Dissolving Injection", "PRP Hair Loss Therapy", "Vampire Lifting / PRP", "Radiofrequency Microneedling", "Hydrafacial"],
-      "kosmetikOptions": ["Chemical Peels", "Radiofrequency Needling", "Carboxy Therapy", "HIFU Ultrasound", "Microneedling"],
+      "hyaluronOptions": [
+        "Jawline",
+        "Chin Augmentation",
+        "Lip Wrinkles",
+        "Lip Augmentation",
+        "Marionette Lines",
+        "Cheek Augmentation",
+        "Nasolabial Fold"
+      ],
+      "weitereOptions": [
+        "Mesotherapy",
+        "Skinbooster",
+        "Profhilo",
+        "Fat Dissolving Injection",
+        "PRP Hair Loss Therapy",
+        "Vampire Lifting / PRP",
+        "Radiofrequency Microneedling",
+        "Hydrafacial"
+      ],
+      "kosmetikOptions": [
+        "Chemical Peels",
+        "Radiofrequency Needling",
+        "Carboxy Therapy",
+        "HIFU Ultrasound",
+        "Microneedling"
+      ],
       "message": "My Message",
       "submit": "Send Message",
       "privacy": "I have read the",
@@ -360,6 +419,40 @@
           "Minimally invasive with no downtime",
           "Natural appearance through targeted injection",
           "Long-lasting effect"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "9–12 months",
+        "downtime": "None",
+        "process": [
+          "Personal consultation & jawline analysis",
+          "Skin cleansing & disinfection",
+          "Application of numbing cream",
+          "Precise hyaluronic acid injection along the jawline",
+          "Final check & aftercare advice"
+        ],
+        "faq": [
+          {
+            "question": "How long do jawline results last?",
+            "answer": "Results typically last 9 to 12 months. A personalised top-up treatment extends the outcome."
+          },
+          {
+            "question": "Is the treatment painful?",
+            "answer": "Thanks to numbing cream, the treatment is very well tolerated. Most clients report only a slight pressure sensation."
+          },
+          {
+            "question": "When will I see results?",
+            "answer": "Results are visible immediately. After 7–14 days, once any minor swelling has subsided, the final result is fully apparent."
+          },
+          {
+            "question": "Who is suitable for a jawline treatment?",
+            "answer": "Anyone who wants a more defined jawline is a candidate – regardless of age or gender."
+          }
+        ],
+        "idealFor": [
+          "You want a sharper, more defined jawline",
+          "Your face has lost contour and structure over time",
+          "You're looking for a more youthful, sculpted look",
+          "You prefer non-surgical alternatives to cosmetic surgery"
         ]
       },
       "kinn-aufbau": {
@@ -374,6 +467,36 @@
           "Natural, balanced proportions",
           "No surgical procedure required",
           "Immediately visible result"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "9–12 months",
+        "downtime": "None",
+        "process": [
+          "Consultation & facial proportion analysis",
+          "Cleansing of the treatment area",
+          "Application of numbing cream",
+          "Targeted hyaluronic acid injection at the chin",
+          "Shaping & final check"
+        ],
+        "faq": [
+          {
+            "question": "How long does chin augmentation last?",
+            "answer": "Results typically last 9–12 months. Regular top-ups maintain the outcome long-term."
+          },
+          {
+            "question": "Can I go out immediately after treatment?",
+            "answer": "Yes, most clients return to daily activities straight away. Mild redness fades within a few hours."
+          },
+          {
+            "question": "Is chin augmentation right for me?",
+            "answer": "If you have a receding chin or lack jaw definition, this treatment is ideal. We discuss realistic outcomes together during consultation."
+          }
+        ],
+        "idealFor": [
+          "Your chin appears underdeveloped or receding",
+          "You want a more harmonious facial profile",
+          "You'd like to balance the proportions of nose, lips, and chin",
+          "You prefer to avoid surgical procedures"
         ]
       },
       "lippenfalten": {
@@ -388,6 +511,36 @@
           "Quick and uncomplicated",
           "Minimally invasive method",
           "Natural results"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "6–9 months",
+        "downtime": "None",
+        "process": [
+          "Consultation & assessment of lip lines",
+          "Cleansing & disinfection",
+          "Application of numbing cream",
+          "Fine hyaluronic acid injections into the lip lines",
+          "Gentle massage & final check"
+        ],
+        "faq": [
+          {
+            "question": "How does lip line treatment differ from lip augmentation?",
+            "answer": "Lip line treatments smooth the vertical lines around the mouth. Lip augmentation adds volume and shape to the lips themselves."
+          },
+          {
+            "question": "How long do results last?",
+            "answer": "Typically 6–9 months. As the lip area moves frequently, longevity may be slightly shorter than other areas."
+          },
+          {
+            "question": "Is the treatment painful?",
+            "answer": "With numbing cream the procedure is very comfortable. Hyaluronic acid often already contains lidocaine for additional comfort."
+          }
+        ],
+        "idealFor": [
+          "Fine lines around the mouth are bothering you",
+          "The lip contour looks blurry or undefined",
+          "Lipstick bleeds into the fine lines around your lips",
+          "You want a sharper, fresher-looking lip area"
         ]
       },
       "lippenunterspritzung": {
@@ -402,6 +555,36 @@
           "Minimally invasive – no downtime",
           "Individually customized volume",
           "Tested, high-quality hyaluronic acid"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "6–9 months",
+        "downtime": "Mild swelling (1–2 days)",
+        "process": [
+          "Consultation on desired lip shape & volume",
+          "Cleansing & disinfection",
+          "Numbing cream (30 min. application)",
+          "Precise injection into lip contour & body",
+          "Shaping & final check"
+        ],
+        "faq": [
+          {
+            "question": "How long do the lips swell after treatment?",
+            "answer": "Mild swelling is normal and usually resolves within 1–2 days. The final result is fully visible after approximately 2 weeks."
+          },
+          {
+            "question": "Can natural-looking results be guaranteed?",
+            "answer": "Absolutely. We work by the principle of less is more and tailor the amount precisely to your face and wishes."
+          },
+          {
+            "question": "How often do I need to return?",
+            "answer": "Hyaluronic acid in the lips lasts 6–9 months. We then recommend a top-up, which usually requires less product than the initial treatment."
+          }
+        ],
+        "idealFor": [
+          "Your lips need more volume and definition",
+          "Your lips appear asymmetrical or uneven",
+          "Natural lip volume has decreased with age",
+          "You want fuller, more natural lips without surgery"
         ]
       },
       "marionettenfalte": {
@@ -416,6 +599,36 @@
           "Gentle, targeted treatment",
           "Immediately visible improvement",
           "No surgery or long recovery time"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "9–12 months",
+        "downtime": "None",
+        "process": [
+          "Consultation & fold structure analysis",
+          "Cleansing of the treatment area",
+          "Application of numbing cream",
+          "Injection along the marionette lines",
+          "Gentle massage & final check"
+        ],
+        "faq": [
+          {
+            "question": "What are marionette lines?",
+            "answer": "Marionette lines are the vertical lines running from the corners of the mouth down to the chin, deepening with age. Hyaluron fills them and optically lifts the mouth corners."
+          },
+          {
+            "question": "How long do results last?",
+            "answer": "Typically 9–12 months. Deep lines may require multiple sessions for the optimal result."
+          },
+          {
+            "question": "Can I combine this with other treatments?",
+            "answer": "Yes. We often combine marionette lines with nasolabial fold treatment and the lip area for a harmonious overall appearance."
+          }
+        ],
+        "idealFor": [
+          "The corners of your mouth droop and make you look tired",
+          "Deep lines run from the corners of your mouth down to your chin",
+          "Your facial expression appears stern or unfriendly",
+          "You're looking for a fresher, more rested appearance"
         ]
       },
       "wangenaufbau": {
@@ -430,6 +643,36 @@
           "Emphasis on cheekbones",
           "Natural, fresh result",
           "Long-lasting effect"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "12–18 months",
+        "downtime": "None to mild swelling",
+        "process": [
+          "Facial proportion & symmetry analysis",
+          "Cleansing & disinfection",
+          "Application of numbing cream",
+          "Volume building by injection into both cheeks",
+          "Symmetry check & final review"
+        ],
+        "faq": [
+          {
+            "question": "How much hyaluronic acid is used in cheek augmentation?",
+            "answer": "It depends on your individual facial structure. We plan the result together in consultation – typically between 1 and 3 ml per side."
+          },
+          {
+            "question": "How long does cheek augmentation last?",
+            "answer": "Because the tissue is deeper, hyaluron in the cheeks lasts particularly long – typically 12–18 months."
+          },
+          {
+            "question": "Will it change my entire face?",
+            "answer": "A well-executed cheek augmentation harmoniously lifts the facial contours and creates a rejuvenated look without appearing artificial."
+          }
+        ],
+        "idealFor": [
+          "Your cheeks have lost volume and definition",
+          "You want more prominent, sculpted cheekbones",
+          "Your face looks sunken or fatigued",
+          "You're aiming for a more youthful, contoured look"
         ]
       },
       "nasolabialfalte": {
@@ -444,6 +687,36 @@
           "Natural result without surgery",
           "Quick treatment with no downtime",
           "Long-lasting effect"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "9–12 months",
+        "downtime": "None",
+        "process": [
+          "Consultation & in-depth fold analysis",
+          "Cleansing of the treatment area",
+          "Application of numbing cream",
+          "Targeted injection along the nasolabial folds",
+          "Gentle massage & final check"
+        ],
+        "faq": [
+          {
+            "question": "What are nasolabial folds?",
+            "answer": "Nasolabial folds run from the nostrils to the corners of the mouth. They develop through volume loss and skin ageing – hyaluron fills them effectively."
+          },
+          {
+            "question": "How natural do the results look?",
+            "answer": "With expert treatment the result stays very natural. Your face looks rested and fresher, not treated."
+          },
+          {
+            "question": "Is the treatment also suitable for younger patients?",
+            "answer": "Yes, preventive hyaluronic acid treatments can slow fold development and make sense from the thirties onwards."
+          }
+        ],
+        "idealFor": [
+          "Deep lines run from your nose to the corners of your mouth",
+          "Your face looks older than you feel",
+          "Volume loss has deepened your nasolabial folds",
+          "You want a fresher, more relaxed facial appearance"
         ]
       },
       "hylase": {
@@ -458,6 +731,36 @@
           "Safe, proven procedure",
           "Minimal downtime",
           "Individual consultation and aftercare"
+        ],
+        "duration": "approx. 15–20 min.",
+        "longevity": "Permanent (dissolves hyaluron)",
+        "downtime": "Mild swelling (1–2 days)",
+        "process": [
+          "Consultation & analysis of the area to correct",
+          "Cleansing & disinfection",
+          "Application of numbing cream",
+          "Injection of Hylase (hyaluronidase)",
+          "Monitoring the dissolution process"
+        ],
+        "faq": [
+          {
+            "question": "What is Hylase and when is it used?",
+            "answer": "Hylase (hyaluronidase) is an enzyme that dissolves hyaluronic acid precisely. It is used to correct mistakes, over-treatments or unwanted results from previous filler treatments."
+          },
+          {
+            "question": "Is Hylase safe?",
+            "answer": "Yes, Hylase is a well-tolerated and proven enzyme. An allergy test is recommended before treatment."
+          },
+          {
+            "question": "How quickly does Hylase work?",
+            "answer": "The hyaluron is dissolved within 24–48 hours. In some cases multiple sessions are needed."
+          }
+        ],
+        "idealFor": [
+          "Previous hyaluronic acid treatments left unsatisfactory results",
+          "Lumps, asymmetries or overcorrections are present",
+          "You want to dissolve filler and start fresh with a clean result",
+          "Allergic reactions to hyaluronic acid have occurred"
         ]
       },
       "mesotherapie": {
@@ -472,6 +775,36 @@
           "Promotion of blood circulation",
           "Individually tailored to your skin",
           "Minimally invasive and well tolerated"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "Course: 4–6 sessions, effect lasts several months",
+        "downtime": "Mild redness (a few hours)",
+        "process": [
+          "Skin analysis & individual active ingredient selection",
+          "Cleansing & disinfection",
+          "Application & massage of the active ingredients",
+          "Fine micro-injections into the skin",
+          "Finishing care & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "What is injected during mesotherapy?",
+            "answer": "A cocktail tailored to your skin, containing vitamins, hyaluronic acid, amino acids and minerals – depending on the treatment goal."
+          },
+          {
+            "question": "How many sessions do I need?",
+            "answer": "For optimal results we recommend a course of 4–6 sessions spaced 1–2 weeks apart, followed by maintenance sessions."
+          },
+          {
+            "question": "Is mesotherapy suitable for all skin types?",
+            "answer": "Yes, mesotherapy can be tailored to any skin type – from moisture deficiency to anti-ageing."
+          }
+        ],
+        "idealFor": [
+          "Your skin looks dull, tired or dehydrated",
+          "Early signs of skin aging are becoming visible",
+          "Fine lines and uneven skin texture need treatment",
+          "You want natural skin rejuvenation without dermal fillers"
         ]
       },
       "skinbooster": {
@@ -486,6 +819,36 @@
           "Fresh, radiant complexion",
           "Reduction of fine lines",
           "Visible results after just a few sessions"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "6–9 months (course recommended)",
+        "downtime": "None to minimal redness",
+        "process": [
+          "Consultation & skin analysis",
+          "Cleansing & skin preparation",
+          "Application of numbing cream",
+          "Even injection of the skinbooster into the skin",
+          "Finishing care & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "What is the difference between a skinbooster and a filler?",
+            "answer": "Fillers add volume. Skinboosters deeply hydrate the skin and improve texture, elasticity and radiance – without visible volume."
+          },
+          {
+            "question": "When will I see results?",
+            "answer": "After the first session many notice an immediate improvement in moisture. The full result develops after 2–3 sessions."
+          },
+          {
+            "question": "Who is the ideal candidate for a skinbooster?",
+            "answer": "Particularly for dry, dull or stressed skin and as a preventive anti-ageing measure from approximately age 25."
+          }
+        ],
+        "idealFor": [
+          "Your skin has lost moisture and radiance",
+          "Dry, dull or stressed skin is a concern",
+          "Dehydration is causing fine lines to appear",
+          "You want a natural glow without visible changes"
         ]
       },
       "profhilo": {
@@ -500,6 +863,36 @@
           "True biostimulation without filler effects",
           "Gentle and well tolerated",
           "Visible results after 2 sessions"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "6 months (2 sessions, 4 weeks apart)",
+        "downtime": "None to mild redness",
+        "process": [
+          "Consultation & skin quality assessment",
+          "Cleansing & disinfection",
+          "5 defined injection points per side (BAP technique)",
+          "Gentle massage to distribute",
+          "Final check & recommendations"
+        ],
+        "faq": [
+          {
+            "question": "What makes Profhilo special?",
+            "answer": "Profhilo is one of the purest hyaluronic products on the market with a particularly high active ingredient content. It stimulates collagen and elastin from within – a biological skin remodelling programme."
+          },
+          {
+            "question": "How many sessions do I need?",
+            "answer": "The basic protocol comprises 2 sessions spaced 4 weeks apart, followed by top-ups every 6 months."
+          },
+          {
+            "question": "Where can Profhilo be used?",
+            "answer": "Profhilo is suitable for the face, neck, décolleté and hands – anywhere that skin ageing and volume loss are visible."
+          }
+        ],
+        "idealFor": [
+          "Your skin has lost firmness and elasticity",
+          "Your neck, décolleté or face appear sagging",
+          "You want intensive biorevitalisation with an immediate glow",
+          "Improving skin quality — not adding volume — is your goal"
         ]
       },
       "fett-weg-spritze": {
@@ -514,6 +907,36 @@
           "Effective against stubborn fat deposits",
           "Quick and uncomplicated treatment",
           "Visible contour improvement"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "Permanent (treated fat cells are broken down)",
+        "downtime": "Swelling & redness (3–7 days)",
+        "process": [
+          "Consultation & analysis of the treatment area",
+          "Marking the target zone",
+          "Cleansing & disinfection",
+          "Injection of the lipolytic substance",
+          "Aftercare recommendations"
+        ],
+        "faq": [
+          {
+            "question": "How does the fat-dissolving injection work?",
+            "answer": "Deoxycholic acid is injected and breaks down the cell membrane of fat cells. The body naturally eliminates the destroyed fat cells – the result is permanent."
+          },
+          {
+            "question": "How long until results are visible?",
+            "answer": "After 4–6 weeks, once swelling and lymph drainage are complete, results become visible. Often 2–3 sessions are required."
+          },
+          {
+            "question": "Is this method a replacement for exercise?",
+            "answer": "The fat-dissolving injection targets defined problem areas (double chin, saddlebags) – it is not a method for general weight reduction."
+          }
+        ],
+        "idealFor": [
+          "Stubborn fat deposits persist despite diet and exercise",
+          "You want to reduce a double chin",
+          "Small, localised fat pockets need targeted treatment",
+          "You want effective fat reduction without surgery"
         ]
       },
       "prp-haarausfall": {
@@ -528,6 +951,36 @@
           "Strengthening of hair structure",
           "No risk of foreign body reactions",
           "Noticeable results after several sessions"
+        ],
+        "duration": "approx. 45–60 min.",
+        "longevity": "Course: 3–4 sessions, effect lasts 12–18 months",
+        "downtime": "None to mild redness",
+        "process": [
+          "Consultation & hair analysis",
+          "Blood draw (approx. 15–20 ml)",
+          "Centrifugation for PRP extraction",
+          "Injection of plasma into the scalp",
+          "Finishing care & recommendations"
+        ],
+        "faq": [
+          {
+            "question": "How does PRP help with hair loss?",
+            "answer": "Autologous plasma contains highly concentrated growth factors that activate hair follicles and stimulate hair growth. PRP strengthens thinning hair and slows hair loss."
+          },
+          {
+            "question": "How many sessions do I need?",
+            "answer": "A course of 3–4 sessions spaced 4–6 weeks apart is recommended, followed by maintenance sessions every 6–12 months."
+          },
+          {
+            "question": "For which type of hair loss is PRP suitable?",
+            "answer": "PRP works best for androgenetic alopecia (hereditary hair loss) and diffuse hair loss – particularly in early stages."
+          }
+        ],
+        "idealFor": [
+          "Diffuse hair loss or thinning is noticeable",
+          "Your hairline is receding or your parting is widening",
+          "You prefer a natural, platelet-rich plasma-based therapy",
+          "Stress or hormonal changes have contributed to hair loss"
         ]
       },
       "vampire-lifting-prp": {
@@ -542,6 +995,36 @@
           "Reduction of wrinkles and fine lines",
           "Fresh, youthful complexion",
           "No allergy risks"
+        ],
+        "duration": "approx. 45–60 min.",
+        "longevity": "12–18 months",
+        "downtime": "Mild redness & swelling (1–2 days)",
+        "process": [
+          "Consultation & skin analysis",
+          "Blood draw from the arm",
+          "Centrifugation & PRP preparation",
+          "Injection and/or microneedling of the plasma",
+          "Finishing serum & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "What is Vampire Lifting?",
+            "answer": "In Vampire Lifting, autologous blood plasma (PRP) is introduced into the skin via injection or microneedling. It stimulates collagen, elastin and cell regeneration."
+          },
+          {
+            "question": "Why is it called Vampire Lifting?",
+            "answer": "The name comes from the characteristic red colour of freshly centrifuged plasma – not from any painful procedure."
+          },
+          {
+            "question": "Who is suitable for Vampire Lifting?",
+            "answer": "Particularly those looking for a natural alternative to fillers. PRP uses exclusively the body's own substances and therefore has a very low risk of side effects."
+          }
+        ],
+        "idealFor": [
+          "You want to use your own growth factors for skin rejuvenation",
+          "Natural, body-based treatments are your preference",
+          "Your skin has lost freshness and regenerative capacity",
+          "Scars, pigmentation spots or uneven texture need treatment"
         ]
       },
       "infusionstherapie": {
@@ -556,6 +1039,36 @@
           "Promotion of cell regeneration",
           "More energy and well-being",
           "Individual composition of active ingredients"
+        ],
+        "duration": "approx. 45–60 min.",
+        "longevity": "Course recommended (4–6 sessions)",
+        "downtime": "None",
+        "process": [
+          "Consultation & nutrient needs analysis",
+          "Placing the intravenous access",
+          "Infusion of the individual active ingredient solution",
+          "Rest phase & monitoring",
+          "Follow-up consultation & recommendations"
+        ],
+        "faq": [
+          {
+            "question": "What does the infusion contain?",
+            "answer": "Depending on the goal: vitamin C, B vitamins, glutathione, minerals, amino acids – individually compiled based on your needs."
+          },
+          {
+            "question": "How quickly will I feel the effect?",
+            "answer": "Many clients report increased energy and wellbeing directly after the infusion. Long-term effects on skin and immune system develop over a course of treatment."
+          },
+          {
+            "question": "Is infusion therapy safe?",
+            "answer": "Yes. All substances used are approved and administered under sterile conditions. We create an individual profile for you beforehand."
+          }
+        ],
+        "idealFor": [
+          "You experience chronic fatigue or nutritional deficiencies",
+          "You want to boost immunity or detoxify the body",
+          "Vitamins and minerals need to be absorbed quickly and effectively",
+          "You want to strengthen skin, hair and nails from within"
         ]
       },
       "radiofrequenz-microneedling": {
@@ -570,6 +1083,36 @@
           "Reduction of wrinkles and scars",
           "Long-lasting results",
           "Minimally invasive with short recovery time"
+        ],
+        "duration": "approx. 60–90 min.",
+        "longevity": "12–18 months (course recommended)",
+        "downtime": "Redness & warmth (2–3 days)",
+        "process": [
+          "In-depth consultation & skin analysis",
+          "Cleansing & numbing cream (30–45 min.)",
+          "RF microneedling treatment of the target area",
+          "Cooling finishing serum",
+          "Aftercare protocol & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "What distinguishes RF microneedling from classic microneedling?",
+            "answer": "Classic microneedling creates micro-channels for collagen stimulation. RF microneedling additionally delivers radiofrequency energy – significantly enhancing the tightening and lifting effect."
+          },
+          {
+            "question": "For which skin concerns is it suitable?",
+            "answer": "Sagging skin, wrinkles, enlarged pores, scars (including acne scars) and stretch marks – RF microneedling shows strong results for all of these."
+          },
+          {
+            "question": "How many sessions do I need?",
+            "answer": "For optimal results we recommend 3 sessions spaced 4–6 weeks apart. Annual top-up sessions are advisable thereafter."
+          }
+        ],
+        "idealFor": [
+          "Skin laxity and fine lines on the face need treatment",
+          "You want intensive stimulation of collagen production",
+          "Pore refinement and lasting improvement of skin texture is the goal",
+          "You're looking for deep, long-lasting anti-ageing results"
         ]
       },
       "hydrafacial": {
@@ -584,6 +1127,36 @@
           "Immediately visible glow effect",
           "Gentle and suitable for all skin types",
           "No downtime"
+        ],
+        "duration": "approx. 45–60 min.",
+        "longevity": "Immediate effect (monthly recommended)",
+        "downtime": "None",
+        "process": [
+          "Skin cleansing & HydroPeel",
+          "Gentle peel (glycolic & salicylic acid)",
+          "Careful extraction of blackheads & impurities",
+          "Infusion of antioxidants, peptides & hyaluron",
+          "Optional: LED light therapy"
+        ],
+        "faq": [
+          {
+            "question": "What makes the HydraFacial special?",
+            "answer": "HydraFacial combines cleansing, peeling, extraction and nourishment in a single treatment – with no redness or downtime. It suits all skin types, including very sensitive skin."
+          },
+          {
+            "question": "How often should a HydraFacial be done?",
+            "answer": "For best results we recommend a monthly HydraFacial as a basic routine. It can also be booked at short notice before special events."
+          },
+          {
+            "question": "Are results visible immediately?",
+            "answer": "Yes – after a HydraFacial the skin is immediately cleaner, fresher and more radiant. Ideal before events or photo appointments."
+          }
+        ],
+        "idealFor": [
+          "Your skin needs an intensive deep cleanse and hydration boost",
+          "Clogged pores, dullness or uneven skin tone are concerns",
+          "You want an immediate glow for a special occasion",
+          "Regular professional skin care is important to you"
         ]
       },
       "chemische-peelings": {
@@ -598,6 +1171,36 @@
           "Promotion of cell renewal",
           "Smoother, fresher skin",
           "Individually dosed according to skin type"
+        ],
+        "duration": "approx. 30–60 min.",
+        "longevity": "Course: 3–6 sessions (depending on peel depth)",
+        "downtime": "Flaking 3–7 days (depending on depth)",
+        "process": [
+          "Skin analysis & individual peel selection",
+          "Cleansing & degreasing of the skin",
+          "Even application of the peel",
+          "Exposure time & neutralisation",
+          "Soothing aftercare & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "Which acids are used?",
+            "answer": "We work with fruit acids (AHA/BHA), glycolic acid, lactic acid and salicylic acid – in varying concentrations depending on skin type and treatment goal."
+          },
+          {
+            "question": "Can I go in the sun straight after the peel?",
+            "answer": "No. After a chemical peel the skin is photosensitive. Strict sun protection (SPF 50+) is essential for at least 2 weeks."
+          },
+          {
+            "question": "For which skin concerns is a peel suitable?",
+            "answer": "Blemishes, pigmentation, dull skin, fine lines and uneven texture – chemical peels show very good results for all of these."
+          }
+        ],
+        "idealFor": [
+          "Uneven skin tone, pigmentation spots or acne scars are present",
+          "Your skin has lost its freshness and luminosity",
+          "Fine lines need targeted improvement through deep exfoliation",
+          "You want stronger results than standard cosmetic treatments provide"
         ]
       },
       "radiofrequenz-needling": {
@@ -612,6 +1215,36 @@
           "Visible reduction of wrinkles and scars",
           "Long-lasting results",
           "Minimally invasive and safe"
+        ],
+        "duration": "approx. 60–90 min.",
+        "longevity": "12–18 months",
+        "downtime": "Redness (2–3 days)",
+        "process": [
+          "Consultation & skin analysis",
+          "Cleansing & numbing cream (30 min. application)",
+          "RF needling treatment of the target area",
+          "Cooling serum & soothing care",
+          "Sun protection & aftercare guidance"
+        ],
+        "faq": [
+          {
+            "question": "How does radiofrequency needling differ from microneedling?",
+            "answer": "In radiofrequency needling, high-frequency waves are additionally delivered deep into the skin – significantly increasing the tightening effect beyond classic microneedling."
+          },
+          {
+            "question": "What can be treated with RF needling?",
+            "answer": "Skin laxity, wrinkle reduction, large pores, acne scars and sagging skin – RF needling is one of the most effective non-surgical procedures for these indications."
+          },
+          {
+            "question": "How many treatments are necessary?",
+            "answer": "Typically 3 sessions spaced 4–6 weeks apart. Annual top-up sessions are then advisable."
+          }
+        ],
+        "idealFor": [
+          "Fine lines, enlarged pores and skin texture need targeted improvement",
+          "You're looking for a gentle alternative to laser treatments",
+          "Skin renewal through controlled stimulation is the goal",
+          "Scars or stretch marks need treatment"
         ]
       },
       "carboxytherapie": {
@@ -626,6 +1259,36 @@
           "Effect on cellulite and skin laxity",
           "Promotion of skin renewal",
           "Safe and proven procedure"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "Course: 6–10 sessions, effect lasts several months",
+        "downtime": "Minimal tingling (fades quickly)",
+        "process": [
+          "Consultation & definition of the treatment area",
+          "Skin disinfection",
+          "Controlled CO₂ injection into the skin",
+          "Gentle massage to distribute",
+          "Finishing care & recommendations"
+        ],
+        "faq": [
+          {
+            "question": "What is carboxytherapy?",
+            "answer": "In carboxytherapy, medical CO₂ is injected precisely under the skin. The gas improves local circulation, stimulates collagen production and breaks down fat deposits."
+          },
+          {
+            "question": "Is the treatment painful?",
+            "answer": "Many describe a brief tingling or pressure sensation. The treatment is well tolerated and requires no anaesthetic."
+          },
+          {
+            "question": "For which concerns is carboxytherapy suitable?",
+            "answer": "Dark circles, cellulite, stretch marks, dull skin and localised fat deposits – carboxytherapy is versatile in its applications."
+          }
+        ],
+        "idealFor": [
+          "Dark circles, puffiness or under-eye bags need treatment",
+          "Cellulite or localised fat deposits need to be reduced",
+          "Improving microcirculation and oxygen supply to the skin is the goal",
+          "Scars need to be lightened and skin texture improved"
         ]
       },
       "hifu-ultraschall": {
@@ -640,6 +1303,36 @@
           "Stimulation of collagen production",
           "Immediate lifting effect visible",
           "No downtime"
+        ],
+        "duration": "approx. 60–90 min.",
+        "longevity": "12–18 months",
+        "downtime": "None to mild tingling (a few days)",
+        "process": [
+          "In-depth consultation & marking of target zones",
+          "Application of ultrasound gel",
+          "Focused HIFU treatment (layer by layer)",
+          "Finishing care",
+          "Result develops over 2–3 months"
+        ],
+        "faq": [
+          {
+            "question": "What is HIFU and how does it work?",
+            "answer": "HIFU (High-Intensity Focused Ultrasound) focuses ultrasound waves deep into the tissue (down to the SMAS layer), generating targeted heat and triggering intensive new collagen formation – a natural lift without surgery."
+          },
+          {
+            "question": "When will I see the result?",
+            "answer": "First results appear after 4–6 weeks. The full lifting result is visible after 3 months, once collagen synthesis is complete."
+          },
+          {
+            "question": "Who is suitable for HIFU?",
+            "answer": "HIFU is ideal for people with mild to moderate skin ageing (typically aged 30–60) who are looking for a non-surgical alternative to facelift surgery."
+          }
+        ],
+        "idealFor": [
+          "Your face or neck have lost firmness and definition",
+          "You want a non-surgical face lift",
+          "Collagen production in the deep skin layers needs activation",
+          "Long-term, sustainable anti-ageing results are your goal"
         ]
       },
       "microneedling": {
@@ -654,8 +1347,69 @@
           "Refined, even skin appearance",
           "Well tolerated and safe",
           "Combinable with other active ingredients"
+        ],
+        "duration": "approx. 45–60 min.",
+        "longevity": "6–12 months (course recommended)",
+        "downtime": "Redness (24–48 hrs)",
+        "process": [
+          "Consultation & assessment of skin, scars & wrinkles",
+          "Cleansing & numbing cream (20–30 min. application)",
+          "Microneedling treatment (needle depth adjusted to indication)",
+          "Optional: infusion of PRP or active ingredients",
+          "Cooling finishing serum & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "How does microneedling work?",
+            "answer": "Fine needles create controlled micro-channels in the skin. The body responds with collagen and elastin production – the skin becomes smoother, firmer and more even."
+          },
+          {
+            "question": "Is microneedling effective for acne scars?",
+            "answer": "Yes, microneedling is one of the most effective methods for scar treatment, particularly for acne scars and pitting."
+          },
+          {
+            "question": "How many sessions are needed?",
+            "answer": "For wrinkles and anti-ageing: 3–4 sessions. For scars: 4–6 sessions. Sessions spaced 4–6 weeks apart."
+          }
+        ],
+        "idealFor": [
+          "Fine lines, enlarged pores or uneven skin texture need improvement",
+          "Scars, stretch marks or pigmentation spots are present",
+          "Natural, gentle stimulation of collagen production is the goal",
+          "You want effective treatment with minimal downtime"
         ]
       }
-    }
+    },
+    "quickinfoLabels": {
+      "duration": "Treatment duration",
+      "longevity": "Longevity",
+      "downtime": "Downtime"
+    },
+    "processTitle": "Your Treatment Process",
+    "faqTitle": "Frequently Asked Questions",
+    "relatedTitle": "You Might Also Like",
+    "idealForTitle": "This treatment is ideal for you if...",
+    "midCtaText": "Curious about your personal results with"
+  },
+  "beforeAfter": {
+    "sectionTitle": "Before &",
+    "sectionTitleBrown": "After",
+    "sectionSubtitle": "Real results – our treatments speak for themselves.",
+    "labelBefore": "Before",
+    "labelAfter": "After",
+    "disclaimer": "Individual results may vary."
+  },
+  "instagramCta": {
+    "title": "Follow us on",
+    "handle": "@skinbloom._aesthetics",
+    "subtitle": "Behind-the-scenes, treatment results and daily beauty inspiration – on Instagram.",
+    "cta": "Follow now"
+  },
+  "timedPopup": {
+    "eyebrow": "Still unsure?",
+    "headline": "Book a free consultation",
+    "body": "Our experts will advise you personally – free of charge & with no obligation.",
+    "cta": "Book appointment now",
+    "dismiss": "Maybe later"
   }
 }

@@ -1,18 +1,27 @@
 "use client";
 
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Preisliste from "../Modals/Preisliste/Preisliste";
 import { useState } from "react";
 import React from "react";
 import Link from "next/link";
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { useTranslations, useLocale } from "next-intl";
 import { usePathname } from "next/navigation";
+import { treatments } from "../../data/treatments";
+
+const CATEGORIES = [
+  { key: "hyaluron", labelKey: "catHyaluron" },
+  { key: "weitere",  labelKey: "catWeitere"  },
+  { key: "kosmetik", labelKey: "catKosmetik" },
+];
 
 export default function Header() {
   const [activeModal, setActiveModal] = useState(null);
+  const [megaOpen, setMegaOpen] = useState(false);
   const t = useTranslations("nav");
+  const tB = useTranslations("behandlungen");
   const locale = useLocale();
   const pathname = usePathname();
 
@@ -71,25 +80,56 @@ export default function Header() {
                 <Nav.Item>
                   <Link href="/#über-uns" className="nav-link">{t("aboutUs")}</Link>
                 </Nav.Item>
-                <NavDropdown
-                  title={t("treatments")}
-                  id="behandlungen-dropdown"
-                  className="nav-behandlungen-dropdown"
+
+                {/* ── Mega Menu ── */}
+                <Nav.Item
+                  className="mega-menu-wrapper"
+                  onMouseEnter={() => setMegaOpen(true)}
+                  onMouseLeave={() => setMegaOpen(false)}
                 >
-                  <NavDropdown.Item as={Link} href={`/${locale}/behandlungen`}>
-                    {t("allTreatments")}
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item as={Link} href={`/${locale}/behandlungen#hyaluron`}>
-                    {t("catHyaluron")}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} href={`/${locale}/behandlungen#weitere`}>
-                    {t("catWeitere")}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} href={`/${locale}/behandlungen#kosmetik`}>
-                    {t("catKosmetik")}
-                  </NavDropdown.Item>
-                </NavDropdown>
+                  <button
+                    className={`nav-link mega-trigger${megaOpen ? " mega-trigger--open" : ""}`}
+                    onClick={() => setMegaOpen((o) => !o)}
+                    aria-expanded={megaOpen}
+                  >
+                    {t("treatments")}
+                    <FontAwesomeIcon icon={faChevronDown} className="mega-chevron" />
+                  </button>
+
+                  {megaOpen && (
+                    <div className="mega-panel">
+                      <div className="mega-grid">
+                        {CATEGORIES.map((cat) => (
+                          <div key={cat.key} className="mega-col">
+                            <p className="mega-cat-title">{tB(`categoryLabels.${cat.key}`)}</p>
+                            {treatments
+                              .filter((tr) => tr.category === cat.key)
+                              .map((tr) => (
+                                <Link
+                                  key={tr.slug}
+                                  href={`/${locale}/behandlungen/${tr.slug}`}
+                                  className="mega-item"
+                                  onClick={() => setMegaOpen(false)}
+                                >
+                                  {tB(`items.${tr.slug}.name`)}
+                                </Link>
+                              ))}
+                          </div>
+                        ))}
+                      </div>
+                      <div className="mega-footer">
+                        <Link
+                          href={`/${locale}/behandlungen`}
+                          className="mega-footer-link"
+                          onClick={() => setMegaOpen(false)}
+                        >
+                          {t("allTreatments")} →
+                        </Link>
+                      </div>
+                    </div>
+                  )}
+                </Nav.Item>
+
                 <Nav.Item className="d-none d-md-block">
                   <Link href="/" className="navbar-brand">
                     <img src="/assets/images/logo.png" alt="Logo" />

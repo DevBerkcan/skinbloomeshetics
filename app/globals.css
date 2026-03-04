@@ -301,10 +301,10 @@ a {
   filter: brightness(80);
 }
 .section-6 .accordion-button, .faq .accordion-button {
-font-family: "Montserrat", sans-serif;
-font-size: 20px;
-font-weight: 600;
-box-shadow: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: none;
 }
 .section-6 .accordion-body, .faq .accordion-body {
   background: #c49994;
@@ -332,22 +332,52 @@ box-shadow: none;
   background: #EFEFEF;
   border: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 10px;
   box-shadow: none;
+  padding: 13px 16px;
 }
 .contact .btn-submit {
   font-family: "Montserrat", sans-serif;
-  font-size: 21px;
+  font-size: 15px;
   font-weight: 700;
   border: none;
-  padding: 12px 25px;
+  padding: 14px 32px;
   border-radius: 40px;
+  width: 100%;
+  letter-spacing: 0.05em;
 }
 .contact .text {
-font-family: "Montserrat", sans-serif;
-font-size: 20px;
-font-weight: 400;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 32px;
+}
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #1F2D3E;
+  line-height: 1.5;
+}
+.contact-info-icon {
+  color: #C49994;
+  font-size: 17px;
+  margin-top: 3px;
+  flex-shrink: 0;
+  width: 18px;
+  text-align: center;
+}
+.contact-divider {
+  width: 1px;
+  min-height: 320px;
+  background: linear-gradient(to bottom, transparent, #C49994 15%, #C49994 85%, transparent);
+  margin: 0 auto;
 }
 .contact-privacy-check .form-check-label {
   font-family: "Lato", sans-serif;
@@ -359,10 +389,19 @@ font-weight: 400;
   text-decoration: underline !important;
 }
 .contact .divide-line {
-  border: 1px solid #000;
-  display: block;
-  width: 300px;
-  margin: 40px auto;
+  display: none;
+}
+.py-6 {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+.h-350 {
+  height: 350px;
+}
+@media (max-width: 768px) {
+  .py-6 { padding-top: 56px !important; padding-bottom: 56px !important; }
+  .contact-info-item { font-size: 14px; }
+  .contact .text { font-size: 14px; margin-bottom: 20px; }
 }
 .cookie-banner {
   position: fixed;
@@ -728,20 +767,25 @@ footer h6 {
     background: #EFEFEF;
     border: none;
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 14px;
     border-radius: 10px;
     box-shadow: none;
-    padding: 8px 15px;
+    padding: 13px 16px;
   }
   .border-right {
-    border: 1px solid #000000;
-    height: 400px;
+    display: none;
+  }
+  .contact-divider {
+    display: none;
   }
   .pt-md-5 {
     padding-top: 3rem;
   }
   .h-250 {
     height: 250px;
+  }
+  .h-350 {
+    height: 350px;
   }
   .treatment-img {
     display: grid;
@@ -1641,4 +1685,794 @@ footer {
   .treatment-definition-img { height: 280px; }
   .treatment-cta-block { padding: 44px 20px; }
   .treatment-cta-title { font-size: 1.5rem; }
+}
+
+/* =============================================
+   Reviews – Swiper
+   ============================================= */
+.reviews-section {
+  padding: 80px 0;
+  background: #fff;
+}
+.reviews-section .title {
+  margin-bottom: 48px;
+}
+.reviews-swiper {
+  padding: 12px 8px 60px !important;
+}
+.review-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 36px 40px;
+  box-shadow: 0 8px 32px rgba(31, 45, 62, 0.08);
+  border: 1px solid rgba(196, 153, 148, 0.12);
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.review-quote-icon {
+  color: #C49994;
+  font-size: 22px;
+  opacity: 0.7;
+}
+.review-text {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #555;
+  font-style: italic;
+  line-height: 1.75;
+  flex: 1;
+  margin: 0;
+}
+.review-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.review-stars {
+  color: #FFB347;
+  font-size: 15px;
+  display: flex;
+  gap: 3px;
+}
+.review-author {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #1F2D3E;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0;
+}
+/* Swiper Navigation – Mauve Circles */
+.reviews-swiper .swiper-button-next,
+.reviews-swiper .swiper-button-prev {
+  color: #C49994;
+  width: 42px;
+  height: 42px;
+  border: 2px solid rgba(196, 153, 148, 0.5);
+  border-radius: 50%;
+  top: 42%;
+}
+.reviews-swiper .swiper-button-next::after,
+.reviews-swiper .swiper-button-prev::after {
+  font-size: 13px;
+  font-weight: 800;
+}
+.reviews-swiper .swiper-pagination-bullet {
+  background: #C49994;
+  opacity: 0.4;
+}
+.reviews-swiper .swiper-pagination-bullet-active {
+  background: #017374;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .review-card { padding: 28px 24px; min-height: 200px; }
+  .reviews-section { padding: 60px 0; }
+}
+
+/* =============================================
+   Vorher / Nachher – Before/After Section
+   ============================================= */
+.ba-section {
+  padding: 60px 0;
+  background: #fafaf9;
+}
+.ba-section .title {
+  margin-bottom: 8px;
+}
+.ba-subtitle {
+  font-family: "Lato", sans-serif;
+  color: #888;
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+.ba-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 0 4px;
+}
+.ba-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.ba-img-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.ba-img-label {
+  position: absolute;
+  bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(31, 45, 62, 0.55);
+  padding: 3px 8px;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+}
+.ba-img-label--before { left: 10px; }
+.ba-img-label--after { right: 10px; }
+.ba-treatment-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #1F2D3E;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0;
+}
+.ba-placeholder-note {
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+  color: #aaa;
+  margin: 0;
+  font-style: italic;
+}
+.ba-disclaimer {
+  font-family: "Lato", sans-serif;
+  font-size: 11px;
+  color: #bbb;
+  margin-top: 16px;
+}
+@media (max-width: 991px) {
+  .ba-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .ba-section { padding: 44px 0; }
+  .ba-subtitle { font-size: 13px; margin-bottom: 24px; }
+  .ba-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 12px;
+  }
+}
+
+/* =============================================
+   Treatment Detail – Quickinfo + Process + FAQ + Related
+   ============================================= */
+
+/* Quickinfo bar */
+.treatment-quickinfo-section {
+  background: #fff;
+  border-bottom: 1px solid rgba(196, 153, 148, 0.12);
+  padding: 28px 0;
+}
+.treatment-quickinfo-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.treatment-quickinfo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 20px 48px;
+  border-right: 1px solid rgba(196, 153, 148, 0.2);
+  min-width: 160px;
+}
+.treatment-quickinfo-item:last-child { border-right: none; }
+.treatment-quickinfo-icon { font-size: 26px; line-height: 1; }
+.treatment-quickinfo-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999;
+}
+.treatment-quickinfo-value {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1F2D3E;
+  text-align: center;
+}
+
+/* Ablauf / Process */
+.treatment-process-section { background: #fafaf9; }
+.treatment-process-row {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.treatment-process-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  max-width: 200px;
+  padding: 0 12px;
+  gap: 16px;
+  position: relative;
+}
+.treatment-process-step:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  top: 16px;
+  right: -14px;
+  color: rgba(196, 153, 148, 0.5);
+  font-size: 20px;
+}
+.treatment-process-number {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #017374;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.treatment-process-text {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  line-height: 1.55;
+  color: #555;
+  margin: 0;
+}
+
+/* Treatment FAQ */
+.treatment-faq-section { background: #fff; }
+.treatment-faq-accordion .accordion-button:focus { box-shadow: none; }
+.treatment-faq-accordion .accordion-button:not(.collapsed) {
+  background: #C49994;
+  color: #fff;
+  border-radius: 12px 12px 0 0 !important;
+  box-shadow: none !important;
+}
+.treatment-faq-accordion .accordion-button:not(.collapsed)::after { filter: brightness(80); }
+.treatment-faq-accordion .accordion-button.collapsed {
+  border-radius: 12px !important;
+  background: #f5f3f2;
+  color: #1F2D3E;
+}
+.treatment-faq-accordion .accordion-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.treatment-faq-accordion .accordion-body {
+  background: rgba(196, 153, 148, 0.06);
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+  border-radius: 0 0 12px 12px;
+}
+.treatment-faq-accordion .accordion-item {
+  margin-bottom: 12px;
+  border: none;
+  background: transparent;
+}
+
+/* Related Treatments */
+.treatment-related-section { background: #fafaf9; }
+
+/* Mobile – treatment detail */
+@media (max-width: 768px) {
+  .treatment-quickinfo-item { padding: 14px 20px; border-right: none; border-bottom: 1px solid rgba(196,153,148,0.15); }
+  .treatment-quickinfo-item:last-child { border-bottom: none; }
+  .treatment-process-step { max-width: 100%; flex-direction: row; text-align: left; padding: 8px 0; }
+  .treatment-process-step::after { display: none; }
+  .treatment-process-row { flex-direction: column; align-items: flex-start; padding: 0 16px; gap: 20px; }
+  .treatment-process-number { flex-shrink: 0; }
+}
+
+/* =============================================
+   Instagram CTA Section
+   ============================================= */
+.instagram-cta-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #fdf6f5 0%, #f5ede9 50%, #fafaf9 100%);
+  text-align: center;
+}
+.instagram-cta-inner {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.instagram-cta-icon {
+  font-size: 52px;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.instagram-cta-title {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #1F2D3E;
+  margin: 0;
+  line-height: 1.2;
+}
+.instagram-cta-handle {
+  color: #C49994;
+  font-style: italic;
+}
+.instagram-cta-sub {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #888;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 440px;
+}
+.instagram-cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #fff !important;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  border-radius: 40px;
+  padding: 13px 32px;
+  text-decoration: none !important;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  margin-top: 8px;
+}
+.instagram-cta-btn:hover {
+  opacity: 0.88;
+  transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+  .instagram-cta-section { padding: 60px 20px; }
+  .instagram-cta-title { font-size: 24px; }
+  .instagram-cta-icon { font-size: 42px; }
+}
+
+/* =============================================
+   Philosophy – Neu (kein FAQ-Akkordeon, Value Cards)
+   ============================================= */
+.philosophy-section {
+  padding: 80px 0;
+  background: #fff;
+}
+.philosophy-section .title {
+  margin-bottom: 40px;
+}
+.philosophy-bg-wrap {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 48px 56px;
+  margin: 0 20px 56px;
+}
+.philosophy-desc {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #1F2D3E;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+.philosophy-values-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  padding: 0 20px;
+}
+.philosophy-value-card {
+  background: #fafaf9;
+  border-radius: 20px;
+  padding: 36px 32px;
+  border: 1px solid rgba(196, 153, 148, 0.15);
+  text-align: center;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+.philosophy-value-card:hover {
+  box-shadow: 0 12px 36px rgba(196, 153, 148, 0.15);
+  transform: translateY(-4px);
+}
+.philosophy-value-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(196, 153, 148, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 22px;
+  color: #C49994;
+}
+.philosophy-value-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1F2D3E;
+  margin-bottom: 12px;
+  letter-spacing: 0.01em;
+}
+.philosophy-value-desc {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.7;
+  margin: 0;
+}
+@media (max-width: 992px) {
+  .philosophy-values-row { grid-template-columns: repeat(2, 1fr); }
+  .philosophy-bg-wrap { padding: 36px 28px; }
+}
+@media (max-width: 576px) {
+  .philosophy-values-row { grid-template-columns: 1fr; gap: 20px; }
+  .philosophy-section { padding: 60px 0; }
+  .philosophy-bg-wrap { margin: 0 0 40px; padding: 28px 20px; }
+}
+
+/* =============================================
+   Timed Popup – Bottom-left consultation CTA
+   ============================================= */
+@keyframes popupSlideIn {
+  from { transform: translateY(24px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+@keyframes popupSlideOut {
+  from { transform: translateY(0);    opacity: 1; }
+  to   { transform: translateY(24px); opacity: 0; }
+}
+
+.timed-popup {
+  position: fixed;
+  bottom: 28px;
+  left: 28px;
+  z-index: 9999;
+  width: 300px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 40px rgba(31,45,62,0.14), 0 2px 8px rgba(196,153,148,0.18);
+  padding: 24px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  animation: popupSlideIn 0.35s cubic-bezier(0.22,1,0.36,1) forwards;
+  border-top: 4px solid #C49994;
+}
+.timed-popup--closing {
+  animation: popupSlideOut 0.3s ease forwards;
+}
+.timed-popup-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  line-height: 1;
+  color: #aaa;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.2s;
+}
+.timed-popup-close:hover { color: #1F2D3E; }
+.timed-popup-eyebrow {
+  font-family: "Lato", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #C49994;
+}
+.timed-popup-headline {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1F2D3E;
+  margin: 0;
+  line-height: 1.35;
+}
+.timed-popup-body {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+.timed-popup-cta {
+  display: block;
+  margin-top: 6px;
+  background: #017374;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-decoration: none;
+  padding: 11px 16px;
+  border-radius: 50px;
+  transition: background 0.2s, transform 0.15s;
+}
+.timed-popup-cta:hover { background: #015f60; transform: translateY(-1px); color: #fff; }
+.timed-popup-dismiss {
+  background: none;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: #aaa;
+  cursor: pointer;
+  text-align: center;
+  padding: 2px 0 0;
+  transition: color 0.2s;
+}
+.timed-popup-dismiss:hover { color: #888; }
+@media (max-width: 480px) {
+  .timed-popup {
+    left: 12px;
+    right: 12px;
+    width: auto;
+    bottom: 16px;
+  }
+}
+
+/* =============================================
+   Mega Menu
+   ============================================= */
+.mega-menu-wrapper {
+  position: relative;
+}
+.mega-trigger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 12px;
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.mega-trigger::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 1.5px;
+  background: #C49994;
+  transition: width 0.25s ease, left 0.25s ease;
+}
+.mega-trigger:hover::after,
+.mega-trigger--open::after {
+  width: 100%;
+  left: 0;
+}
+.mega-chevron {
+  font-size: 11px;
+  transition: transform 0.2s ease;
+  color: #C49994;
+}
+.mega-trigger--open .mega-chevron {
+  transform: rotate(180deg);
+}
+.mega-panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 780px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 16px 48px rgba(31, 45, 62, 0.13), 0 2px 8px rgba(196, 153, 148, 0.1);
+  border-top: 3px solid #C49994;
+  padding: 32px 28px 20px;
+  z-index: 1050;
+  animation: megaFadeIn 0.2s ease forwards;
+}
+@keyframes megaFadeIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(-8px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+.mega-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.mega-col {
+  display: flex;
+  flex-direction: column;
+}
+.mega-cat-title {
+  font-family: "Playfair Display", serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #C49994;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(196, 153, 148, 0.25);
+}
+.mega-item {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #1F2D3E;
+  padding: 5px 0;
+  text-decoration: none;
+  transition: color 0.15s, padding-left 0.15s;
+  line-height: 1.4;
+}
+.mega-item:hover {
+  color: #C49994;
+  padding-left: 4px;
+}
+.mega-footer {
+  border-top: 1px solid rgba(196, 153, 148, 0.2);
+  margin-top: 20px;
+  padding-top: 14px;
+  text-align: center;
+}
+.mega-footer-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #017374;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: color 0.15s;
+}
+.mega-footer-link:hover { color: #015f60; }
+
+/* Mobile mega menu — stack vertically */
+@media (max-width: 767px) {
+  .mega-panel {
+    position: static;
+    width: 100%;
+    transform: none;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: none;
+    border-top: 2px solid #C49994;
+    animation: none;
+    margin-top: 8px;
+  }
+  .mega-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .mega-trigger {
+    font-size: 16px;
+    padding: 8px 0;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* =============================================
+   Treatment — Für wen geeignet?
+   ============================================= */
+.treatment-idealfor-section {
+  background: #fdf6f5;
+}
+.treatment-idealfor-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.treatment-idealfor-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(196, 153, 148, 0.15);
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+.treatment-idealfor-list li:last-child {
+  border-bottom: none;
+}
+.treatment-idealfor-check {
+  color: #017374;
+  font-weight: 700;
+  font-size: 16px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* =============================================
+   Treatment — Mid-Page CTA Strip
+   ============================================= */
+.treatment-midcta-strip {
+  background: linear-gradient(90deg, #017374 0%, #015f60 100%);
+  padding: 32px 0;
+}
+.treatment-midcta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.treatment-midcta-text {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0;
+  line-height: 1.4;
+}
+.treatment-midcta-text strong {
+  color: #fff;
+  font-weight: 700;
+}
+.treatment-midcta-btn {
+  background: #fff;
+  color: #017374;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 13px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.treatment-midcta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  color: #015f60;
+}
+@media (max-width: 768px) {
+  .treatment-midcta-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+  .treatment-midcta-text { font-size: 16px; }
+  .treatment-midcta-btn { width: 100%; text-align: center; }
 }

@@ -1,67 +1,56 @@
 "use client";
 
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import { faStar, faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import { useTranslations } from "next-intl";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function Reviews() {
   const t = useTranslations("reviews");
   const items = t.raw("items");
 
-  const reviews = items.map((item, index) => ({
-    id: index + 1,
-    text: item.text,
-    name: item.name,
-    rating: 5,
-  }));
-
   return (
-    <section id="reviews" className="section-5 section-fade">
+    <section id="reviews" className="reviews-section">
       <div className="container-fluid">
-        <h3 className="title mb-4">
+        <h2 className="title text-center">
           {t("title")} <span className="text-brown">{t("titleBrown")}</span> {t("titleSuffix")}
-        </h3>
-        <div className="row bg-img">
-          <div className="col-md-7">
-            <MDBCarousel showControls>
-              {reviews.map((review) => (
-                <MDBCarouselItem
-                  key={review.id}
-                  itemId={review.id}
-                  src={review.image}
-                  alt={`Review ${review.id}`}
-                >
-                  <div className="row d-flex justify-content-center align-items-center">
-                    <div className="col-lg-8 review-border d-flex flex-column justify-content-center align-items-center">
-                      <p className="text-muted text-center">{review.text}</p>
-                      <h5 className="mb-3 text-center">{review.name}</h5>
-                      <ul className="list-unstyled d-flex justify-content-center text-dark mb-0">
-                        {[...Array(5)].map((_, index) => (
-                          <li key={index}>
-                            <FontAwesomeIcon
-                              icon={faStar}
-                              className="fa-sm"
-                              style={{
-                                color:
-                                  index < Math.floor(review.rating)
-                                    ? "#FFD700"
-                                    : "#ccc",
-                              }}
-                            />
-                          </li>
-                        ))}
-                        <p className="fw-bold text-dark ms-3">{review.rating}</p>
-                      </ul>
-                    </div>
+        </h2>
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          spaceBetween={24}
+          slidesPerView={1.1}
+          centeredSlides={true}
+          navigation={true}
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 8000, disableOnInteraction: false, pauseOnMouseEnter: true }}
+          breakpoints={{
+            768: { slidesPerView: 1.4, spaceBetween: 28 },
+            1200: { slidesPerView: 1.8, spaceBetween: 32 },
+          }}
+          className="reviews-swiper"
+        >
+          {items.map((item, index) => (
+            <SwiperSlide key={index}>
+              <div className="review-card">
+                <FontAwesomeIcon icon={faQuoteLeft} className="review-quote-icon" />
+                <p className="review-text">{item.text}</p>
+                <div className="review-footer">
+                  <div className="review-stars">
+                    {[...Array(5)].map((_, i) => (
+                      <FontAwesomeIcon key={i} icon={faStar} />
+                    ))}
                   </div>
-                </MDBCarouselItem>
-              ))}
-            </MDBCarousel>
-          </div>
-          <div className="col-md-5"></div>
-        </div>
+                  <p className="review-author">{item.name}</p>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </section>
   );

@@ -2,13 +2,15 @@
 
 import Banner from "../components/Banner/Banner";
 import About from "../components/About/About";
+import Reviews from "../components/Reviews/Reviews";
 import Team from "../components/Team/Team";
 import Treatments from "../components/Treatments/Treatments";
 import CosmeticTreatments from "../components/CosmeticTreatments/CosmeticTreatments";
+import BeforeAfter from "../components/BeforeAfter/BeforeAfter";
+import InstagramCTA from "../components/InstagramCTA/InstagramCTA";
 import Philosophy from "../components/Philosophy/Philosophy";
-import Contact from "../components/Contact/Contact";
 import FAQ from "../components/FAQ/FAQ";
-import Reviews from "../components/Reviews/Reviews";
+import Contact from "../components/Contact/Contact";
 import WhatsAppButton from "../components/WhatsAppButton/WhatsAppButton";
 
 import React from "react";
@@ -68,13 +70,15 @@ export default function Home() {
       <WhatsAppButton />
       <Banner />
       <About />
+      <Reviews />
       <Team />
       <Treatments />
       <CosmeticTreatments />
-      <Reviews />
+      <BeforeAfter />
+      <InstagramCTA />
       <Philosophy />
-      <Contact />
       <FAQ />
+      <Contact />
     </div>
   );
 }

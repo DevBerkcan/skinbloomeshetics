@@ -5,6 +5,7 @@ import { routing } from "../../i18n/routing";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import CookieConsentManager from "../components/CookieConsent/CookieConsentManager";
+import TimedPopup from "../components/TimedPopup/TimedPopup";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-52KB99G3";
 const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || "vbnguu902y";
@@ -29,6 +30,7 @@ export default async function LocaleLayout({ children, params }) {
       <Header />
       {children}
       <Footer />
+      <TimedPopup />
     </NextIntlClientProvider>
   );
 }

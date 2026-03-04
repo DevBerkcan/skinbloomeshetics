@@ -1,25 +1,40 @@
 "use client";
 
 import React from "react";
-import Faq from "./Faq/faq";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMicroscope, faLeaf, faComments } from "@fortawesome/free-solid-svg-icons";
 import { useTranslations } from "next-intl";
+
+const valueIcons = [faMicroscope, faLeaf, faComments];
 
 function Philosophy() {
   const t = useTranslations("philosophy");
+  const values = t.raw("faq");
 
   return (
-    <section className="section-6 my-5 pt-5 section-fade">
+    <section className="philosophy-section section-fade">
       <div className="container-fluid">
-        <h3 className="title mb-4">
+        <h2 className="title text-center">
           {t("title")} <span className="text-brown">{t("titleBrown")}</span>
-        </h3>
-        <div className="row philosophy-bg">
-          <div className="col-md-7">
-            <p className="desc">{t("description")}</p>
-          </div>
-          <div className="col-md-5">
-            <Faq />
-          </div>
+        </h2>
+
+        <div
+          className="philosophy-bg-wrap"
+          style={{ backgroundImage: "url(/assets/images/philosophy-bg-img.png)" }}
+        >
+          <p className="philosophy-desc">{t("description")}</p>
+        </div>
+
+        <div className="philosophy-values-row">
+          {values.map((v, i) => (
+            <div key={i} className="philosophy-value-card">
+              <div className="philosophy-value-icon">
+                <FontAwesomeIcon icon={valueIcons[i]} />
+              </div>
+              <h4 className="philosophy-value-title">{v.question}</h4>
+              <p className="philosophy-value-desc">{v.answer}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
