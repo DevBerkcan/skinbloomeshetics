@@ -19,9 +19,9 @@
   "about": {
     "titleBrown": "Willkommen bei",
     "titleMain": "Skinbloom Aesthetics",
-    "subtitle": "Ihre Schönheit verdient das Rampenlicht",
-    "borderText": "Bei Skinbloom Aesthetics steht Ihre individuelle Schönheit im Mittelpunkt. Als medizinische Fachperson & Heilpraktikerin biete ich Ihnen Behandlungen, die auf Ihre einzigartigen Bedürfnisse abgestimmt sind, um Ihre Haut zum Strahlen zu bringen",
-    "description": "Vertrauen Sie auf unser Fachwissen und erleben Sie sichtbare Ergebnisse, die auf natürlichen Prozessen basieren. Unsere innovativen Methoden zur Hautverjüngung und -pflege bieten Ihnen den perfekten Mix aus Entspannung und Effektivität. Machen Sie den ersten Schritt zu Ihrer besten Version."
+    "subtitle": "Ihre Schönheit. Unser Anspruch.",
+    "borderText": "Bei Skinbloom Aesthetics steht Ihre individuelle Schönheit im Mittelpunkt. Wir bieten ästhetische Behandlungen und Hautpflege, die speziell auf Ihre Bedürfnisse abgestimmt sind, um Ihre Haut gesund und strahlend zu erhalten.",
+    "description": "Vertrauen Sie auf unser Fachwissen in medizinischer Ästhetik und erleben Sie sichtbare Ergebnisse. Unsere innovativen Methoden zur Hautverjüngung, Anti-Aging-Behandlungen und Hautpflege verbinden Effektivität mit Präzision."
   },
   "team": {
     "title": "Unser",
@@ -80,10 +80,10 @@
         "Skinbooster",
         "Profhilo",
         "Fett-weg-Spritze",
-        "Eigenbluttherapie / PRP bei Haarausfall",
-        "Vampire lifting / PRP",
+        "PRP bei Haarausfall",
+        "Vampire Lifting / PRP",
         "Infusionstherapie",
-        "Radiofrequenz - Microneedling",
+        "Radiofrequenz-Microneedling",
         "Hydrafacial"
       ]
     }
@@ -206,12 +206,14 @@
         "Nasolabialfalte"
       ],
       "weitereOptions": [
+        "Hylase",
         "Mesotherapie",
         "Skinbooster",
         "Profhilo",
         "Fett-weg-Spritze",
         "PRP bei Haarausfall",
-        "Vampire lifting / PRP",
+        "Vampire Lifting / PRP",
+        "Infusionstherapie",
         "Radiofrequenz-Microneedling",
         "Hydrafacial"
       ],
@@ -290,7 +292,7 @@
         },
         {
           "name": "Lippenunterspritzung",
-          "description": "Hierbei wird Hyaluronsäure in die Lippen injiziert, um ihnen mehr Volumen, Form und Definition zu verleihen. Diese Technik wird verwendet, um schmale Lippen zu vergrößern oder ihnen mehr Fülle zu verleihen, während gleichzeitig das natürliche Aussehen erhalten bleibt."
+          "description": "Mit der Lippenunterspritzung können Form, Kontur und Volumen der Lippen sanft angepasst werden. Bei Skinbloom Aesthetics erfolgt die Behandlung individuell für natürlich volle und harmonische Lippen."
         },
         {
           "name": "Marionettenfalte",
@@ -326,15 +328,11 @@
           "description": "Profhilo ist eine innovative Anti-Aging-Behandlung, die hochkonzentrierte Hyaluronsäure verwendet, um die Hautstruktur von innen heraus zu verbessern. Es stimuliert die körpereigene Kollagen- und Elastinproduktion, wodurch die Haut gestrafft und verjüngt wird."
         },
         {
-          "name": "Marionettenfalte",
-          "description": "Die Marionettenfalten verlaufen von den Mundwinkeln abwärts zum Kinn. Durch das Injizieren von Hyaluronsäure werden diese Falten gemildert und das Gesicht wirkt frischer und freundlicher."
-        },
-        {
           "name": "Fett-weg-Spritze",
-          "description": "Die Fett-weg-Spritze ist eine minimal-invasive Behandlung zur gezielten Reduktion von hartnäckigen Fettpolstern. Durch eine Injektion von Wirkstoffen, die die Fettzellen auflösen, können Problemzonen wie Doppelkinn, Bauch oder Hüften sanft modelliert werden."
+          "description": "Die Fett-weg-Spritze (Injektionslipolyse) ist eine sanfte, minimal-invasive Methode zur gezielten Reduktion kleiner, hartnäckiger Fettpolster, zum Beispiel an Kinn, Bauch oder Hüften."
         },
         {
-          "name": "Eigenbluttherapie / PRP bei Haarausfall",
+          "name": "PRP bei Haarausfall",
           "description": "Bei der PRP-Therapie wird körpereigenes, plättchenreiches Plasma aus dem Blut gewonnen und in die Kopfhaut injiziert. Die enthaltenen Wachstumsfaktoren stimulieren die Haarfollikel, fördern das Haarwachstum und stärken die Haarstruktur."
         },
         {
@@ -344,6 +342,10 @@
         {
           "name": "Infusionstherapie",
           "description": "Die Infusionstherapie versorgt den Körper direkt über die Vene mit wichtigen Nährstoffen, Vitaminen und Antioxidantien. Sie verbessert das Wohlbefinden, stärkt das Immunsystem und fördert die Zellregeneration."
+        },
+        {
+          "name": "Radiofrequenz-Microneedling",
+          "description": "Radiofrequenz-Microneedling kombiniert feine Nadeln mit Wärmeenergie, um die Haut zu straffen, Kollagenaufbau zu fördern und Falten sowie Narben sichtbar zu reduzieren."
         },
         {
           "name": "Hydrafacial",
@@ -546,45 +548,48 @@
       "lippenunterspritzung": {
         "name": "Lippenunterspritzung",
         "metaTitle": "Lippenunterspritzung Basel | Skinbloom Aesthetics",
-        "metaDescription": "Vollere, natürliche Lippen mit Hyaluronsäure in Basel. Professionelle Lippenunterspritzung bei Skinbloom Aesthetics.",
-        "shortDescription": "Vollere Lippen mit Hyaluronsäure – natürlich und harmonisch.",
-        "definition": "Hierbei wird Hyaluronsäure in die Lippen injiziert, um ihnen mehr Volumen, Form und Definition zu verleihen. Diese Technik wird verwendet, um schmale Lippen zu vergrößern oder ihnen mehr Fülle zu verleihen, während gleichzeitig das natürliche Aussehen erhalten bleibt.",
+        "metaDescription": "Lippenunterspritzung mit Hyaluron in Basel: natürlich volle, harmonische Lippen bei Skinbloom Aesthetics.",
+        "shortDescription": "Natürlich volle und harmonische Lippen.",
+        "definition": "Mit einer Lippenunterspritzung können Form, Kontur und Volumen der Lippen sanft angepasst werden. Ob dezentes, natürliches Ergebnis oder etwas vollere Lippen: Bei Skinbloom Aesthetics gestalten wir die Behandlung individuell nach Ihrem Wunsch. Bei der Behandlung wird ein hochwertiger Hyaluron-Filler mit einer sehr feinen Nadel oder Kanüle präzise in die Lippen injiziert. Hyaluron kommt natürlicherweise im Körper vor, bindet Wasser und verleiht den Lippen Volumen und Struktur. Je nach gewünschtem Ergebnis wählen wir die passende Fillerart aus.",
         "benefits": [
-          "Sofortige, sichtbare Ergebnisse",
-          "Natürliches und harmonisches Aussehen",
-          "Minimal-invasiv – keine Ausfallzeit",
-          "Individuell angepasstes Volumen",
-          "Geprüfte, hochwertige Hyaluronsäure"
+          "Minimal-invasiv: keine Operation, keine Narben",
+          "Individuell anpassbar: von dezent bis voluminös",
+          "Schnelles Ergebnis: sichtbare Wirkung direkt nach der Behandlung",
+          "Hyaluron bindet Feuchtigkeit und sorgt für geschmeidige Lippen",
+          "Harmonisches Ergebnis ohne künstlichen Effekt"
         ],
-        "duration": "ca. 30–45 Min.",
-        "longevity": "6–9 Monate",
-        "downtime": "Leichte Schwellung (1–2 Tage)",
+        "duration": "ca. 20–30 Min.",
+        "longevity": "ca. 6–12 Monate",
+        "downtime": "Leichte Schwellung/Rötung für wenige Tage möglich",
         "process": [
-          "Beratung über gewünschte Lippenform & Volumen",
-          "Reinigung & Desinfektion",
-          "Betäubungscreme (30 Min. Einwirkzeit)",
-          "Präzise Injektion in Lippenkontur & -körper",
-          "Formgebung & Abschlusskontrolle"
+          "Persönliche Beratung und Analyse der Lippenform",
+          "Auftragen einer betäubenden Creme für angenehmen Komfort",
+          "Präzise Injektion des Hyaluron-Fillers",
+          "Sanfte Modellierung der Lippen und individuelle Nachsorgehinweise"
         ],
         "faq": [
           {
-            "question": "Wie lange schwellen die Lippen nach der Behandlung?",
-            "answer": "Eine leichte Schwellung ist normal und klingt in der Regel innerhalb von 1–2 Tagen ab. Das finale Ergebnis ist nach ca. 2 Wochen vollständig sichtbar."
+            "question": "Was kann nach der Lippenunterspritzung auftreten?",
+            "answer": "Leichte Schwellungen oder Rötungen sind in den ersten Tagen normal und klingen in der Regel von selbst ab."
           },
           {
-            "question": "Können natürliche Ergebnisse garantiert werden?",
-            "answer": "Absolut. Wir arbeiten nach dem Prinzip \"weniger ist mehr\" und passen die Menge genau auf Ihr Gesicht und Ihre Wünsche an."
+            "question": "Was sollte ich nach der Behandlung beachten?",
+            "answer": "In den ersten 24 Stunden sollten die Lippen nicht geschminkt werden. Direkte Sonne, intensive Wärme und Sport sollten in den ersten 24–48 Stunden vermieden werden."
           },
           {
-            "question": "Wie oft muss ich wiederkommen?",
-            "answer": "Hyaluron hält in den Lippen 6–9 Monate. Danach empfehlen wir eine Auffrischbehandlung, die meist weniger Aufwand erfordert als die Erstbehandlung."
+            "question": "Wann ist das Ergebnis sichtbar und wie lange hält es?",
+            "answer": "Das Ergebnis ist sofort sichtbar. In den ersten Tagen setzen sich die Lippen noch leicht. Die Haltbarkeit liegt durchschnittlich bei 6–12 Monaten, abhängig von Stoffwechsel, Fillerart und Menge."
+          },
+          {
+            "question": "Wirken die Lippen nach der Behandlung künstlich?",
+            "answer": "Nein, das Ziel ist ein harmonisches, natürliches Ergebnis. Form und Volumen werden individuell an Ihre Lippen und Ihre Wünsche angepasst."
           }
         ],
         "idealFor": [
-          "Ihre Lippen mehr Volumen und Definition bekommen sollen",
-          "Die Lippen asymmetrisch oder ungleichmäßig wirken",
-          "Das natürliche Lippenvolumen durch das Alter abgenommen hat",
-          "Sie natürlichere, vollere Lippen ohne OP wünschen"
+          "Form, Kontur oder Volumen der Lippen sanft verbessert werden sollen",
+          "Asymmetrien ausgeglichen werden sollen",
+          "Feine Lippenfältchen reduziert werden sollen",
+          "Sie sich natürlich vollere Lippen ohne Operation wünschen"
         ]
       },
       "marionettenfalte": {
@@ -898,45 +903,50 @@
       "fett-weg-spritze": {
         "name": "Fett-weg-Spritze",
         "metaTitle": "Fett-weg-Spritze Basel | Skinbloom Aesthetics",
-        "metaDescription": "Fett-weg-Spritze in Basel: hartnäckige Fettpolster gezielt und minimal-invasiv reduzieren. Jetzt Termin buchen.",
-        "shortDescription": "Gezielte Reduktion hartnäckiger Fettpolster ohne OP.",
-        "definition": "Die Fett-weg-Spritze ist eine minimal-invasive Behandlung zur gezielten Reduktion von hartnäckigen Fettpolstern. Durch eine Injektion von Wirkstoffen, die die Fettzellen auflösen, können Problemzonen wie Doppelkinn, Bauch oder Hüften sanft modelliert werden.",
+        "metaDescription": "Fett-weg-Spritze (Injektionslipolyse) in Basel: gezielte Fettreduktion ohne Operation bei Skinbloom Aesthetics.",
+        "shortDescription": "Gezielte Fettreduktion ohne Operation.",
+        "definition": "Die Fett-weg-Spritze, auch als Injektionslipolyse bekannt, ist eine sanfte, minimal-invasive Methode, um kleine, hartnäckige Fettpolster zu reduzieren. Sie eignet sich besonders für Problemzonen wie Bauch, Hüften, Kinn oder Oberschenkel. Mit der Behandlung werden lokale Fettdepots gezielt reduziert: Der Wirkstoff wird direkt in die Fettpolster injiziert, wodurch die behandelten Fettzellen nach und nach reduziert werden. Das Fett wird über das Lymphsystem abtransportiert und später auf natürliche Weise ausgeschieden.",
         "benefits": [
-          "Gezieltes Modellieren von Problemzonen",
-          "Kein chirurgischer Eingriff",
-          "Effektiv bei hartnäckigen Fettpolstern",
-          "Schnelle und unkomplizierte Behandlung",
-          "Sichtbare Konturverbesserung"
+          "Minimal-invasiv: keine Operation, schnelle Durchführung",
+          "Gezielt: hartnäckige Fettpolster werden direkt behandelt",
+          "Schnell: 20-40 Minuten pro Zone",
+          "Keine Ausfallzeiten: sofort wieder gesellschaftsfähig",
+          "Natürlicher Abbau über das Lymphsystem",
+          "Langfristig: behandelte Fettbereiche bleiben schlanker"
         ],
-        "duration": "ca. 20–30 Min.",
-        "longevity": "Dauerhaft (Fettzellen werden abgebaut)",
-        "downtime": "Schwellung & Rötung (3–7 Tage)",
+        "duration": "ca. 20–40 Min. pro Zone",
+        "longevity": "Erste Ergebnisse nach 2–4 Wochen, final nach 6–8 Wochen",
+        "downtime": "Keine Ausfallzeit, leichte Rötung/Spannung für wenige Tage möglich",
         "process": [
-          "Beratung & Analyse der Behandlungszone",
-          "Markierung der Zielregion",
-          "Reinigung & Desinfektion",
-          "Injektion der lipolytischen Substanz",
-          "Pflegeempfehlungen für die Nachsorge"
+          "Beratung und Analyse der Problemzonen",
+          "Präzise Markierung der zu behandelnden Bereiche",
+          "Gezielte Injektion des Wirkstoffs in die Fettpolster",
+          "Kontrolle und bei Bedarf leichte Massage der behandelten Stellen",
+          "Hinweis: In der Regel sind 2-3 Sitzungen im Abstand von einigen Wochen nötig"
         ],
         "faq": [
           {
             "question": "Wie funktioniert die Fett-weg-Spritze?",
-            "answer": "Deoxycholsäure wird injiziert und löst die Zellmembran von Fettzellen auf. Der Körper baut die abgestorbenen Fettzellen natürlich ab – das Ergebnis ist dauerhaft."
+            "answer": "Die Zielbereiche werden markiert und der Wirkstoff direkt in die Fettdepots injiziert. Die behandelten Fettzellen werden danach über das Lymphsystem abtransportiert und natürlich ausgeschieden."
           },
           {
-            "question": "Wie lange dauert es bis das Ergebnis sichtbar ist?",
-            "answer": "Nach 4–6 Wochen, wenn Schwellung und Lymphabfluss abgeschlossen sind, zeigt sich das Ergebnis. Oft sind 2–3 Sitzungen nötig."
+            "question": "Wann sind Ergebnisse sichtbar und wie viele Sitzungen sind nötig?",
+            "answer": "Erste Ergebnisse sind meist nach 2–4 Wochen sichtbar, das endgültige Ergebnis nach 6–8 Wochen. Für ein optimales Resultat sind in der Regel 2–3 Sitzungen nötig."
           },
           {
-            "question": "Ist diese Methode ein Ersatz für Sport?",
-            "answer": "Die Fett-weg-Spritze ist für umschriebene Problemzonen (Doppelkinn, Reiterhosen) – nicht als Methode zur allgemeinen Gewichtsreduktion."
+            "question": "Gibt es Ausfallzeiten nach der Behandlung?",
+            "answer": "Nein, Sie sind in der Regel sofort gesellschaftsfähig. Leichte Rötungen oder Spannungsgefühle können auftreten und klingen meist innerhalb weniger Tage ab."
+          },
+          {
+            "question": "Bleibt das Ergebnis langfristig erhalten?",
+            "answer": "Behandelte Fettzellen werden dauerhaft reduziert. Voraussetzung für ein stabiles Ergebnis ist ein konstanter Lebensstil."
           }
         ],
         "idealFor": [
-          "Hartnäckige Fettpolster trotz Sport und Ernährung bestehen",
-          "Das Doppelkinn optisch reduziert werden soll",
-          "Kleine, lokale Fettansammlungen gezielt behandelt werden sollen",
-          "Keine OP, aber effektive Fettreduktion gewünscht wird"
+          "Kleine, hartnäckige Fettpolster gezielt reduziert werden sollen",
+          "Problemzonen wie Kinn, Bauch, Hüften oder Oberschenkel behandelt werden sollen",
+          "Eine Fettreduktion ohne Operation gewünscht wird",
+          "Eine schnelle, alltagstaugliche Behandlung ohne Ausfallzeit bevorzugt wird"
         ]
       },
       "prp-haarausfall": {
@@ -1294,45 +1304,48 @@
       "hifu-ultraschall": {
         "name": "HIFU Ultraschall",
         "metaTitle": "HIFU Ultraschall Basel | Skinbloom Aesthetics",
-        "metaDescription": "HIFU Ultraschall Lifting in Basel: nicht-invasives Gesichtslifting für langanhaltende Straffung. Jetzt buchen.",
-        "shortDescription": "Nicht-invasives Ultraschall-Lifting für langanhaltende Straffung.",
-        "definition": "HIFU (High Intensity Focused Ultrasound) ist eine nicht-invasive Lifting-Methode, die gebündelte Ultraschallenergie in die tieferen Hautschichten überträgt. Sie strafft Gesicht, Hals und Dekolleté langanhaltend und stimuliert die Kollagenproduktion – ganz ohne Operation.",
+        "metaDescription": "Alternative zum Facelift in Basel: HIFU Hautstraffung ohne Operation für Gesicht, Hals und Dekolleté.",
+        "shortDescription": "Alternative zum Facelift: Hautstraffung ohne Operation in Basel.",
+        "definition": "HIFU (High-Intensity Focused Ultrasound) ist eine sanfte, minimal-invasive Methode, um die Haut zu straffen und zu festigen - ohne chirurgischen Eingriff. Die Behandlung eignet sich für Gesicht, Hals und Dekolleté und regt die körpereigene Kollagenproduktion an, sodass die Haut natürlich gestrafft und jugendlich wirkt. Die zu behandelnden Bereiche werden analysiert und markiert, danach wird fokussierter Ultraschall gezielt in die tieferen Hautschichten abgegeben. Durch die gezielte Erwärmung wird die Kollagenbildung angeregt und die Haut wirkt straffer und fester.",
         "benefits": [
-          "Nicht-invasives Lifting ohne OP",
-          "Langanhaltende Straffung von Gesicht, Hals und Dekolleté",
-          "Stimulation der Kollagenproduktion",
-          "Sofortiger Lifting-Effekt sichtbar",
-          "Keine Ausfallzeit"
+          "Minimal-invasiv: keine Schnitte, keine Narben",
+          "Alternative zum Facelift: straffere Haut ohne Operation",
+          "Natürlich: regt die körpereigene Kollagenproduktion an",
+          "Sofort gesellschaftsfähig: keine Ausfallzeiten",
+          "Langfristig: sichtbare Straffung für 12-18 Monate"
         ],
-        "duration": "ca. 60–90 Min.",
-        "longevity": "12–18 Monate",
-        "downtime": "Keine bis leichtes Kribbeln (wenige Tage)",
+        "duration": "ca. 30–60 Min. (je nach Zone)",
+        "longevity": "Volle Wirkung nach 6–12 Wochen, Haltbarkeit meist 12–18 Monate",
+        "downtime": "Keine Ausfallzeit, leichtes Wärmegefühl oder Rötung möglich",
         "process": [
-          "Ausführliche Beratung & Markierung der Zielzonen",
-          "Auftragen des Ultraschall-Gels",
-          "Fokussierte HIFU-Behandlung (schichtweise)",
-          "Abschlusspflege",
-          "Ergebnis entwickelt sich über 2–3 Monate"
+          "Persönliche Beratung und Analyse der Haut",
+          "Vorbereitung und Markierung der Behandlungszonen",
+          "Präzise Applikation des HIFU-Ultraschalls in tiefere Hautschichten",
+          "Kontrolle der behandelten Bereiche und kurze Nachsorgehinweise"
         ],
         "faq": [
           {
             "question": "Was ist HIFU und wie wirkt es?",
-            "answer": "HIFU (High-Intensity Focused Ultrasound) bündelt Ultraschallwellen tief im Gewebe (bis zum SMAS-Layer), erzeugt gezielte Wärme und löst eine intensive Kollagenneubildung aus – ein natürliches Lifting ohne OP."
+            "answer": "HIFU ist eine nicht-invasive Ultraschallbehandlung zur Hautstraffung. Fokussierter Ultraschall erwärmt gezielt tiefere Hautschichten und regt dadurch die körpereigene Kollagenbildung an."
           },
           {
             "question": "Wann sieht man das Ergebnis?",
-            "answer": "Erste Ergebnisse zeigen sich nach 4–6 Wochen. Das volle Lifting-Ergebnis ist nach 3 Monaten sichtbar, wenn die Kollagensynthese abgeschlossen ist."
+            "answer": "Eine erste Straffung kann oft sofort sichtbar sein. Die volle Wirkung zeigt sich in der Regel innerhalb von 6–12 Wochen durch den Kollagenaufbau."
           },
           {
-            "question": "Für wen ist HIFU geeignet?",
-            "answer": "HIFU ist ideal für Menschen mit leichter bis mittlerer Hautalterung (typischerweise 30–60 Jahre), die eine nicht-operative Alternative zu Lifting-OPs suchen."
+            "question": "Gibt es Ausfallzeiten nach der HIFU-Behandlung?",
+            "answer": "Nein. Sie sind in der Regel sofort gesellschaftsfähig. Leichtes Wärmegefühl oder vorübergehende Rötungen sind normal und verschwinden meist schnell."
+          },
+          {
+            "question": "Wie lange hält das HIFU-Ergebnis an?",
+            "answer": "Die Ergebnisse halten meist 12–18 Monate, abhängig von Hauttyp, Alter und Lebensstil. Auffrischungsbehandlungen sind möglich."
           }
         ],
         "idealFor": [
-          "Gesicht oder Hals an Straffheit verloren haben",
-          "Ein nicht-chirurgisches Face-Lifting gewünscht wird",
-          "Kollagenproduktion in den tiefen Hautschichten aktiviert werden soll",
-          "Langfristige, nachhaltige Anti-Aging-Ergebnisse angestrebt werden"
+          "Gesicht, Hals oder Dekolleté an Festigkeit verloren haben",
+          "Eine Hautstraffung ohne Operation gewünscht wird",
+          "Eine natürliche Kollagenstimulation statt invasiver Eingriffe bevorzugt wird",
+          "Langfristige Ergebnisse mit minimaler Ausfallzeit wichtig sind"
         ]
       },
       "microneedling": {

@@ -7,11 +7,11 @@ import { useTranslations } from "next-intl";
 // Placeholder pairs – replace with real images in public/assets/images/ba/
 const pairs = [
   {
-    before: "/assets/images/ba/ba1-before.jpg",
-    after: "/assets/images/ba/ba1-after.jpg",
+    before: "/assets/images/vorher_hifu.jpeg",
+    after: "/assets/images/nachher_hifu.jpeg",
     fallbackBefore: "/assets/images/about1.png",
     fallbackAfter: "/assets/images/about2.png",
-    label: "Lippenunterspritzung",
+    label: "HIFU Ultraschall",
   },
   {
     before: "/assets/images/ba/ba2-before.jpg",
