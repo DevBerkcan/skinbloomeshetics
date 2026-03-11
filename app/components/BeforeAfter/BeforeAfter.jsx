@@ -14,11 +14,11 @@ const pairs = [
     label: "HIFU Ultraschall",
   },
   {
-    before: "/assets/images/ba/ba2-before.jpg",
-    after: "/assets/images/ba/ba2-after.jpg",
+    before: "/assets/images/lippen-vorher.jpg",
+    after: "/assets/images/lippen-nachher.jpg",
     fallbackBefore: "/assets/images/Hyaluron-img.png",
     fallbackAfter: "/assets/images/about1.png",
-    label: "Skinbooster",
+    label: "Lippenunterspritzung",
   },
   {
     before: "/assets/images/ba/ba3-before.jpg",

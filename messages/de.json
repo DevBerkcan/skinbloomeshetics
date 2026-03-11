@@ -460,45 +460,48 @@
       "kinn-aufbau": {
         "name": "Kinn-Aufbau",
         "metaTitle": "Kinn-Aufbau Basel | Skinbloom Aesthetics",
-        "metaDescription": "Kinnaufbau mit Hyaluronsäure in Basel: Harmonie und Balance im Gesichtsprofil. Jetzt Termin buchen.",
-        "shortDescription": "Optimale Kinnform für ein harmonischeres Gesicht.",
-        "definition": "Beim Kinnaufbau wird Hyaluronsäure gezielt in das Kinn injiziert, um dessen Form zu optimieren. Dies kann dazu dienen, das Kinn zu verlängern, Volumen hinzuzufügen oder Asymmetrien auszugleichen, wodurch das Gesicht harmonischer wirkt.",
+        "metaDescription": "Kinnaufbau mit Hyaluron in Basel: mehr Definition und ein harmonisch optimiertes Gesichtsprofil.",
+        "shortDescription": "Mehr Definition und Optimierung Ihres Gesichtsprofils.",
+        "definition": "Ein gut proportioniertes Kinn kann das gesamte Gesichtsprofil verändern. Mit einem sanften Hyaluron-Aufbau lassen sich kleine Asymmetrien ausgleichen, das Volumen optimieren und die Kontur klarer definieren. Bei Skinbloom Aesthetics passen wir jede Behandlung individuell an Ihre Gesichtsstruktur an. Der Kinnaufbau erfolgt durch gezielte Injektionen von Hyaluron-Filler, der Wasser bindet, das Gewebe sanft modelliert und natürliche Definition schafft.",
         "benefits": [
-          "Harmonisches Gesichtsprofil",
-          "Ausgleich von Asymmetrien",
-          "Natürliche, stimmige Proportionen",
-          "Kein chirurgischer Eingriff nötig",
-          "Sofort sichtbares Ergebnis"
+          "Individuelle Anpassung an Ihr Gesicht",
+          "Sanft und minimal-invasiv",
+          "Direkt sichtbares Ergebnis",
+          "Harmonisches, natürliches Profil",
+          "Kurze Behandlung in ca. 20–30 Minuten"
         ],
         "duration": "ca. 20–30 Min.",
-        "longevity": "9–12 Monate",
-        "downtime": "Keine",
+        "longevity": "Oft reicht 1 Sitzung, Auffrischung nach ca. 6–12 Monaten möglich",
+        "downtime": "Leichte Schwellung oder Rötung für wenige Tage möglich",
         "process": [
-          "Beratung & Analyse der Gesichtsproportionen",
-          "Reinigung der Behandlungszone",
-          "Auftragen der Betäubungscreme",
-          "Gezielte Hyaluron-Injektion am Kinn",
-          "Formgebung & Abschlusskontrolle"
+          "Persönliche Beratung und Analyse Ihrer Kinnform",
+          "Auftragen einer betäubenden Creme für mehr Komfort",
+          "Präzise Injektion des Hyaluron-Fillers",
+          "Sanfte Modellierung des Kinns bis zum gewünschten Ergebnis"
         ],
         "faq": [
           {
             "question": "Wie lange hält der Kinnaufbau?",
-            "answer": "Die Ergebnisse halten typischerweise 9–12 Monate. Regelmäßige Auffrischungen erhalten das Resultat langfristig."
+            "answer": "In vielen Fällen genügt eine Sitzung. Da der Körper Hyaluron langsam abbaut, können Auffrischungen nach etwa 6–12 Monaten sinnvoll sein."
           },
           {
-            "question": "Kann man nach der Behandlung sofort ausgehen?",
-            "answer": "Ja, die meisten Klienten kehren direkt nach der Sitzung in ihren Alltag zurück. Leichte Rötungen klingen innerhalb weniger Stunden ab."
+            "question": "Wann ist das Ergebnis sichtbar?",
+            "answer": "Das Ergebnis ist direkt nach der Behandlung sichtbar. Leichte Schwellungen oder Rötungen klingen meist innerhalb weniger Tage ab."
           },
           {
             "question": "Ist ein Kinnaufbau für mich geeignet?",
-            "answer": "Wenn Sie ein zurückstehendes Kinn oder mangelnde Kieferdefinition haben, ist diese Behandlung ideal. In der Beratung klären wir gemeinsam, welches Resultat realistisch ist."
+            "answer": "Die Behandlung eignet sich, wenn Sie kleine Asymmetrien ausgleichen, das Kinn subtil anheben oder verlängern und die Konturen harmonisch zum restlichen Gesicht definieren möchten."
+          },
+          {
+            "question": "Wirkt das Ergebnis natürlich?",
+            "answer": "Ja. Ziel ist ein ausbalanciertes, markantes, aber natürlich wirkendes Profil ohne künstlichen Effekt."
           }
         ],
         "idealFor": [
-          "Ihr Kinn wenig ausgeprägt oder zurückweichend ist",
-          "Sie ein harmonischeres Gesichtsprofil anstreben",
-          "Das Verhältnis von Nase, Lippen und Kinn optimiert werden soll",
-          "Sie chirurgische Eingriffe vermeiden möchten"
+          "Ihr Kinn mehr Definition und Kontur erhalten soll",
+          "Kleine Unregelmäßigkeiten oder Asymmetrien ausgeglichen werden sollen",
+          "Die Proportionen zum restlichen Gesicht harmonisiert werden sollen",
+          "Sie eine sanfte Kinnkorrektur ohne Operation wünschen"
         ]
       },
       "lippenfalten": {
@@ -952,89 +955,95 @@
       "prp-haarausfall": {
         "name": "PRP bei Haarausfall",
         "metaTitle": "PRP Haarausfall Basel | Skinbloom Aesthetics",
-        "metaDescription": "PRP-Therapie gegen Haarausfall in Basel: körpereigenes Plasma für gesundes Haarwachstum. Jetzt Termin buchen.",
-        "shortDescription": "Körpereigenes Plasma stärkt Haarfollikel und fördert das Haarwachstum.",
-        "definition": "Bei der PRP-Therapie wird körpereigenes, plättchenreiches Plasma aus dem Blut gewonnen und in die Kopfhaut injiziert. Die enthaltenen Wachstumsfaktoren stimulieren die Haarfollikel, fördern das Haarwachstum und stärken die Haarstruktur.",
+        "metaDescription": "PRP bei Haarausfall in Basel: Eigenbluttherapie zur Unterstützung des Haarwachstums bei Skinbloom Aesthetics.",
+        "shortDescription": "Eigenbluttherapie zur Unterstützung des Haarwachstums.",
+        "definition": "PRP (Platelet Rich Plasma) ist eine moderne Behandlung zur Unterstützung des Haarwachstums bei Haarausfall. Dabei wird körpereigenes Blut verwendet, um Wachstumsfaktoren zu gewinnen, die die Haarwurzeln stimulieren und die Kopfhaut regenerieren können. Die Behandlung wird häufig bei beginnendem Haarausfall, dünner werdendem Haar oder zur Verbesserung der Haarqualität eingesetzt. Nach Entnahme einer kleinen Menge Eigenblut wird dieses in einer speziellen Zentrifuge aufbereitet. Das gewonnene plättchenreiche Plasma wird anschließend gezielt in die Kopfhaut injiziert.",
         "benefits": [
-          "Natürliche Methode mit körpereigenem Plasma",
-          "Stimulation der Haarfollikel",
-          "Stärkung der Haarstruktur",
-          "Kein Risiko von Fremdkörperreaktionen",
-          "Spürbare Ergebnisse nach mehreren Sitzungen"
+          "Verwendung von körpereigenem Plasma",
+          "Minimal-invasiv und ambulant",
+          "Keine Ausfallzeiten",
+          "Kurze Behandlungsdauer von ca. 30–45 Minuten",
+          "Kann das Haarwachstum unterstützen und die Haarqualität verbessern"
         ],
-        "duration": "ca. 45–60 Min.",
-        "longevity": "Kur: 3–4 Sitzungen, Wirkung hält 12–18 Monate",
-        "downtime": "Keine bis leichte Rötung",
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Kur mit 3–6 Sitzungen, Auffrischungen in größeren Abständen möglich",
+        "downtime": "Keine Ausfallzeit, ggf. leichte kurzfristige Reizung der Kopfhaut",
         "process": [
-          "Beratung & Haaranalyse",
-          "Blutabnahme (ca. 15–20 ml)",
-          "Zentrifugation zur PRP-Gewinnung",
-          "Injektion des Eigenplasmas in die Kopfhaut",
-          "Abschlusspflege & Empfehlungen"
+          "Entnahme einer kleinen Menge Eigenblut",
+          "Aufbereitung des Blutes in einer speziellen Zentrifuge",
+          "Gewinnung des plättchenreichen Plasmas (PRP)",
+          "Präzise Injektion des PRP in die Kopfhaut"
         ],
         "faq": [
           {
             "question": "Wie hilft PRP bei Haarausfall?",
-            "answer": "Eigenplasma enthält hochkonzentrierte Wachstumsfaktoren, die die Haarfollikel aktivieren und das Haarwachstum anregen. PRP stärkt dünner werdendes Haar und verlangsamt Haarausfall."
+            "answer": "Die im PRP enthaltenen Wachstumsfaktoren können die Durchblutung der Kopfhaut verbessern, die Aktivität der Haarfollikel stimulieren, die Wachstumsphase der Haare verlängern und die Haarstruktur stärken."
           },
           {
             "question": "Wie viele Sitzungen brauche ich?",
-            "answer": "Eine Kur aus 3–4 Sitzungen im Abstand von 4–6 Wochen wird empfohlen. Danach Erhaltungssitzungen alle 6–12 Monate."
+            "answer": "Für optimale Ergebnisse werden in der Regel 3–6 Behandlungen im Abstand von etwa 4–5 Wochen empfohlen. Anschließend können Auffrischungsbehandlungen sinnvoll sein."
           },
           {
-            "question": "Für welche Art von Haarausfall ist PRP geeignet?",
-            "answer": "PRP wirkt am besten bei androgenetischer Alopezie (erblichem Haarausfall) und diffusem Haarausfall – besonders in frühen Stadien."
+            "question": "Wann sind erste Ergebnisse sichtbar?",
+            "answer": "Die Wirkung entwickelt sich schrittweise. Erste Veränderungen können häufig nach 2–3 Monaten sichtbar werden, da die Haarfollikel Zeit benötigen, um auf die Wachstumsfaktoren zu reagieren."
+          },
+          {
+            "question": "Für wen eignet sich PRP?",
+            "answer": "PRP kann sinnvoll sein bei beginnendem Haarausfall, androgenetischer Alopezie, diffusem Haarausfall, dünner werdendem Haar und zur Unterstützung nach Haartransplantationen."
           }
         ],
         "idealFor": [
-          "Diffuser Haarausfall oder Haarverdünnung vorliegt",
-          "Der Haaransatz sich zurückzieht und der Scheitel breiter wird",
-          "Eine natürliche, eigenblutbasierte Therapie bevorzugt wird",
-          "Stress oder Hormonschwankungen zu Haarverlust geführt haben"
+          "Beginnender Haarausfall behandelt werden soll",
+          "Erblich bedingter oder diffuser Haarausfall vorliegt",
+          "Dünner werdendes Haar in der Qualität gestärkt werden soll",
+          "Eine natürliche Eigenbluttherapie ohne OP bevorzugt wird"
         ]
       },
       "vampire-lifting-prp": {
         "name": "Vampire Lifting / PRP",
         "metaTitle": "Vampire Lifting PRP Basel | Skinbloom Aesthetics",
-        "metaDescription": "Vampire Lifting mit PRP in Basel: natürliche Hautverjüngung durch körpereigenes Plasma. Jetzt Termin buchen.",
-        "shortDescription": "Natürliche Anti-Aging-Behandlung mit körpereigenem Blutplasma.",
-        "definition": "Das Vampire Lifting ist eine natürliche Anti-Aging-Behandlung, bei der mit körpereigenem Plasma die Hautregeneration angeregt wird. Die Behandlung verbessert die Hautelastizität, reduziert Falten und verleiht dem Gesicht ein frisches, jugendliches Aussehen.",
+        "metaDescription": "PRP Vampir Lifting in Basel: Hautverjüngung mit Eigenblut für ein frischeres und ebenmäßigeres Hautbild.",
+        "shortDescription": "Hautverjüngung mit Eigenblut.",
+        "definition": "Das PRP Vampir Lifting ist eine moderne Behandlung zur Regeneration und Verbesserung der Hautqualität. Dabei wird körpereigenes Plasma (PRP - Platelet Rich Plasma) verwendet, das reich an Wachstumsfaktoren ist. Diese Wachstumsfaktoren können die Regeneration der Haut unterstützen, die Kollagenproduktion anregen und zu einem frischeren und ebenmäßigeren Hautbild beitragen. Bei der Behandlung wird zunächst eine kleine Menge Eigenblut entnommen und in einer Zentrifuge aufbereitet, um das plättchenreiche Plasma zu gewinnen. Das PRP wird anschließend gezielt in die Haut injiziert oder in Kombination mit Microneedling eingebracht.",
         "benefits": [
-          "100% natürlich – körpereigenes Plasma",
-          "Verbesserte Hautelastizität",
-          "Reduktion von Falten und feinen Linien",
-          "Frisches, jugendliches Hautbild",
-          "Keine Allergierisiken"
+          "Verwendung von körpereigenem Plasma",
+          "Minimal-invasiv und gut verträglich",
+          "Keine Operation",
+          "Natürliche Unterstützung der Hautregeneration",
+          "Kurze Behandlungsdauer und kaum Ausfallzeiten"
         ],
-        "duration": "ca. 45–60 Min.",
-        "longevity": "12–18 Monate",
-        "downtime": "Leichte Rötung & Schwellung (1–2 Tage)",
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Kur mit 3 Behandlungen, Auffrischungen zur Erhaltung möglich",
+        "downtime": "Kaum Ausfallzeit, ggf. leichte kurzfristige Rötung",
         "process": [
-          "Beratung & Hautanalyse",
-          "Blutabnahme aus dem Arm",
-          "Zentrifugation & PRP-Aufbereitung",
-          "Injektion & optional Microneedling des Plasmas",
-          "Abschlussserum & UV-Schutz"
+          "Entnahme einer kleinen Menge Eigenblut",
+          "Aufbereitung des Blutes in einer Zentrifuge",
+          "Gewinnung des plättchenreichen Plasmas (PRP)",
+          "Präzise Injektion oder Kombination mit Microneedling"
         ],
         "faq": [
           {
             "question": "Was ist Vampire Lifting?",
-            "answer": "Beim Vampire Lifting wird Eigenblutplasma (PRP) per Injektion oder Microneedling in die Haut eingebracht. Es stimuliert Kollagen, Elastin und die Zellregeneration."
+            "answer": "Beim PRP Vampir Lifting wird körpereigenes, plättchenreiches Plasma (PRP) in die Haut eingebracht. Die enthaltenen Wachstumsfaktoren können die Kollagenbildung stimulieren, die Hautregeneration unterstützen und das Hautbild verbessern."
           },
           {
-            "question": "Warum heißt es Vampire Lifting?",
-            "answer": "Der Name rührt von der charakteristischen roten Farbe des frisch zentrifugierten Plasmas her – nicht von schmerzhaften Eingriffen."
+            "question": "Für welche Hautprobleme eignet sich die Behandlung?",
+            "answer": "PRP kann bei müder oder fahler Haut, feinen Fältchen, unruhigem Hautbild, vergrößerten Poren, Narben oder Aknenarben sowie bei Elastizitätsverlust der Haut eingesetzt werden."
           },
           {
-            "question": "Für wen eignet sich Vampire Lifting?",
-            "answer": "Besonders für Menschen, die eine natürliche Alternative zu Fillern suchen. PRP nutzt ausschließlich körpereigene Substanzen und hat daher ein sehr geringes Nebenwirkungsrisiko."
+            "question": "Wie viele Behandlungen werden empfohlen?",
+            "answer": "Für optimale Ergebnisse werden in der Regel 3 Behandlungen im Abstand von etwa 4–5 Wochen empfohlen. Danach können Auffrischungsbehandlungen sinnvoll sein."
+          },
+          {
+            "question": "Wann sind erste Ergebnisse sichtbar?",
+            "answer": "Das Ergebnis entwickelt sich schrittweise, da die Haut Zeit für den Kollagenaufbau benötigt. Erste Veränderungen können häufig nach einigen Wochen sichtbar werden."
           }
         ],
         "idealFor": [
-          "Eigene Wachstumsfaktoren zur Hautverjüngung genutzt werden sollen",
-          "Natürliche, körpereigene Behandlungen bevorzugt werden",
-          "Die Haut an Frische und Regenerationsfähigkeit verloren hat",
-          "Narben, Pigmentflecken oder Unebenheiten behandelt werden sollen"
+          "Müde oder fahle Haut sichtbar revitalisiert werden soll",
+          "Feine Fältchen, Poren und unruhige Hautstruktur verbessert werden sollen",
+          "Narben oder Aknenarben sanft unterstützt behandelt werden sollen",
+          "Eine natürliche Hautverbesserung ohne Filler oder Operation gewünscht wird"
         ]
       },
       "infusionstherapie": {
@@ -1084,45 +1093,48 @@
       "radiofrequenz-microneedling": {
         "name": "Radiofrequenz-Microneedling",
         "metaTitle": "Radiofrequenz-Microneedling Basel | Skinbloom Aesthetics",
-        "metaDescription": "Radiofrequenz-Microneedling in Basel: Hautraffung und Kollagenaufbau für jugendliche Haut. Jetzt Termin buchen.",
-        "shortDescription": "Hautraffung und Kollagenaufbau durch Radiofrequenz-Energie.",
-        "definition": "Das Radiofrequenz-Microneedling kombiniert feine Nadeln mit Wärmeenergie, um tief in die Haut einzuwirken. Die Behandlung strafft erschlaffte Hautpartien, fördert die körpereigene Kollagenbildung und reduziert sichtbar Falten sowie Narben.",
+        "metaDescription": "RF-Microneedling in Basel: straffere Haut bei Falten, Narben und Dehnungsstreifen durch Radiofrequenz und Microneedling.",
+        "shortDescription": "Straffere Haut bei Falten, Narben und Dehnungsstreifen.",
+        "definition": "RF-Microneedling ist eine moderne, minimal-invasive Methode, um die Haut straffer, glatter und jugendlicher wirken zu lassen. Die Behandlung eignet sich für Gesicht, Hals, Dekolleté und Körperbereiche mit Dehnungsstreifen oder erschlaffter Haut. Durch die Kombination von Microneedling und Radiofrequenz-Energie (RF) werden die tieferen Hautschichten gezielt stimuliert, wodurch die Kollagen- und Elastinproduktion angeregt wird. Die Haut wird sichtbar fester, ebenmäßiger und gesünder.",
         "benefits": [
-          "Effektive Hautraffung und Konturierung",
-          "Stimulation der körpereigenen Kollagenproduktion",
-          "Reduktion von Falten und Narben",
-          "Langanhaltende Ergebnisse",
-          "Minimal-invasiv mit kurzer Erholungszeit"
+          "Minimal-invasiv und in der Regel ohne Ausfallzeit",
+          "Stimuliert Kollagen und Elastin für sichtbare Hautregeneration",
+          "Vielseitig bei Falten, Narben, Dehnungsstreifen und erschlaffter Haut",
+          "Kurze Behandlungsdauer von ca. 30–60 Minuten pro Sitzung",
+          "Sofort gesellschaftsfähig mit meist nur leichter kurzfristiger Rötung"
         ],
-        "duration": "ca. 60–90 Min.",
-        "longevity": "12–18 Monate (Kur empfohlen)",
-        "downtime": "Rötung & Wärme (2–3 Tage)",
+        "duration": "ca. 30–60 Min. (je nach Zone)",
+        "longevity": "Kur mit meist 3–6 Sitzungen im Abstand von 4–5 Wochen",
+        "downtime": "Keine Ausfallzeit, leichte Rötung oder Wärmegefühl für wenige Stunden möglich",
         "process": [
-          "Ausführliche Beratung & Hautanalyse",
-          "Reinigung & Betäubungscreme (30–45 Min.)",
-          "RF-Microneedling-Behandlung der Zielzone",
-          "Kühlendes Abschlussserum",
-          "Nachsorgeprotokoll & UV-Schutz"
+          "Beratung und Analyse der Haut bzw. Problemzonen",
+          "Reinigung und Vorbereitung der Haut",
+          "Präzises RF-Microneedling über die Zielbereiche",
+          "Abschlussbehandlung mit beruhigender Pflege"
         ],
         "faq": [
           {
             "question": "Was unterscheidet RF-Microneedling vom klassischen Microneedling?",
-            "answer": "Klassisches Microneedling erzeugt Mikrokanäle zur Kollagenstimulation. RF-Microneedling gibt zusätzlich Hochfrequenzenergie ab – das verstärkt den Straffungs- und Lifting-Effekt erheblich."
+            "answer": "Beim RF-Microneedling erzeugen feine Nadeln mikroskopische Kanäle und geben gleichzeitig Radiofrequenz-Energie in tiefere Hautschichten ab. Dadurch wird die Kollagen- und Elastinbildung stärker angeregt als beim klassischen Microneedling."
           },
           {
             "question": "Für welche Hautprobleme eignet es sich?",
-            "answer": "Schlaffe Haut, Falten, erweiterte Poren, Narben (auch Aknenarben) und Dehnungsstreifen – RF-Microneedling zeigt bei all diesen Problemen starke Ergebnisse."
+            "answer": "Die Behandlung eignet sich bei feinen Linien und Falten, erschlaffter Haut, Dehnungsstreifen (Striae), Narben wie Aknenarben sowie bei ungleichmäßiger Hautstruktur und vergrößerten Poren."
           },
           {
             "question": "Wie viele Sitzungen brauche ich?",
-            "answer": "Für optimale Ergebnisse empfehlen wir 3 Sitzungen im Abstand von 4–6 Wochen. Einzelne Auffrischungen sind jährlich sinnvoll."
+            "answer": "Für optimale Ergebnisse werden meist 3–6 Sitzungen im Abstand von 4–5 Wochen empfohlen, abhängig von Hauttyp, Ausgangszustand und gewünschtem Ergebnis."
+          },
+          {
+            "question": "Wann sind Ergebnisse sichtbar?",
+            "answer": "Die Effekte entwickeln sich schrittweise, da die Haut Zeit benötigt, neues Kollagen aufzubauen. Typische Veränderungen sind straffere Haut, glattere Struktur und ein frischerer Teint."
           }
         ],
         "idealFor": [
-          "Schlaffheit und feine Linien im Gesicht behandelt werden sollen",
-          "Die Kollagenproduktion intensiv stimuliert werden soll",
-          "Poren verfeinert und Hauttextur nachhaltig verbessert werden sollen",
-          "Tiefgreifende Anti-Aging-Ergebnisse gewünscht werden"
+          "Feine Linien, Falten und erschlaffte Haut reduziert werden sollen",
+          "Dehnungsstreifen (Striae) oder Narben sichtbar verbessert werden sollen",
+          "Poren und ungleichmäßige Hautstruktur verfeinert werden sollen",
+          "Eine wirksame, nicht-operative Hautstraffung gewünscht wird"
         ]
       },
       "hydrafacial": {
