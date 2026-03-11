@@ -39,7 +39,7 @@ function Banner() {
               <p className="mt-4">{t("subtitle")}</p>
               <div className="d-flex flex-wrap gap-2 align-items-center mt-5">
                 <BookingButton />
-                <div className="text-center" style={{ marginLeft: "3rem" }}>
+                <div className="text-center banner-rating-block">
                   <img
                     src="assets/images/google.png"
                     width="25px"

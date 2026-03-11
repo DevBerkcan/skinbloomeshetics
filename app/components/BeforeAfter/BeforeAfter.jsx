@@ -21,11 +21,11 @@ const pairs = [
     label: "Lippenunterspritzung",
   },
   {
-    before: "/assets/images/ba/ba3-before.jpg",
-    after: "/assets/images/ba/ba3-after.jpg",
+    before: "/assets/images/Nasolabiatfalte_vorher.jpeg",
+    after: "/assets/images/nasolabiatfalte-nachher.jpeg",
     fallbackBefore: "/assets/images/about2.png",
     fallbackAfter: "/assets/images/Weitere.png",
-    label: "Microneedling",
+    label: "Nasolabialfalte",
   },
 ];
 

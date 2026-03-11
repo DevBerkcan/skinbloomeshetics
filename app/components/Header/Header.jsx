@@ -3,8 +3,7 @@
 import { faPhone, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Preisliste from "../Modals/Preisliste/Preisliste";
-import { useState } from "react";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useTranslations, useLocale } from "next-intl";
@@ -20,6 +19,7 @@ const CATEGORIES = [
 export default function Header() {
   const [activeModal, setActiveModal] = useState(null);
   const [megaOpen, setMegaOpen] = useState(false);
+  const closeTimerRef = useRef(null);
   const t = useTranslations("nav");
   const tB = useTranslations("behandlungen");
   const locale = useLocale();
@@ -27,6 +27,28 @@ export default function Header() {
 
   const openModal = (modalName) => setActiveModal(modalName);
   const closeModal = () => setActiveModal(null);
+
+  const openMegaMenu = () => {
+    if (closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
+    }
+    setMegaOpen(true);
+  };
+
+  const closeMegaMenuWithDelay = () => {
+    if (closeTimerRef.current) clearTimeout(closeTimerRef.current);
+    closeTimerRef.current = setTimeout(() => {
+      setMegaOpen(false);
+      closeTimerRef.current = null;
+    }, 180);
+  };
+
+  useEffect(() => {
+    return () => {
+      if (closeTimerRef.current) clearTimeout(closeTimerRef.current);
+    };
+  }, []);
 
   // Strip locale prefix to get the base path for locale switching
   const basePath = locale === "en" ? pathname.replace(/^\/en/, "") || "/" : pathname;
@@ -84,10 +106,11 @@ export default function Header() {
                 {/* ── Mega Menu ── */}
                 <Nav.Item
                   className="mega-menu-wrapper"
-                  onMouseEnter={() => setMegaOpen(true)}
-                  onMouseLeave={() => setMegaOpen(false)}
+                  onMouseEnter={openMegaMenu}
+                  onMouseLeave={closeMegaMenuWithDelay}
                 >
                   <button
+                    type="button"
                     className={`nav-link mega-trigger${megaOpen ? " mega-trigger--open" : ""}`}
                     onClick={() => setMegaOpen((o) => !o)}
                     aria-expanded={megaOpen}
@@ -97,7 +120,11 @@ export default function Header() {
                   </button>
 
                   {megaOpen && (
-                    <div className="mega-panel">
+                    <div
+                      className="mega-panel"
+                      onMouseEnter={openMegaMenu}
+                      onMouseLeave={closeMegaMenuWithDelay}
+                    >
                       <div className="mega-grid">
                         {CATEGORIES.map((cat) => (
                           <div key={cat.key} className="mega-col">

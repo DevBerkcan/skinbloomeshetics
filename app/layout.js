@@ -26,6 +26,12 @@ const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.skinbloom-aesthetics.ch";
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {

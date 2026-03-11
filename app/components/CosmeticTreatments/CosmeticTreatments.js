@@ -44,7 +44,7 @@ function CosmeticTreatments() {
             <div className="behandlung-col-img">
               <img
                 className="behandlung-img"
-                src="assets/images/kosmetik-img.jpg"
+                src="assets/images/cosmetic.png"
                 alt="Kosmetische Behandlungen bei Skinbloom Aesthetics"
               />
             </div>

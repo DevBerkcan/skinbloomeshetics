@@ -210,15 +210,7 @@ function Contact() {
             <img
               src="assets/images/contact-img.png"
               alt="Contact"
-              style={{
-                width: "350px",
-                height: "550px",
-                display: "block",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "20px",
-                objectFit: "cover",
-              }}
+              className="contact-homepage-img"
             />
           </div>
         </div>
