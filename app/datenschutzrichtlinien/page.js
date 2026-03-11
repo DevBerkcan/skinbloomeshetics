@@ -1,4 +1,15 @@
-"use client";
+export const metadata = {
+  title: "Datenschutzerklärung",
+  description:
+    "Datenschutzerklärung von Skinbloom Aesthetics mit Informationen zur Verarbeitung personenbezogener Daten gemäss Schweizer Datenschutzgesetz.",
+  alternates: {
+    canonical: "/datenschutzrichtlinien",
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 const Datenschutzrichtlinien = () => (
   <div>

@@ -1,4 +1,15 @@
-"use client";
+export const metadata = {
+  title: "Impressum",
+  description:
+    "Impressum und Anbieterkennzeichnung von Skinbloom Aesthetics, Elisabethenstrasse 41, 4051 Basel, Schweiz.",
+  alternates: {
+    canonical: "/impressum",
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 const Impressum = () => (
   <div>

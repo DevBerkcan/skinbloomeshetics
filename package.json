@@ -17,11 +17,14 @@
     "bootstrap": "^5.3.3",
     "mdb-react-ui-kit": "^9.0.0",
     "next": "14.2.15",
+    "next-intl": "^4.8.3",
     "nodemailer": "^6.9.15",
     "react": "^18",
     "react-bootstrap": "^2.10.5",
+    "react-compare-slider": "^3.1.0",
     "react-dom": "^18",
-    "sweetalert2": "^11.14.4"
+    "sweetalert2": "^11.14.4",
+    "swiper": "^12.1.2"
   },
   "devDependencies": {
     "@types/node": "22.7.5",

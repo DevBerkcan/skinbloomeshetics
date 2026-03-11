@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Behandlungen",
+  title: "Ästhetische Behandlungen Basel – Hyaluron, PRP, Microneedling & Kosmetik",
   description:
-    "Uebersicht der Behandlungen bei Skinbloom Aesthetics in Basel, inklusive Hyaluron und weiteren aesthetischen Leistungen.",
+    "Entdecken Sie unser Behandlungsangebot bei Skinbloom Aesthetics in Basel: Hyaluron, PRP, Microneedling, HIFU, Chemische Peelings, Skinbooster, Mesotherapie und mehr. Professionell, natürlich, individuell.",
   alternates: {
     canonical: "/treatments",
   },

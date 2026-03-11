@@ -1,13 +1,15 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
-
-// Import the FontAwesomeIcon component
+import { useTranslations } from "next-intl";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// Import specific icons from FontAwesome
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faMapMarker, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
+  const t = useTranslations("footer");
+
   return (
     <div>
       <footer className="text-lg-start py-5 bg-black" style={{ position: "relative" }}>
@@ -20,12 +22,7 @@ export default function Footer() {
                   src="assets/images/footer-logo.png"
                   alt="Skinbloom Aesthetics Logo"
                 />
-                <p>
-                  Ihr Partner für professionelle Anti-Aging- und
-                  Ästhetik-Behandlungen in Basel. Wir bieten individuelle
-                  Lösungen, die auf Ihre Bedürfnisse abgestimmt sind und
-                  natürliche, langanhaltende Ergebnisse liefern.
-                </p>
+                <p>{t("description")}</p>
                 <div className="mt-2 social-icon d-flex gap-3">
                   <a
                     href="https://www.facebook.com/profile.php?id=61565493292168"
@@ -47,50 +44,50 @@ export default function Footer() {
               </div>
               <div className="col-md-1 col-lg-1 col-xl-1 mx-auto mb-4"></div>
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="fw-bold mb-4">Quick Links</h6>
+                <h6 className="fw-bold mb-4">{t("quickLinks")}</h6>
                 <p>
                   <Link href="/#über-uns" className="text-reset">
-                    Über Uns
+                    {t("aboutUs")}
                   </Link>
                 </p>
                 <p>
                   <Link href="/#behandlungen" className="text-reset">
-                    Behandlungen
+                    {t("treatments")}
                   </Link>
                 </p>
                 <p>
                   <Link href="/kontakt" className="text-reset">
-                    Kontakt
+                    {t("contact")}
                   </Link>
                 </p>
                 <p>
-                  <Link href="/#bewertungen" className="text-reset">
-                    Bewertungen
+                  <Link href="/#reviews" className="text-reset">
+                    {t("reviews")}
                   </Link>
                 </p>
                 <p>
                   <Link href="/#faq" className="text-reset">
-                    FAQ
+                    {t("faq")}
                   </Link>
                 </p>
               </div>
 
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="fw-bold mb-4">Rechtliches</h6>
+                <h6 className="fw-bold mb-4">{t("legal")}</h6>
                 <p>
                   <Link href="/impressum" className="text-reset">
-                    Impressum
+                    {t("imprint")}
                   </Link>
                 </p>
                 <p>
                   <Link href="/datenschutzrichtlinien" className="text-reset">
-                    Datenschutzrichtlinien
+                    {t("privacy")}
                   </Link>
                 </p>
               </div>
 
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <h6 className="fw-bold mb-4">Kontakt</h6>
+                <h6 className="fw-bold mb-4">{t("contactTitle")}</h6>
                 <p>
                   <FontAwesomeIcon icon={faEnvelope} className="me-3" />
                   <a
@@ -114,17 +111,13 @@ export default function Footer() {
                   <img
                     src="/assets/images/img_siegel_v4_light.png"
                     alt="Rechtstexte Siegel"
-                    style={{
-                      maxWidth: "270px",
-                      borderRadius: "5px",
-                    }}
+                    style={{ maxWidth: "270px", borderRadius: "5px" }}
                   />
                 </div>
               </div>
             </div>
           </div>
         </section>
-        {/* Copyright Bereich */}
         <div
           style={{
             textAlign: "center",
@@ -137,7 +130,7 @@ export default function Footer() {
             fontSize: "14px",
           }}
         >
-          © 2025 Skinbloom Aesthetics. Alle Rechte vorbehalten.
+          {t("copyright")}
         </div>
       </footer>
     </div>

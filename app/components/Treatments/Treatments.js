@@ -1,64 +1,95 @@
-import React, { useState } from "react"; // Import useState here
+"use client";
+
+import React, { useState, useRef, useEffect } from "react";
 import Hyaluron from "../../components/Modals/Hyaluron/Hyaluron";
 import Preisliste from "../../components/Modals/Preisliste/Preisliste";
 import WeitereBehandlungen from "../../components/Modals/WeitereBehandlungen/WeitereBehandlungen";
+import { useTranslations, useLocale } from "next-intl";
+import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSpa } from "@fortawesome/free-solid-svg-icons";
+import { treatments } from "../../data/treatments";
+
+function useScrollReveal() {
+  const ref = useRef(null);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          el.classList.add("is-visible");
+          observer.unobserve(el);
+        }
+      },
+      { threshold: 0.15 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+  return ref;
+}
 
 function Treatments() {
   const [activeModal, setActiveModal] = useState(null);
+  const t = useTranslations("treatments");
+  const locale = useLocale();
 
-  // Function to open a specific modals
-  const openModal = (modalName) => {
-    setActiveModal(modalName);
-  };
+  const openModal = (modalName) => setActiveModal(modalName);
+  const closeModal = () => setActiveModal(null);
 
-  const closeModal = () => {
-    setActiveModal(null);
-  };
+  const hyaluronItems = t.raw("hyaluron.items");
+  const weitereItems = t.raw("weitere.items");
+
+  const hyaluronSlugs = treatments
+    .filter((tr) => tr.category === "hyaluron")
+    .map((tr) => tr.slug);
+  const weitereSlugs = treatments
+    .filter((tr) => tr.category === "weitere")
+    .map((tr) => tr.slug);
+
+  const hyaluronRef = useScrollReveal();
+  const weitereRef = useScrollReveal();
 
   return (
     <>
-      <section id="behandlungen" className="section-3">
+      <section id="behandlungen" className="behandlungen-header">
         <div className="container-fluid">
-          <h3 className="title">
-            Unsere <span className="text-brown">Behandlungen</span>
-          </h3>
-          <div className="row">
-            <div className="col-md-6"></div>
-            <div className="col-md-6">
-              <p className="subtitle">Hyaluron</p>
-            </div>
-          </div>
+          <h1 className="title behandlungen-title">
+            {t("sectionTitle")} <span className="text-brown">{t("sectionTitleBrown")}</span>
+          </h1>
         </div>
       </section>
 
-      <section className="section-3 bg-grey pb-5">
+      {/* Hyaluron – Bild links, Content rechts */}
+      <section className="behandlung-block bg-grey" ref={hyaluronRef}>
         <div className="container-fluid">
-          <div className="row bg-flower pb-5">
-            <div className="col-lg-6">
+          <div className="behandlung-row">
+            <div className="behandlung-col-img">
               <img
+                className="behandlung-img"
                 src="assets/images/Hyaluron-img.png"
                 alt="Hyaluron Treatment"
               />
             </div>
-            <div className="col-lg-6">
-              <p>Jawline</p>
-              <p>Kinn-Aufbau</p>
-              <p>Lippenfalten</p>
-              <p>Lippenunterspritzung</p>
-              <p>Marionettenfalte</p>
-              <p>Wangenaufbau</p>
-              <p>Nasolabialfalte</p>
-              <span className="divide-line"></span>
-              <div className="d-flex flex-wrap justify-content-between Weitere-btn gap-2">
-                <a
-                  onClick={() => openModal("hyaluron")}
-                >
-                  Mehr Details
+            <div className="behandlung-col-content">
+              <p className="behandlung-subtitle">{t("hyaluron.subtitle")}</p>
+              <ul className="behandlung-list">
+                {hyaluronItems.map((item, i) => (
+                  <li className="behandlung-list-item" key={item}>
+                    <FontAwesomeIcon icon={faSpa} className="behandlung-check" />
+                    <Link href={`/${locale}/behandlungen/${hyaluronSlugs[i]}`} className="behandlung-item-link">
+                      {item}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <div className="behandlung-actions">
+                <a className="btn-behandlung btn-primary-teal" onClick={() => openModal("hyaluron")}>
+                  {t("moreDetails")}
                 </a>
-                <a
-                  onClick={() => openModal("preisliste")}
-                >
-                  Preisliste
+                <a className="btn-behandlung btn-outline-mauve" onClick={() => openModal("preisliste")}>
+                  {t("priceList")}
                 </a>
               </div>
             </div>
@@ -66,56 +97,45 @@ function Treatments() {
         </div>
       </section>
 
-      <section className="section-4 py-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <p className="subtitle">Weitere Behandlungen</p>
-              <p>Hylase</p>
-              <p>Mesotherapie</p>
-              <p>Skinbooster</p>
-              <p>Profhilo</p>
-              <p>Fett-weg-Spritze</p>
-              <p>Eigenbluttherapie / PRP bei Haarausfall</p>
-              <p>Vampire lifting / PRP</p>
-              <p>Infusionstherapie</p>
-              <p>Radiofrequenz - Microneedling</p>
-              <p>Hydrafacial</p>
-              <span className="divide-line"></span>
-              <div className="d-flex flex-wrap justify-content-between Weitere-btn gap-2">
-                <a
-                  onClick={() => openModal("weiterebehandlungen")}
-                >
-                  Mehr Details
-                </a>
-                <a
-                  onClick={() => openModal("preisliste")}
-                >
-                  Preisliste
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-6">
+      {/* Weitere Behandlungen – Content links, Bild rechts */}
+      <section className="behandlung-block" ref={weitereRef}>
+        <div className="container-fluid">
+          <div className="behandlung-row behandlung-row--reverse">
+            <div className="behandlung-col-img">
               <img
+                className="behandlung-img"
                 src="assets/images/Weitere.png"
                 alt="Additional Treatments"
               />
             </div>
+            <div className="behandlung-col-content">
+              <p className="behandlung-subtitle">{t("weitere.subtitle")}</p>
+              <ul className="behandlung-list">
+                {weitereItems.map((item, i) => (
+                  <li className="behandlung-list-item" key={item}>
+                    <FontAwesomeIcon icon={faSpa} className="behandlung-check" />
+                    <Link href={`/${locale}/behandlungen/${weitereSlugs[i]}`} className="behandlung-item-link">
+                      {item}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <div className="behandlung-actions">
+                <a className="btn-behandlung btn-primary-teal" onClick={() => openModal("weiterebehandlungen")}>
+                  {t("moreDetails")}
+                </a>
+                <a className="btn-behandlung btn-outline-mauve" onClick={() => openModal("preisliste")}>
+                  {t("priceList")}
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Modal */}
       <Hyaluron isOpen={activeModal === "hyaluron"} handleClose={closeModal} />
-      <Preisliste
-        isOpen={activeModal === "preisliste"}
-        handleClose={closeModal}
-      />
-      <WeitereBehandlungen
-        isOpen={activeModal === "weiterebehandlungen"}
-        handleClose={closeModal}
-      />
-      {/*  */}
+      <Preisliste isOpen={activeModal === "preisliste"} handleClose={closeModal} />
+      <WeitereBehandlungen isOpen={activeModal === "weiterebehandlungen"} handleClose={closeModal} />
     </>
   );
 }

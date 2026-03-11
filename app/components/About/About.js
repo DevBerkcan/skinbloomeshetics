@@ -1,36 +1,23 @@
+"use client";
+
 import React from "react";
+import { useTranslations } from "next-intl";
 
 function About() {
+  const t = useTranslations("about");
+
   return (
-    <section id="über-uns" className="about my-5 pt-4">
+    <section id="über-uns" className="about my-5 pt-4 section-fade">
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-xl-5">
-            <div className="position-relative">
-              <img
-                className="about-img1"
-                src="assets/images/me.jpeg"
-                alt="About Image 1"
-              />
-             
-            </div>
-          </div>
-          <div className="col-xl-7">
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-xl-6 text-center">
             <h4 className="title mb-0">
-              <span className="text-brown">Willkommen bei</span> Skinbloom
-              Aesthetics
+              <span className="text-brown">{t("titleBrown")}</span> {t("titleMain")}
             </h4>
-            <p className="subtitle mb-5">Ihre Schönheit verdient das Rampenlicht</p>
-            <div className="text-left">
-              <p className="border-text">
-              Bei Skinbloom Aesthetics steht Ihre individuelle Schönheit im Mittelpunkt. Als medizinische Fachperson & Heilpraktikerin biete ich Ihnen Behandlungen, 
-              die auf Ihre einzigartigen Bedürfnisse abgestimmt sind, um Ihre Haut zum Strahlen zu bringen
-              </p>
-              <p className="description">
-              Vertrauen Sie auf unser Fachwissen und erleben Sie sichtbare Ergebnisse, die auf natürlichen Prozessen basieren. Unsere innovativen Methoden zur Hautverjüngung und -pflege 
-              bieten Ihnen den perfekten Mix aus Entspannung und Effektivität. 
-              Machen Sie den ersten Schritt zu Ihrer besten Version.
-              </p>
+            <p className="subtitle mb-5">{t("subtitle")}</p>
+            <div className="about-text-block">
+              <p className="border-text text-justify">{t("borderText")}</p>
+              <p className="description text-justify">{t("description")}</p>
             </div>
             <img
               className="flower"

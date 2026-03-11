@@ -1,0 +1,1415 @@
+{
+  "nav": {
+    "aboutUs": "About Us",
+    "treatments": "Treatments",
+    "allTreatments": "All Treatments",
+    "catHyaluron": "Hyaluronic Acid",
+    "catWeitere": "Further Treatments",
+    "catKosmetik": "Medical Cosmetics",
+    "prices": "Prices",
+    "contact": "Contact",
+    "bookNow": "Book Appointment"
+  },
+  "banner": {
+    "title": "Give Your Skin a New Radiance.",
+    "subtitle": "Skinbloom Aesthetics - Your experts for anti-aging, PRP treatment, wrinkle reduction and lip augmentation in Switzerland.",
+    "cta": "Book an Appointment",
+    "allReviews": "see all reviews"
+  },
+  "about": {
+    "titleBrown": "Welcome to",
+    "titleMain": "Skinbloom Aesthetics",
+    "subtitle": "Your Beauty Deserves the Spotlight",
+    "borderText": "At Skinbloom Aesthetics, your individual beauty is at the centre of everything we do. As a medical professional & naturopath, I offer treatments tailored to your unique needs to make your skin radiate.",
+    "description": "Trust in our expertise and experience visible results based on natural processes. Our innovative methods for skin rejuvenation and care offer you the perfect mix of relaxation and effectiveness. Take the first step towards your best self."
+  },
+  "team": {
+    "title": "Our",
+    "titleBrown": "Team",
+    "subtitle": "The People Behind Skinbloom Aesthetics",
+    "members": [
+      {
+        "name": "Marianna",
+        "role": "Medical Aesthetics Specialist",
+        "imgAlt": "Marianna – Medical Aesthetics Specialist at Skinbloom Aesthetics",
+        "badges": [
+          "Hyaluron",
+          "PRP",
+          "Skinbooster",
+          "Vampire Lifting",
+          "Naturopath",
+          "Further Treatments"
+        ],
+        "description": "With her solid medical training and her vision as Skinbloom's founder, Marianna leads the practice with maximum precision and professional depth. In 2016, she successfully completed her training as a medical specialist and gained valuable experience in both clinical and emergency medicine, ensuring safe and reliable treatment standards.\nSince 2020, her focus has been on aesthetic medicine and minimally invasive treatments. Her approach combines technical excellence with a strong aesthetic eye to deliver naturally beautiful results and optimal skin health.\nHer expertise is continuously deepened through her entrepreneurial background and ongoing academic path:\n• Founder of Skinbloom – innovative concepts for holistic skin health.\n• Studies in dentistry to expand her knowledge of facial anatomy and functional relationships.\n• Specialization in precise injection techniques and minimally invasive aesthetics.\nBy combining practical experience, entrepreneurship, and continuous scientific education, Marianna provides treatments at the highest medical level. As a Medical Aesthetics Specialist, she stands for safety, precision, and holistic consultation for your ideal result."
+      },
+      {
+        "name": "Christina",
+        "role": "Medical Skin Expert",
+        "imgAlt": "Christina – Medical Skin Expert at Skinbloom Aesthetics",
+        "badges": [
+          "Cosmetics",
+          "Skin Care",
+          "Facial Treatments"
+        ],
+        "description": "At 39 years old and with a strong academic background, Christina brings extensive professional expertise to our team. She successfully completed her studies at the University of Health and Prevention in Berlin and has many years of experience in aesthetic medicine.\nAs a certified cosmetician and nutrition consultant, she follows a holistic approach: she combines deep knowledge of skin physiology with modern preventive medicine to achieve visible and sustainable results.\nHer technical expertise in device-based cosmetic treatments is fully up to date:\n• Qualified laser safety officer.\n• V-NISSG certified for the professional use of:\n• Ultrasound\n• Radiofrequency\n• Optical radiation (for effective skin rejuvenation and skin tightening)\nThrough these specialized qualifications, Christina ensures that all treatments are not only highly effective, but also carried out according to the highest legal safety standards. As a Medical Skin Expert, she supports you with confidence on your way to healthy, radiant skin."
+      }
+    ]
+  },
+  "treatments": {
+    "sectionTitle": "Our",
+    "sectionTitleBrown": "Treatments",
+    "moreDetails": "More Details",
+    "priceList": "Price List",
+    "hyaluron": {
+      "subtitle": "Hyaluron",
+      "items": [
+        "Jawline",
+        "Chin Augmentation",
+        "Lip Wrinkles",
+        "Lip Augmentation",
+        "Marionette Lines",
+        "Cheek Augmentation",
+        "Nasolabial Fold"
+      ]
+    },
+    "weitere": {
+      "subtitle": "Further Treatments",
+      "items": [
+        "Hylase",
+        "Mesotherapy",
+        "Skinbooster",
+        "Profhilo",
+        "Fat Dissolving Injection",
+        "PRP Hair Loss Therapy",
+        "Vampire Lifting / PRP",
+        "Infusion Therapy",
+        "Radiofrequency Microneedling",
+        "Hydrafacial"
+      ]
+    }
+  },
+  "cosmeticTreatments": {
+    "subtitle": "Medical Cosmetics",
+    "items": [
+      "Chemical Peels",
+      "Radiofrequency Needling",
+      "Carboxy Therapy",
+      "HIFU Ultrasound",
+      "Microneedling"
+    ],
+    "moreDetails": "More Details"
+  },
+  "reviews": {
+    "title": "What Our",
+    "titleBrown": "Customers",
+    "titleSuffix": "Say",
+    "items": [
+      {
+        "text": "I recently visited Skinbloom Aesthetics and am absolutely thrilled with the services. The team was very professional and friendly. My skin looks noticeably fresher and healthier after the treatment. I can only recommend this studio!",
+        "name": "Laura S."
+      },
+      {
+        "text": "My jawline treatment at Skinbloom was a complete success! The results are incredibly natural and I felt very well taken care of throughout the entire treatment. Many thanks to the wonderful team!",
+        "name": "Anna W."
+      },
+      {
+        "text": "I went to Skinbloom Aesthetics for a hyaluron treatment after another studio had ruined it. The team worked true miracles and my lips look beautiful again. Absolutely recommendable!",
+        "name": "Sophie M."
+      },
+      {
+        "text": "The PRP treatment at Skinbloom was fantastic. Already after a few weeks I noticed a significant improvement in my skin texture. I'm super satisfied and will definitely come back!",
+        "name": "Julia H."
+      },
+      {
+        "text": "I decided on the nasolabial fold treatment and I'm thrilled! The team was extremely competent and the results are very natural. I finally feel comfortable in my skin again. Thank you Skinbloom!",
+        "name": "Maria K."
+      }
+    ]
+  },
+  "philosophy": {
+    "title": "Our",
+    "titleBrown": "Philosophy",
+    "description": "At Skinbloom Aesthetics, we believe that true beauty lies in the harmony of aesthetics and wellbeing. Our mission is to enhance your natural radiance by offering individual treatments tailored to your needs and wishes. We use the most modern methods and high-quality products to achieve results that are not only visible but also tangible. Because your satisfaction and trust are our greatest concern.",
+    "faq": [
+      {
+        "question": "Most Modern Techniques",
+        "answer": "We use the latest techniques and technologies in aesthetic medicine to ensure safe and effective results. Your skin deserves only the best."
+      },
+      {
+        "question": "Natural Results",
+        "answer": "Our mission is to enhance your natural radiance. We work precisely and individually to achieve results that appear harmonious and authentic."
+      },
+      {
+        "question": "Individual Consultation",
+        "answer": "Every skin is unique. That's why we take the time for a thorough consultation to understand your needs and wishes and choose the best treatment for you."
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "How does a typical treatment session proceed?",
+        "answer": "After an individual consultation and skin analysis, we begin with the treatment tailored to your skin type and needs. We place special emphasis on hygiene, relaxation and high-quality products. At the end, you will receive care tips for home."
+      },
+      {
+        "question": "Which treatments are suitable for my skin type?",
+        "answer": "Every skin is unique, so we carry out a comprehensive analysis before the treatment. Whether moisturising treatments, anti-aging therapies or clarifying applications – we recommend the best option for your skin."
+      },
+      {
+        "question": "How long do the results of lip treatment last?",
+        "answer": "The duration of results depends on the type of treatment. In general, results from hyaluron treatments last 6 to 12 months. Regular touch-ups can extend the results."
+      },
+      {
+        "question": "Are the treatments painful?",
+        "answer": "Most treatments are gentle and well-tolerated. With minimally invasive procedures such as microneedling or lip treatments, a slight pulling or pressure sensation may occur, which quickly subsides. We offer a numbing cream upon request."
+      },
+      {
+        "question": "What is a jawline treatment?",
+        "answer": "A jawline treatment serves to define and contour the jawline. With the targeted injection of hyaluron or other fillers, we can harmonise the face, emphasise the jaw area and create a younger, firmer appearance."
+      },
+      {
+        "question": "What is a hyaluron treatment?",
+        "answer": "A hyaluron treatment is a gentle method to restore volume and moisture in the skin. Hyaluronic acid is a natural component of the skin that binds moisture and tightens the skin. During the treatment, a high-quality hyaluron gel is precisely injected into the desired areas to smooth wrinkles or build up volume."
+      },
+      {
+        "question": "What is a PRP treatment and how does it work?",
+        "answer": "The PRP treatment (Platelet Rich Plasma) is an innovative method that uses your own blood plasma. A small amount of blood is taken, centrifuged, and the concentrated plasma with its rich growth factors is injected into the skin. This treatment stimulates cell regeneration, improves skin texture and provides a radiant, younger appearance."
+      },
+      {
+        "question": "Are the treatments suitable for sensitive skin?",
+        "answer": "Yes, our treatments are also suitable for sensitive skin. We use gentle products and techniques specifically adapted for sensitive skin. Let us discuss your skin needs in advance."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Do you have questions about our treatments or would you like to make an appointment? We are here for you! Contact us by phone, email or via the contact form. Our experienced team is happy to advise you personally and find the best solution for your individual needs. We look forward to hearing from you.",
+    "contactTitle": "Contact",
+    "contactTitleBrown": "Us",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "treatmentPlaceholder": "Which treatment are you interested in?",
+      "groupHyaluron": "Hyaluronic Acid",
+      "groupWeitere": "Further Treatments",
+      "groupKosmetik": "Medical Cosmetics",
+      "hyaluronOptions": [
+        "Jawline",
+        "Chin Augmentation",
+        "Lip Wrinkles",
+        "Lip Augmentation",
+        "Marionette Lines",
+        "Cheek Augmentation",
+        "Nasolabial Fold"
+      ],
+      "weitereOptions": [
+        "Mesotherapy",
+        "Skinbooster",
+        "Profhilo",
+        "Fat Dissolving Injection",
+        "PRP Hair Loss Therapy",
+        "Vampire Lifting / PRP",
+        "Radiofrequency Microneedling",
+        "Hydrafacial"
+      ],
+      "kosmetikOptions": [
+        "Chemical Peels",
+        "Radiofrequency Needling",
+        "Carboxy Therapy",
+        "HIFU Ultrasound",
+        "Microneedling"
+      ],
+      "message": "My Message",
+      "submit": "Send Message",
+      "privacy": "I have read the",
+      "privacyLink": "Privacy Policy",
+      "privacySuffix": "and agree to the processing of my data to handle my request."
+    },
+    "alerts": {
+      "missingPrivacyTitle": "Privacy Notice Missing",
+      "missingPrivacyText": "Please accept the privacy policy to submit the form.",
+      "successTitle": "Email sent successfully!",
+      "successText": "Thank you for your message. We will contact you soon!",
+      "errorTitle": "Error sending message",
+      "errorText": "Please try again later."
+    },
+    "advantages": "Our",
+    "advantagesBrown": "Advantages",
+    "contactUsText": "We offer customised treatments for anti-aging, wrinkle reduction and lip augmentation. With state-of-the-art technology and personal consultation, we ensure natural and long-lasting results.",
+    "faqItems": [
+      {
+        "question": "Most Modern Techniques",
+        "answer": "We use the latest techniques and technologies in aesthetic medicine to ensure safe and effective results. Your skin deserves only the best."
+      },
+      {
+        "question": "Natural Results",
+        "answer": "At Skinbloom Aesthetics, natural results are at the heart of everything we do. Our treatments are designed to gently enhance your individual beauty – without looking artificial. The goal: a fresh, harmonious appearance that suits you and lets your personality shine."
+      },
+      {
+        "question": "Individual Consultation",
+        "answer": "Every skin is unique – just like your wishes. That's why we take the time for a personal and thorough consultation. Together we analyse your needs and develop a tailored treatment concept that suits you – honest, transparent and with professional expertise."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Your partner for professional anti-aging and aesthetic treatments in Basel. We offer individual solutions tailored to your needs that deliver natural, long-lasting results.",
+    "quickLinks": "Quick Links",
+    "aboutUs": "About Us",
+    "treatments": "Treatments",
+    "contact": "Contact",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "legal": "Legal",
+    "imprint": "Imprint",
+    "privacy": "Privacy Policy",
+    "contactTitle": "Contact",
+    "copyright": "© 2026 Skinbloom Aesthetics. All rights reserved."
+  },
+  "modals": {
+    "customersTitle": "What Our",
+    "customersTitleBrown": "Customers",
+    "customersTitleSuffix": "Say",
+    "bookAppointment": "Book an Appointment",
+    "hyaluron": {
+      "title": "Hyaluron",
+      "items": [
+        {
+          "name": "Jawline",
+          "description": "In the jawline treatment, hyaluronic acid is injected along the jawline to make it appear clearer and more defined. The procedure emphasises facial contours and can make the jawline appear firmer and more youthful."
+        },
+        {
+          "name": "Chin Augmentation",
+          "description": "In chin augmentation, hyaluronic acid is precisely injected into the chin to optimise its shape. This can serve to lengthen the chin, add volume or balance asymmetries, making the face appear more harmonious."
+        },
+        {
+          "name": "Lip Wrinkles",
+          "description": "This treatment aims to smooth the fine lines around the lips. With hyaluronic acid, the wrinkles are filled in so that the skin looks smoother and plumper again."
+        },
+        {
+          "name": "Lip Augmentation",
+          "description": "Here, hyaluronic acid is injected into the lips to give them more volume, shape and definition. This technique is used to enlarge thin lips or give them more fullness while maintaining a natural appearance."
+        },
+        {
+          "name": "Marionette Lines",
+          "description": "Marionette lines run downward from the corners of the mouth to the chin. By injecting hyaluronic acid, these lines are softened and the face looks fresher and friendlier."
+        },
+        {
+          "name": "Cheek Augmentation",
+          "description": "In this treatment, hyaluronic acid is injected into the cheeks to compensate for volume loss or to emphasise the cheekbones more strongly. This gives the face a youthful fullness and defines the cheek area."
+        },
+        {
+          "name": "Nasolabial Fold",
+          "description": "These lines run from the nostrils to the corners of the mouth. With hyaluronic acid, these lines are gently filled to smooth the wrinkles and make the face appear softer and less tired."
+        }
+      ]
+    },
+    "weitere": {
+      "title": "Further Treatments",
+      "items": [
+        {
+          "name": "Hylase",
+          "description": "Hylase is an enzyme that specifically breaks down and dissolves hyaluronic acid. It is used to correct unwanted results from hyaluron treatments or to gently remove excess hyaluron. The treatment is precise and enables a rapid reversal of unwanted effects."
+        },
+        {
+          "name": "Mesotherapy",
+          "description": "Mesotherapy is a minimally invasive treatment in which individually tailored active ingredient cocktails are injected directly into the skin. These contain vitamins, minerals, amino acids and hyaluronic acid to intensively nourish the skin, promote circulation and improve skin structure."
+        },
+        {
+          "name": "Skinbooster",
+          "description": "Skinboosters are special hyaluronic acid injections that penetrate deep into the skin and provide intensive moisture. They improve skin elasticity, reduce fine lines and provide a fresh, radiant complexion."
+        },
+        {
+          "name": "Profhilo",
+          "description": "Profhilo is an innovative anti-aging treatment that uses highly concentrated hyaluronic acid to improve skin structure from within. It stimulates the body's own collagen and elastin production, tightening and rejuvenating the skin."
+        },
+        {
+          "name": "Marionette Lines",
+          "description": "Marionette lines run downward from the corners of the mouth to the chin. By injecting hyaluronic acid, these lines are softened and the face looks fresher and friendlier."
+        },
+        {
+          "name": "Fat Dissolving Injection",
+          "description": "The fat dissolving injection is a minimally invasive treatment for the targeted reduction of stubborn fat deposits. Through an injection of active ingredients that dissolve fat cells, problem areas such as double chin, abdomen or hips can be gently modelled."
+        },
+        {
+          "name": "PRP Hair Loss Therapy",
+          "description": "In PRP therapy (Platelet Rich Plasma), your own platelet-rich plasma is obtained from the blood and injected into the scalp. The contained growth factors stimulate hair follicles, promote hair growth and strengthen hair structure."
+        },
+        {
+          "name": "Vampire Lifting / PRP",
+          "description": "Vampire lifting is a natural anti-aging treatment in which your own plasma stimulates skin regeneration. The treatment improves skin elasticity, reduces wrinkles and gives the face a fresh, youthful appearance."
+        },
+        {
+          "name": "Infusion Therapy",
+          "description": "Infusion therapy supplies the body directly through the vein with important nutrients, vitamins and antioxidants. It improves wellbeing, strengthens the immune system and promotes cell regeneration."
+        },
+        {
+          "name": "Hydrafacial",
+          "description": "Hydrafacial is a gentle, non-invasive treatment that deep cleanses, peels, hydrates and supplies the skin with antioxidants. The method removes impurities, intensively supplies the skin with moisture and leaves a fresh, radiant complexion."
+        }
+      ]
+    },
+    "kosmetik": {
+      "title": "Cosmetic Treatments",
+      "items": [
+        {
+          "name": "Chemical Peels",
+          "description": "Chemical peels improve the skin's appearance through targeted exfoliation with fruit acids or other active ingredients. They reduce pigmentation spots, acne scars and uneven complexion and promote cell renewal for fresher, smoother skin."
+        },
+        {
+          "name": "Radiofrequency Needling",
+          "description": "Radiofrequency needling combines fine needles with heat energy to work deep into the skin. The treatment tightens slack skin areas, promotes the body's own collagen formation and visibly reduces wrinkles and scars."
+        },
+        {
+          "name": "Carboxy Therapy",
+          "description": "In carboxy therapy, medical CO₂ gas is injected under the skin to improve circulation and stimulate cell metabolism. The treatment is visibly effective for dark circles, scars, cellulite and sagging."
+        },
+        {
+          "name": "HIFU Ultrasound",
+          "description": "HIFU (High Intensity Focused Ultrasound) is a non-invasive lifting method that transfers focused ultrasound energy to the deeper skin layers. It provides long-lasting tightening of the face, neck and décolleté and stimulates collagen production – without any surgery."
+        },
+        {
+          "name": "Microneedling",
+          "description": "In microneedling, fine needles create controlled microchannels in the skin that stimulate the body's own collagen and elastin production. The treatment minimises scars, refines the skin's appearance and improves texture."
+        }
+      ]
+    },
+    "preisliste": {
+      "title": "Price List",
+      "bookAppointment": "Book an Appointment"
+    }
+  },
+  "cookies": {
+    "text": "We use cookies and analysis tools (Google Tag Manager, Google Ads, Microsoft Clarity) to improve the website. You can accept or decline. More info in our",
+    "privacyLink": "Privacy Policy",
+    "accept": "Accept",
+    "decline": "Decline",
+    "settings": "Cookie Settings"
+  },
+  "behandlungen": {
+    "pageTitle": "Our Treatments",
+    "pageSubtitle": "Professional aesthetic treatments in Basel – individual & natural.",
+    "backLink": "All Treatments",
+    "categoryLabels": {
+      "hyaluron": "Hyaluronic Acid",
+      "weitere": "Further Treatments",
+      "kosmetik": "Medical Cosmetics"
+    },
+    "definitionTitle": "What is",
+    "benefitsTitle": "Your Benefits",
+    "beforeAfterTitle": "Before & After",
+    "beforeAfterPlaceholder": "Images coming soon",
+    "reviewsTitle": "What our clients say",
+    "ctaTitle": "Ready for your treatment?",
+    "ctaText": "Book your personal consultation appointment now.",
+    "ctaButton": "Book appointment",
+    "moreInfo": "Learn more",
+    "items": {
+      "jawline": {
+        "name": "Jawline",
+        "metaTitle": "Jawline Basel | Skinbloom Aesthetics",
+        "metaDescription": "Jawline treatment in Basel: hyaluronic acid along the jawline for clear facial contours. Book your appointment now.",
+        "shortDescription": "Clear, defined jawline with hyaluronic acid.",
+        "definition": "In the jawline treatment, hyaluronic acid is injected along the jawline to make it appear clearer and more defined. The procedure emphasizes facial contours and can make the jawline appear firmer and more youthful.",
+        "benefits": [
+          "Defined, clear facial contours",
+          "Immediate, visible result",
+          "Minimally invasive with no downtime",
+          "Natural appearance through targeted injection",
+          "Long-lasting effect"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "9–12 months",
+        "downtime": "None",
+        "process": [
+          "Personal consultation & jawline analysis",
+          "Skin cleansing & disinfection",
+          "Application of numbing cream",
+          "Precise hyaluronic acid injection along the jawline",
+          "Final check & aftercare advice"
+        ],
+        "faq": [
+          {
+            "question": "How long do jawline results last?",
+            "answer": "Results typically last 9 to 12 months. A personalised top-up treatment extends the outcome."
+          },
+          {
+            "question": "Is the treatment painful?",
+            "answer": "Thanks to numbing cream, the treatment is very well tolerated. Most clients report only a slight pressure sensation."
+          },
+          {
+            "question": "When will I see results?",
+            "answer": "Results are visible immediately. After 7–14 days, once any minor swelling has subsided, the final result is fully apparent."
+          },
+          {
+            "question": "Who is suitable for a jawline treatment?",
+            "answer": "Anyone who wants a more defined jawline is a candidate – regardless of age or gender."
+          }
+        ],
+        "idealFor": [
+          "You want a sharper, more defined jawline",
+          "Your face has lost contour and structure over time",
+          "You're looking for a more youthful, sculpted look",
+          "You prefer non-surgical alternatives to cosmetic surgery"
+        ]
+      },
+      "kinn-aufbau": {
+        "name": "Chin Augmentation",
+        "metaTitle": "Chin Augmentation Basel | Skinbloom Aesthetics",
+        "metaDescription": "Chin augmentation with hyaluronic acid in Basel: harmony and balance in the facial profile. Book now.",
+        "shortDescription": "Optimal chin shape for a more harmonious face.",
+        "definition": "In chin augmentation, hyaluronic acid is precisely injected into the chin to optimize its shape. This can serve to elongate the chin, add volume, or correct asymmetries, making the face appear more harmonious.",
+        "benefits": [
+          "Harmonious facial profile",
+          "Correction of asymmetries",
+          "Natural, balanced proportions",
+          "No surgical procedure required",
+          "Immediately visible result"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "9–12 months",
+        "downtime": "None",
+        "process": [
+          "Consultation & facial proportion analysis",
+          "Cleansing of the treatment area",
+          "Application of numbing cream",
+          "Targeted hyaluronic acid injection at the chin",
+          "Shaping & final check"
+        ],
+        "faq": [
+          {
+            "question": "How long does chin augmentation last?",
+            "answer": "Results typically last 9–12 months. Regular top-ups maintain the outcome long-term."
+          },
+          {
+            "question": "Can I go out immediately after treatment?",
+            "answer": "Yes, most clients return to daily activities straight away. Mild redness fades within a few hours."
+          },
+          {
+            "question": "Is chin augmentation right for me?",
+            "answer": "If you have a receding chin or lack jaw definition, this treatment is ideal. We discuss realistic outcomes together during consultation."
+          }
+        ],
+        "idealFor": [
+          "Your chin appears underdeveloped or receding",
+          "You want a more harmonious facial profile",
+          "You'd like to balance the proportions of nose, lips, and chin",
+          "You prefer to avoid surgical procedures"
+        ]
+      },
+      "lippenfalten": {
+        "name": "Lip Wrinkles",
+        "metaTitle": "Lip Wrinkles Basel | Skinbloom Aesthetics",
+        "metaDescription": "Smooth lip wrinkles in Basel with hyaluronic acid – gentle and effective. Book your appointment now.",
+        "shortDescription": "Gently smooth fine lines around the lips.",
+        "definition": "This treatment aims to smooth the fine lines around the lips. Hyaluronic acid fills the wrinkles so the skin looks smoother and firmer again.",
+        "benefits": [
+          "Smoother skin around the lips",
+          "Fresher, younger appearance",
+          "Quick and uncomplicated",
+          "Minimally invasive method",
+          "Natural results"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "6–9 months",
+        "downtime": "None",
+        "process": [
+          "Consultation & assessment of lip lines",
+          "Cleansing & disinfection",
+          "Application of numbing cream",
+          "Fine hyaluronic acid injections into the lip lines",
+          "Gentle massage & final check"
+        ],
+        "faq": [
+          {
+            "question": "How does lip line treatment differ from lip augmentation?",
+            "answer": "Lip line treatments smooth the vertical lines around the mouth. Lip augmentation adds volume and shape to the lips themselves."
+          },
+          {
+            "question": "How long do results last?",
+            "answer": "Typically 6–9 months. As the lip area moves frequently, longevity may be slightly shorter than other areas."
+          },
+          {
+            "question": "Is the treatment painful?",
+            "answer": "With numbing cream the procedure is very comfortable. Hyaluronic acid often already contains lidocaine for additional comfort."
+          }
+        ],
+        "idealFor": [
+          "Fine lines around the mouth are bothering you",
+          "The lip contour looks blurry or undefined",
+          "Lipstick bleeds into the fine lines around your lips",
+          "You want a sharper, fresher-looking lip area"
+        ]
+      },
+      "lippenunterspritzung": {
+        "name": "Lip Augmentation",
+        "metaTitle": "Lip Augmentation Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fuller, natural lips with hyaluronic acid in Basel. Professional lip augmentation at Skinbloom Aesthetics.",
+        "shortDescription": "Fuller lips with hyaluronic acid – natural and harmonious.",
+        "definition": "Hyaluronic acid is injected into the lips to give them more volume, shape and definition. This technique is used to enlarge thin lips or give them more fullness while maintaining a natural appearance.",
+        "benefits": [
+          "Immediate, visible results",
+          "Natural and harmonious appearance",
+          "Minimally invasive – no downtime",
+          "Individually customized volume",
+          "Tested, high-quality hyaluronic acid"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "6–9 months",
+        "downtime": "Mild swelling (1–2 days)",
+        "process": [
+          "Consultation on desired lip shape & volume",
+          "Cleansing & disinfection",
+          "Numbing cream (30 min. application)",
+          "Precise injection into lip contour & body",
+          "Shaping & final check"
+        ],
+        "faq": [
+          {
+            "question": "How long do the lips swell after treatment?",
+            "answer": "Mild swelling is normal and usually resolves within 1–2 days. The final result is fully visible after approximately 2 weeks."
+          },
+          {
+            "question": "Can natural-looking results be guaranteed?",
+            "answer": "Absolutely. We work by the principle of less is more and tailor the amount precisely to your face and wishes."
+          },
+          {
+            "question": "How often do I need to return?",
+            "answer": "Hyaluronic acid in the lips lasts 6–9 months. We then recommend a top-up, which usually requires less product than the initial treatment."
+          }
+        ],
+        "idealFor": [
+          "Your lips need more volume and definition",
+          "Your lips appear asymmetrical or uneven",
+          "Natural lip volume has decreased with age",
+          "You want fuller, more natural lips without surgery"
+        ]
+      },
+      "marionettenfalte": {
+        "name": "Marionette Lines",
+        "metaTitle": "Marionette Lines Basel | Skinbloom Aesthetics",
+        "metaDescription": "Effectively treat marionette lines in Basel – look fresher and friendlier. Book your appointment now.",
+        "shortDescription": "Reduce marionette lines for a fresher appearance.",
+        "definition": "Marionette lines run from the corners of the mouth down to the chin. By injecting hyaluronic acid, these lines are softened and the face appears fresher and friendlier.",
+        "benefits": [
+          "Fresher, more balanced appearance",
+          "Effective against lines from mouth to chin",
+          "Gentle, targeted treatment",
+          "Immediately visible improvement",
+          "No surgery or long recovery time"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "9–12 months",
+        "downtime": "None",
+        "process": [
+          "Consultation & fold structure analysis",
+          "Cleansing of the treatment area",
+          "Application of numbing cream",
+          "Injection along the marionette lines",
+          "Gentle massage & final check"
+        ],
+        "faq": [
+          {
+            "question": "What are marionette lines?",
+            "answer": "Marionette lines are the vertical lines running from the corners of the mouth down to the chin, deepening with age. Hyaluron fills them and optically lifts the mouth corners."
+          },
+          {
+            "question": "How long do results last?",
+            "answer": "Typically 9–12 months. Deep lines may require multiple sessions for the optimal result."
+          },
+          {
+            "question": "Can I combine this with other treatments?",
+            "answer": "Yes. We often combine marionette lines with nasolabial fold treatment and the lip area for a harmonious overall appearance."
+          }
+        ],
+        "idealFor": [
+          "The corners of your mouth droop and make you look tired",
+          "Deep lines run from the corners of your mouth down to your chin",
+          "Your facial expression appears stern or unfriendly",
+          "You're looking for a fresher, more rested appearance"
+        ]
+      },
+      "wangenaufbau": {
+        "name": "Cheek Augmentation",
+        "metaTitle": "Cheek Augmentation Basel | Skinbloom Aesthetics",
+        "metaDescription": "Cheek augmentation with hyaluronic acid in Basel: youthful fullness and defined cheekbones. Book now.",
+        "shortDescription": "Youthful cheek fullness and emphasized cheekbones.",
+        "definition": "In this treatment, hyaluronic acid is injected into the cheeks to compensate for volume loss or to better emphasize the cheekbones. This gives the face a youthful fullness and defines the cheek area.",
+        "benefits": [
+          "Youthful fullness and definition",
+          "Compensation for volume loss",
+          "Emphasis on cheekbones",
+          "Natural, fresh result",
+          "Long-lasting effect"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "12–18 months",
+        "downtime": "None to mild swelling",
+        "process": [
+          "Facial proportion & symmetry analysis",
+          "Cleansing & disinfection",
+          "Application of numbing cream",
+          "Volume building by injection into both cheeks",
+          "Symmetry check & final review"
+        ],
+        "faq": [
+          {
+            "question": "How much hyaluronic acid is used in cheek augmentation?",
+            "answer": "It depends on your individual facial structure. We plan the result together in consultation – typically between 1 and 3 ml per side."
+          },
+          {
+            "question": "How long does cheek augmentation last?",
+            "answer": "Because the tissue is deeper, hyaluron in the cheeks lasts particularly long – typically 12–18 months."
+          },
+          {
+            "question": "Will it change my entire face?",
+            "answer": "A well-executed cheek augmentation harmoniously lifts the facial contours and creates a rejuvenated look without appearing artificial."
+          }
+        ],
+        "idealFor": [
+          "Your cheeks have lost volume and definition",
+          "You want more prominent, sculpted cheekbones",
+          "Your face looks sunken or fatigued",
+          "You're aiming for a more youthful, contoured look"
+        ]
+      },
+      "nasolabialfalte": {
+        "name": "Nasolabial Fold",
+        "metaTitle": "Nasolabial Fold Basel | Skinbloom Aesthetics",
+        "metaDescription": "Treat nasolabial folds in Basel – gently fill for a more relaxed appearance. Book your appointment now.",
+        "shortDescription": "Gently smooth nasolabial folds for a more relaxed face.",
+        "definition": "These lines run from the nostrils to the corners of the mouth. Hyaluronic acid gently fills these lines to smooth the wrinkles and make the face look softer and less tired.",
+        "benefits": [
+          "Smoother, more rested appearance",
+          "Gentle filling of wrinkle lines",
+          "Natural result without surgery",
+          "Quick treatment with no downtime",
+          "Long-lasting effect"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "9–12 months",
+        "downtime": "None",
+        "process": [
+          "Consultation & in-depth fold analysis",
+          "Cleansing of the treatment area",
+          "Application of numbing cream",
+          "Targeted injection along the nasolabial folds",
+          "Gentle massage & final check"
+        ],
+        "faq": [
+          {
+            "question": "What are nasolabial folds?",
+            "answer": "Nasolabial folds run from the nostrils to the corners of the mouth. They develop through volume loss and skin ageing – hyaluron fills them effectively."
+          },
+          {
+            "question": "How natural do the results look?",
+            "answer": "With expert treatment the result stays very natural. Your face looks rested and fresher, not treated."
+          },
+          {
+            "question": "Is the treatment also suitable for younger patients?",
+            "answer": "Yes, preventive hyaluronic acid treatments can slow fold development and make sense from the thirties onwards."
+          }
+        ],
+        "idealFor": [
+          "Deep lines run from your nose to the corners of your mouth",
+          "Your face looks older than you feel",
+          "Volume loss has deepened your nasolabial folds",
+          "You want a fresher, more relaxed facial appearance"
+        ]
+      },
+      "hylase": {
+        "name": "Hylase",
+        "metaTitle": "Hylase Basel | Skinbloom Aesthetics",
+        "metaDescription": "Hylase in Basel: precisely and safely correct unwanted hyaluronic acid results. Book your appointment now.",
+        "shortDescription": "Targeted breakdown of hyaluronic acid – safe and precise.",
+        "definition": "Hylase is an enzyme that specifically breaks down and dissolves hyaluronic acid. It is used to correct unwanted results from hyaluronic acid treatments or to gently remove excess hyaluronic acid. The treatment is precise and enables rapid reversal of unwanted effects.",
+        "benefits": [
+          "Targeted correction of unwanted results",
+          "Fast and precise effect",
+          "Safe, proven procedure",
+          "Minimal downtime",
+          "Individual consultation and aftercare"
+        ],
+        "duration": "approx. 15–20 min.",
+        "longevity": "Permanent (dissolves hyaluron)",
+        "downtime": "Mild swelling (1–2 days)",
+        "process": [
+          "Consultation & analysis of the area to correct",
+          "Cleansing & disinfection",
+          "Application of numbing cream",
+          "Injection of Hylase (hyaluronidase)",
+          "Monitoring the dissolution process"
+        ],
+        "faq": [
+          {
+            "question": "What is Hylase and when is it used?",
+            "answer": "Hylase (hyaluronidase) is an enzyme that dissolves hyaluronic acid precisely. It is used to correct mistakes, over-treatments or unwanted results from previous filler treatments."
+          },
+          {
+            "question": "Is Hylase safe?",
+            "answer": "Yes, Hylase is a well-tolerated and proven enzyme. An allergy test is recommended before treatment."
+          },
+          {
+            "question": "How quickly does Hylase work?",
+            "answer": "The hyaluron is dissolved within 24–48 hours. In some cases multiple sessions are needed."
+          }
+        ],
+        "idealFor": [
+          "Previous hyaluronic acid treatments left unsatisfactory results",
+          "Lumps, asymmetries or overcorrections are present",
+          "You want to dissolve filler and start fresh with a clean result",
+          "Allergic reactions to hyaluronic acid have occurred"
+        ]
+      },
+      "mesotherapie": {
+        "name": "Mesotherapy",
+        "metaTitle": "Mesotherapy Basel | Skinbloom Aesthetics",
+        "metaDescription": "Mesotherapy in Basel: individual active ingredient cocktails for intensive skin care and regeneration. Book now.",
+        "shortDescription": "Individual active ingredient cocktails directly into the skin – intensive and effective.",
+        "definition": "Mesotherapy is a minimally invasive treatment in which individually tailored active ingredient cocktails are injected directly into the skin. These contain vitamins, minerals, amino acids and hyaluronic acid to intensively nourish the skin, promote circulation and improve skin structure.",
+        "benefits": [
+          "Intensive skin nutrient supply",
+          "Improvement of skin structure and elasticity",
+          "Promotion of blood circulation",
+          "Individually tailored to your skin",
+          "Minimally invasive and well tolerated"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "Course: 4–6 sessions, effect lasts several months",
+        "downtime": "Mild redness (a few hours)",
+        "process": [
+          "Skin analysis & individual active ingredient selection",
+          "Cleansing & disinfection",
+          "Application & massage of the active ingredients",
+          "Fine micro-injections into the skin",
+          "Finishing care & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "What is injected during mesotherapy?",
+            "answer": "A cocktail tailored to your skin, containing vitamins, hyaluronic acid, amino acids and minerals – depending on the treatment goal."
+          },
+          {
+            "question": "How many sessions do I need?",
+            "answer": "For optimal results we recommend a course of 4–6 sessions spaced 1–2 weeks apart, followed by maintenance sessions."
+          },
+          {
+            "question": "Is mesotherapy suitable for all skin types?",
+            "answer": "Yes, mesotherapy can be tailored to any skin type – from moisture deficiency to anti-ageing."
+          }
+        ],
+        "idealFor": [
+          "Your skin looks dull, tired or dehydrated",
+          "Early signs of skin aging are becoming visible",
+          "Fine lines and uneven skin texture need treatment",
+          "You want natural skin rejuvenation without dermal fillers"
+        ]
+      },
+      "skinbooster": {
+        "name": "Skinbooster",
+        "metaTitle": "Skinbooster Basel | Skinbloom Aesthetics",
+        "metaDescription": "Skinbooster in Basel: deep moisture supply and radiant complexion through hyaluronic acid injections.",
+        "shortDescription": "Deep moisture supply for radiant, elastic skin.",
+        "definition": "Skinboosters are special hyaluronic acid injections that penetrate deep into the skin and provide intensive moisture. They improve skin elasticity, reduce fine lines and ensure a fresh, radiant complexion.",
+        "benefits": [
+          "Intensive and long-lasting moisture care",
+          "Improved skin elasticity",
+          "Fresh, radiant complexion",
+          "Reduction of fine lines",
+          "Visible results after just a few sessions"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "6–9 months (course recommended)",
+        "downtime": "None to minimal redness",
+        "process": [
+          "Consultation & skin analysis",
+          "Cleansing & skin preparation",
+          "Application of numbing cream",
+          "Even injection of the skinbooster into the skin",
+          "Finishing care & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "What is the difference between a skinbooster and a filler?",
+            "answer": "Fillers add volume. Skinboosters deeply hydrate the skin and improve texture, elasticity and radiance – without visible volume."
+          },
+          {
+            "question": "When will I see results?",
+            "answer": "After the first session many notice an immediate improvement in moisture. The full result develops after 2–3 sessions."
+          },
+          {
+            "question": "Who is the ideal candidate for a skinbooster?",
+            "answer": "Particularly for dry, dull or stressed skin and as a preventive anti-ageing measure from approximately age 25."
+          }
+        ],
+        "idealFor": [
+          "Your skin has lost moisture and radiance",
+          "Dry, dull or stressed skin is a concern",
+          "Dehydration is causing fine lines to appear",
+          "You want a natural glow without visible changes"
+        ]
+      },
+      "profhilo": {
+        "name": "Profhilo",
+        "metaTitle": "Profhilo Basel | Skinbloom Aesthetics",
+        "metaDescription": "Profhilo in Basel: highly concentrated hyaluronic acid for skin tightening and natural rejuvenation. Book now.",
+        "shortDescription": "Innovative anti-aging treatment with highly concentrated hyaluronic acid.",
+        "definition": "Profhilo is an innovative anti-aging treatment that uses highly concentrated hyaluronic acid to improve skin structure from within. It stimulates the body's own collagen and elastin production, which tightens and rejuvenates the skin.",
+        "benefits": [
+          "Stimulation of the body's own collagen production",
+          "Natural skin tightening and rejuvenation",
+          "True biostimulation without filler effects",
+          "Gentle and well tolerated",
+          "Visible results after 2 sessions"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "6 months (2 sessions, 4 weeks apart)",
+        "downtime": "None to mild redness",
+        "process": [
+          "Consultation & skin quality assessment",
+          "Cleansing & disinfection",
+          "5 defined injection points per side (BAP technique)",
+          "Gentle massage to distribute",
+          "Final check & recommendations"
+        ],
+        "faq": [
+          {
+            "question": "What makes Profhilo special?",
+            "answer": "Profhilo is one of the purest hyaluronic products on the market with a particularly high active ingredient content. It stimulates collagen and elastin from within – a biological skin remodelling programme."
+          },
+          {
+            "question": "How many sessions do I need?",
+            "answer": "The basic protocol comprises 2 sessions spaced 4 weeks apart, followed by top-ups every 6 months."
+          },
+          {
+            "question": "Where can Profhilo be used?",
+            "answer": "Profhilo is suitable for the face, neck, décolleté and hands – anywhere that skin ageing and volume loss are visible."
+          }
+        ],
+        "idealFor": [
+          "Your skin has lost firmness and elasticity",
+          "Your neck, décolleté or face appear sagging",
+          "You want intensive biorevitalisation with an immediate glow",
+          "Improving skin quality — not adding volume — is your goal"
+        ]
+      },
+      "fett-weg-spritze": {
+        "name": "Fat Dissolving Injection",
+        "metaTitle": "Fat Dissolving Injection Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fat dissolving injections in Basel: reduce stubborn fat deposits in a targeted and minimally invasive way. Book now.",
+        "shortDescription": "Targeted reduction of stubborn fat deposits without surgery.",
+        "definition": "The fat dissolving injection is a minimally invasive treatment for the targeted reduction of stubborn fat deposits. By injecting active ingredients that dissolve fat cells, problem areas such as double chins, abdomen or hips can be gently shaped.",
+        "benefits": [
+          "Targeted shaping of problem areas",
+          "No surgical procedure",
+          "Effective against stubborn fat deposits",
+          "Quick and uncomplicated treatment",
+          "Visible contour improvement"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "Permanent (treated fat cells are broken down)",
+        "downtime": "Swelling & redness (3–7 days)",
+        "process": [
+          "Consultation & analysis of the treatment area",
+          "Marking the target zone",
+          "Cleansing & disinfection",
+          "Injection of the lipolytic substance",
+          "Aftercare recommendations"
+        ],
+        "faq": [
+          {
+            "question": "How does the fat-dissolving injection work?",
+            "answer": "Deoxycholic acid is injected and breaks down the cell membrane of fat cells. The body naturally eliminates the destroyed fat cells – the result is permanent."
+          },
+          {
+            "question": "How long until results are visible?",
+            "answer": "After 4–6 weeks, once swelling and lymph drainage are complete, results become visible. Often 2–3 sessions are required."
+          },
+          {
+            "question": "Is this method a replacement for exercise?",
+            "answer": "The fat-dissolving injection targets defined problem areas (double chin, saddlebags) – it is not a method for general weight reduction."
+          }
+        ],
+        "idealFor": [
+          "Stubborn fat deposits persist despite diet and exercise",
+          "You want to reduce a double chin",
+          "Small, localised fat pockets need targeted treatment",
+          "You want effective fat reduction without surgery"
+        ]
+      },
+      "prp-haarausfall": {
+        "name": "PRP Hair Loss Therapy",
+        "metaTitle": "PRP Hair Loss Basel | Skinbloom Aesthetics",
+        "metaDescription": "PRP therapy for hair loss in Basel: your own plasma for healthy hair growth. Book your appointment now.",
+        "shortDescription": "Your own plasma strengthens hair follicles and promotes hair growth.",
+        "definition": "In PRP therapy, platelet-rich plasma is obtained from the blood and injected into the scalp. The growth factors contained stimulate the hair follicles, promote hair growth and strengthen hair structure.",
+        "benefits": [
+          "Natural method using your own plasma",
+          "Stimulation of hair follicles",
+          "Strengthening of hair structure",
+          "No risk of foreign body reactions",
+          "Noticeable results after several sessions"
+        ],
+        "duration": "approx. 45–60 min.",
+        "longevity": "Course: 3–4 sessions, effect lasts 12–18 months",
+        "downtime": "None to mild redness",
+        "process": [
+          "Consultation & hair analysis",
+          "Blood draw (approx. 15–20 ml)",
+          "Centrifugation for PRP extraction",
+          "Injection of plasma into the scalp",
+          "Finishing care & recommendations"
+        ],
+        "faq": [
+          {
+            "question": "How does PRP help with hair loss?",
+            "answer": "Autologous plasma contains highly concentrated growth factors that activate hair follicles and stimulate hair growth. PRP strengthens thinning hair and slows hair loss."
+          },
+          {
+            "question": "How many sessions do I need?",
+            "answer": "A course of 3–4 sessions spaced 4–6 weeks apart is recommended, followed by maintenance sessions every 6–12 months."
+          },
+          {
+            "question": "For which type of hair loss is PRP suitable?",
+            "answer": "PRP works best for androgenetic alopecia (hereditary hair loss) and diffuse hair loss – particularly in early stages."
+          }
+        ],
+        "idealFor": [
+          "Diffuse hair loss or thinning is noticeable",
+          "Your hairline is receding or your parting is widening",
+          "You prefer a natural, platelet-rich plasma-based therapy",
+          "Stress or hormonal changes have contributed to hair loss"
+        ]
+      },
+      "vampire-lifting-prp": {
+        "name": "Vampire Lifting / PRP",
+        "metaTitle": "Vampire Lifting PRP Basel | Skinbloom Aesthetics",
+        "metaDescription": "Vampire lifting with PRP in Basel: natural skin rejuvenation through your own plasma. Book your appointment now.",
+        "shortDescription": "Natural anti-aging treatment with your own blood plasma.",
+        "definition": "Vampire lifting is a natural anti-aging treatment in which skin regeneration is stimulated using your own plasma. The treatment improves skin elasticity, reduces wrinkles and gives the face a fresh, youthful appearance.",
+        "benefits": [
+          "100% natural – your own plasma",
+          "Improved skin elasticity",
+          "Reduction of wrinkles and fine lines",
+          "Fresh, youthful complexion",
+          "No allergy risks"
+        ],
+        "duration": "approx. 45–60 min.",
+        "longevity": "12–18 months",
+        "downtime": "Mild redness & swelling (1–2 days)",
+        "process": [
+          "Consultation & skin analysis",
+          "Blood draw from the arm",
+          "Centrifugation & PRP preparation",
+          "Injection and/or microneedling of the plasma",
+          "Finishing serum & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "What is Vampire Lifting?",
+            "answer": "In Vampire Lifting, autologous blood plasma (PRP) is introduced into the skin via injection or microneedling. It stimulates collagen, elastin and cell regeneration."
+          },
+          {
+            "question": "Why is it called Vampire Lifting?",
+            "answer": "The name comes from the characteristic red colour of freshly centrifuged plasma – not from any painful procedure."
+          },
+          {
+            "question": "Who is suitable for Vampire Lifting?",
+            "answer": "Particularly those looking for a natural alternative to fillers. PRP uses exclusively the body's own substances and therefore has a very low risk of side effects."
+          }
+        ],
+        "idealFor": [
+          "You want to use your own growth factors for skin rejuvenation",
+          "Natural, body-based treatments are your preference",
+          "Your skin has lost freshness and regenerative capacity",
+          "Scars, pigmentation spots or uneven texture need treatment"
+        ]
+      },
+      "infusionstherapie": {
+        "name": "Infusion Therapy",
+        "metaTitle": "Infusion Therapy Basel | Skinbloom Aesthetics",
+        "metaDescription": "Infusion therapy in Basel: vitamins and nutrients directly into the blood for maximum effect. Book now.",
+        "shortDescription": "Vitamins and nutrients directly into the blood – maximum effect and well-being.",
+        "definition": "Infusion therapy supplies the body directly through the vein with important nutrients, vitamins and antioxidants. It improves well-being, strengthens the immune system and promotes cell regeneration.",
+        "benefits": [
+          "Immediate nutrient supply to the body",
+          "Strengthening of the immune system",
+          "Promotion of cell regeneration",
+          "More energy and well-being",
+          "Individual composition of active ingredients"
+        ],
+        "duration": "approx. 45–60 min.",
+        "longevity": "Course recommended (4–6 sessions)",
+        "downtime": "None",
+        "process": [
+          "Consultation & nutrient needs analysis",
+          "Placing the intravenous access",
+          "Infusion of the individual active ingredient solution",
+          "Rest phase & monitoring",
+          "Follow-up consultation & recommendations"
+        ],
+        "faq": [
+          {
+            "question": "What does the infusion contain?",
+            "answer": "Depending on the goal: vitamin C, B vitamins, glutathione, minerals, amino acids – individually compiled based on your needs."
+          },
+          {
+            "question": "How quickly will I feel the effect?",
+            "answer": "Many clients report increased energy and wellbeing directly after the infusion. Long-term effects on skin and immune system develop over a course of treatment."
+          },
+          {
+            "question": "Is infusion therapy safe?",
+            "answer": "Yes. All substances used are approved and administered under sterile conditions. We create an individual profile for you beforehand."
+          }
+        ],
+        "idealFor": [
+          "You experience chronic fatigue or nutritional deficiencies",
+          "You want to boost immunity or detoxify the body",
+          "Vitamins and minerals need to be absorbed quickly and effectively",
+          "You want to strengthen skin, hair and nails from within"
+        ]
+      },
+      "radiofrequenz-microneedling": {
+        "name": "Radiofrequency Microneedling",
+        "metaTitle": "Radiofrequency Microneedling Basel | Skinbloom Aesthetics",
+        "metaDescription": "Radiofrequency microneedling in Basel: skin tightening and collagen building for youthful skin. Book now.",
+        "shortDescription": "Skin tightening and collagen building through radiofrequency energy.",
+        "definition": "Radiofrequency microneedling combines fine needles with thermal energy to work deep into the skin. The treatment tightens sagging skin, promotes the body's own collagen formation and visibly reduces wrinkles and scars.",
+        "benefits": [
+          "Effective skin tightening and contouring",
+          "Stimulation of the body's own collagen production",
+          "Reduction of wrinkles and scars",
+          "Long-lasting results",
+          "Minimally invasive with short recovery time"
+        ],
+        "duration": "approx. 60–90 min.",
+        "longevity": "12–18 months (course recommended)",
+        "downtime": "Redness & warmth (2–3 days)",
+        "process": [
+          "In-depth consultation & skin analysis",
+          "Cleansing & numbing cream (30–45 min.)",
+          "RF microneedling treatment of the target area",
+          "Cooling finishing serum",
+          "Aftercare protocol & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "What distinguishes RF microneedling from classic microneedling?",
+            "answer": "Classic microneedling creates micro-channels for collagen stimulation. RF microneedling additionally delivers radiofrequency energy – significantly enhancing the tightening and lifting effect."
+          },
+          {
+            "question": "For which skin concerns is it suitable?",
+            "answer": "Sagging skin, wrinkles, enlarged pores, scars (including acne scars) and stretch marks – RF microneedling shows strong results for all of these."
+          },
+          {
+            "question": "How many sessions do I need?",
+            "answer": "For optimal results we recommend 3 sessions spaced 4–6 weeks apart. Annual top-up sessions are advisable thereafter."
+          }
+        ],
+        "idealFor": [
+          "Skin laxity and fine lines on the face need treatment",
+          "You want intensive stimulation of collagen production",
+          "Pore refinement and lasting improvement of skin texture is the goal",
+          "You're looking for deep, long-lasting anti-ageing results"
+        ]
+      },
+      "hydrafacial": {
+        "name": "Hydrafacial",
+        "metaTitle": "Hydrafacial Basel | Skinbloom Aesthetics",
+        "metaDescription": "Hydrafacial in Basel: deep cleansing, peeling and intensive moisture supply for radiant skin.",
+        "shortDescription": "Deep cleansing, peeling and hydration in one treatment.",
+        "definition": "Hydrafacial is a gentle, non-invasive treatment that deep cleanses, peels, hydrates and supplies the skin with antioxidants. The method removes impurities, intensively moisturizes the skin and leaves a fresh, radiant complexion.",
+        "benefits": [
+          "Deep cleansing and peeling in one step",
+          "Intensive moisture care",
+          "Immediately visible glow effect",
+          "Gentle and suitable for all skin types",
+          "No downtime"
+        ],
+        "duration": "approx. 45–60 min.",
+        "longevity": "Immediate effect (monthly recommended)",
+        "downtime": "None",
+        "process": [
+          "Skin cleansing & HydroPeel",
+          "Gentle peel (glycolic & salicylic acid)",
+          "Careful extraction of blackheads & impurities",
+          "Infusion of antioxidants, peptides & hyaluron",
+          "Optional: LED light therapy"
+        ],
+        "faq": [
+          {
+            "question": "What makes the HydraFacial special?",
+            "answer": "HydraFacial combines cleansing, peeling, extraction and nourishment in a single treatment – with no redness or downtime. It suits all skin types, including very sensitive skin."
+          },
+          {
+            "question": "How often should a HydraFacial be done?",
+            "answer": "For best results we recommend a monthly HydraFacial as a basic routine. It can also be booked at short notice before special events."
+          },
+          {
+            "question": "Are results visible immediately?",
+            "answer": "Yes – after a HydraFacial the skin is immediately cleaner, fresher and more radiant. Ideal before events or photo appointments."
+          }
+        ],
+        "idealFor": [
+          "Your skin needs an intensive deep cleanse and hydration boost",
+          "Clogged pores, dullness or uneven skin tone are concerns",
+          "You want an immediate glow for a special occasion",
+          "Regular professional skin care is important to you"
+        ]
+      },
+      "chemische-peelings": {
+        "name": "Chemical Peels",
+        "metaTitle": "Chemical Peels Basel | Skinbloom Aesthetics",
+        "metaDescription": "Chemical peels in Basel: effectively treat pigmentation spots, acne scars and uneven skin tone.",
+        "shortDescription": "Targeted exfoliation for fresher, more even skin.",
+        "definition": "Chemical peels improve the skin's appearance through targeted exfoliation with fruit acids or other active ingredients. They reduce pigmentation spots, acne scars and uneven skin tone and promote cell renewal for fresher, smoother skin.",
+        "benefits": [
+          "Reduction of pigmentation spots and acne scars",
+          "More even skin tone",
+          "Promotion of cell renewal",
+          "Smoother, fresher skin",
+          "Individually dosed according to skin type"
+        ],
+        "duration": "approx. 30–60 min.",
+        "longevity": "Course: 3–6 sessions (depending on peel depth)",
+        "downtime": "Flaking 3–7 days (depending on depth)",
+        "process": [
+          "Skin analysis & individual peel selection",
+          "Cleansing & degreasing of the skin",
+          "Even application of the peel",
+          "Exposure time & neutralisation",
+          "Soothing aftercare & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "Which acids are used?",
+            "answer": "We work with fruit acids (AHA/BHA), glycolic acid, lactic acid and salicylic acid – in varying concentrations depending on skin type and treatment goal."
+          },
+          {
+            "question": "Can I go in the sun straight after the peel?",
+            "answer": "No. After a chemical peel the skin is photosensitive. Strict sun protection (SPF 50+) is essential for at least 2 weeks."
+          },
+          {
+            "question": "For which skin concerns is a peel suitable?",
+            "answer": "Blemishes, pigmentation, dull skin, fine lines and uneven texture – chemical peels show very good results for all of these."
+          }
+        ],
+        "idealFor": [
+          "Uneven skin tone, pigmentation spots or acne scars are present",
+          "Your skin has lost its freshness and luminosity",
+          "Fine lines need targeted improvement through deep exfoliation",
+          "You want stronger results than standard cosmetic treatments provide"
+        ]
+      },
+      "radiofrequenz-needling": {
+        "name": "Radiofrequency Needling",
+        "metaTitle": "Radiofrequency Needling Basel | Skinbloom Aesthetics",
+        "metaDescription": "Radiofrequency needling in Basel: skin tightening and wrinkle reduction through combined thermal and needle therapy.",
+        "shortDescription": "Skin tightening and wrinkle reduction through thermal energy and fine needles.",
+        "definition": "Radiofrequency needling combines fine needles with thermal energy to work deep into the skin. The treatment tightens sagging skin, promotes the body's own collagen formation and visibly reduces wrinkles and scars.",
+        "benefits": [
+          "Tightening of sagging skin",
+          "Collagen building from within",
+          "Visible reduction of wrinkles and scars",
+          "Long-lasting results",
+          "Minimally invasive and safe"
+        ],
+        "duration": "approx. 60–90 min.",
+        "longevity": "12–18 months",
+        "downtime": "Redness (2–3 days)",
+        "process": [
+          "Consultation & skin analysis",
+          "Cleansing & numbing cream (30 min. application)",
+          "RF needling treatment of the target area",
+          "Cooling serum & soothing care",
+          "Sun protection & aftercare guidance"
+        ],
+        "faq": [
+          {
+            "question": "How does radiofrequency needling differ from microneedling?",
+            "answer": "In radiofrequency needling, high-frequency waves are additionally delivered deep into the skin – significantly increasing the tightening effect beyond classic microneedling."
+          },
+          {
+            "question": "What can be treated with RF needling?",
+            "answer": "Skin laxity, wrinkle reduction, large pores, acne scars and sagging skin – RF needling is one of the most effective non-surgical procedures for these indications."
+          },
+          {
+            "question": "How many treatments are necessary?",
+            "answer": "Typically 3 sessions spaced 4–6 weeks apart. Annual top-up sessions are then advisable."
+          }
+        ],
+        "idealFor": [
+          "Fine lines, enlarged pores and skin texture need targeted improvement",
+          "You're looking for a gentle alternative to laser treatments",
+          "Skin renewal through controlled stimulation is the goal",
+          "Scars or stretch marks need treatment"
+        ]
+      },
+      "carboxytherapie": {
+        "name": "Carboxy Therapy",
+        "metaTitle": "Carboxy Therapy Basel | Skinbloom Aesthetics",
+        "metaDescription": "Carboxy therapy in Basel: CO₂ injections for better circulation, fewer dark circles and cellulite.",
+        "shortDescription": "CO₂ injections improve circulation and cell metabolism.",
+        "definition": "In carboxy therapy, medical CO₂ gas is injected under the skin to improve blood circulation and stimulate cell metabolism. The treatment visibly works on dark circles, scars, cellulite and skin laxity.",
+        "benefits": [
+          "Improved circulation and cell metabolism",
+          "Reduction of dark circles",
+          "Effect on cellulite and skin laxity",
+          "Promotion of skin renewal",
+          "Safe and proven procedure"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "Course: 6–10 sessions, effect lasts several months",
+        "downtime": "Minimal tingling (fades quickly)",
+        "process": [
+          "Consultation & definition of the treatment area",
+          "Skin disinfection",
+          "Controlled CO₂ injection into the skin",
+          "Gentle massage to distribute",
+          "Finishing care & recommendations"
+        ],
+        "faq": [
+          {
+            "question": "What is carboxytherapy?",
+            "answer": "In carboxytherapy, medical CO₂ is injected precisely under the skin. The gas improves local circulation, stimulates collagen production and breaks down fat deposits."
+          },
+          {
+            "question": "Is the treatment painful?",
+            "answer": "Many describe a brief tingling or pressure sensation. The treatment is well tolerated and requires no anaesthetic."
+          },
+          {
+            "question": "For which concerns is carboxytherapy suitable?",
+            "answer": "Dark circles, cellulite, stretch marks, dull skin and localised fat deposits – carboxytherapy is versatile in its applications."
+          }
+        ],
+        "idealFor": [
+          "Dark circles, puffiness or under-eye bags need treatment",
+          "Cellulite or localised fat deposits need to be reduced",
+          "Improving microcirculation and oxygen supply to the skin is the goal",
+          "Scars need to be lightened and skin texture improved"
+        ]
+      },
+      "hifu-ultraschall": {
+        "name": "HIFU Ultrasound",
+        "metaTitle": "HIFU Ultrasound Basel | Skinbloom Aesthetics",
+        "metaDescription": "HIFU ultrasound lifting in Basel: non-invasive face lifting for long-lasting tightening. Book now.",
+        "shortDescription": "Non-invasive ultrasound lifting for long-lasting tightening.",
+        "definition": "HIFU (High Intensity Focused Ultrasound) is a non-invasive lifting method that transfers focused ultrasound energy into the deeper skin layers. It tightens the face, neck and décolleté long-lastingly and stimulates collagen production – without surgery.",
+        "benefits": [
+          "Non-invasive lifting without surgery",
+          "Long-lasting tightening of face, neck and décolleté",
+          "Stimulation of collagen production",
+          "Immediate lifting effect visible",
+          "No downtime"
+        ],
+        "duration": "approx. 60–90 min.",
+        "longevity": "12–18 months",
+        "downtime": "None to mild tingling (a few days)",
+        "process": [
+          "In-depth consultation & marking of target zones",
+          "Application of ultrasound gel",
+          "Focused HIFU treatment (layer by layer)",
+          "Finishing care",
+          "Result develops over 2–3 months"
+        ],
+        "faq": [
+          {
+            "question": "What is HIFU and how does it work?",
+            "answer": "HIFU (High-Intensity Focused Ultrasound) focuses ultrasound waves deep into the tissue (down to the SMAS layer), generating targeted heat and triggering intensive new collagen formation – a natural lift without surgery."
+          },
+          {
+            "question": "When will I see the result?",
+            "answer": "First results appear after 4–6 weeks. The full lifting result is visible after 3 months, once collagen synthesis is complete."
+          },
+          {
+            "question": "Who is suitable for HIFU?",
+            "answer": "HIFU is ideal for people with mild to moderate skin ageing (typically aged 30–60) who are looking for a non-surgical alternative to facelift surgery."
+          }
+        ],
+        "idealFor": [
+          "Your face or neck have lost firmness and definition",
+          "You want a non-surgical face lift",
+          "Collagen production in the deep skin layers needs activation",
+          "Long-term, sustainable anti-ageing results are your goal"
+        ]
+      },
+      "microneedling": {
+        "name": "Microneedling",
+        "metaTitle": "Microneedling Basel | Skinbloom Aesthetics",
+        "metaDescription": "Microneedling in Basel: stimulate collagen production and improve scars and skin texture. Book now.",
+        "shortDescription": "Fine needles stimulate the body's own collagen production.",
+        "definition": "In microneedling, fine needles create controlled microchannels in the skin that stimulate the body's own collagen and elastin production. The treatment minimizes scars, refines the skin's appearance and improves texture.",
+        "benefits": [
+          "Natural collagen and elastin stimulation",
+          "Reduction of scars and pores",
+          "Refined, even skin appearance",
+          "Well tolerated and safe",
+          "Combinable with other active ingredients"
+        ],
+        "duration": "approx. 45–60 min.",
+        "longevity": "6–12 months (course recommended)",
+        "downtime": "Redness (24–48 hrs)",
+        "process": [
+          "Consultation & assessment of skin, scars & wrinkles",
+          "Cleansing & numbing cream (20–30 min. application)",
+          "Microneedling treatment (needle depth adjusted to indication)",
+          "Optional: infusion of PRP or active ingredients",
+          "Cooling finishing serum & sun protection"
+        ],
+        "faq": [
+          {
+            "question": "How does microneedling work?",
+            "answer": "Fine needles create controlled micro-channels in the skin. The body responds with collagen and elastin production – the skin becomes smoother, firmer and more even."
+          },
+          {
+            "question": "Is microneedling effective for acne scars?",
+            "answer": "Yes, microneedling is one of the most effective methods for scar treatment, particularly for acne scars and pitting."
+          },
+          {
+            "question": "How many sessions are needed?",
+            "answer": "For wrinkles and anti-ageing: 3–4 sessions. For scars: 4–6 sessions. Sessions spaced 4–6 weeks apart."
+          }
+        ],
+        "idealFor": [
+          "Fine lines, enlarged pores or uneven skin texture need improvement",
+          "Scars, stretch marks or pigmentation spots are present",
+          "Natural, gentle stimulation of collagen production is the goal",
+          "You want effective treatment with minimal downtime"
+        ]
+      }
+    },
+    "quickinfoLabels": {
+      "duration": "Treatment duration",
+      "longevity": "Longevity",
+      "downtime": "Downtime"
+    },
+    "processTitle": "Your Treatment Process",
+    "faqTitle": "Frequently Asked Questions",
+    "relatedTitle": "You Might Also Like",
+    "idealForTitle": "This treatment is ideal for you if...",
+    "midCtaText": "Curious about your personal results with"
+  },
+  "beforeAfter": {
+    "sectionTitle": "Before &",
+    "sectionTitleBrown": "After",
+    "sectionSubtitle": "Real results – our treatments speak for themselves.",
+    "labelBefore": "Before",
+    "labelAfter": "After",
+    "disclaimer": "Individual results may vary."
+  },
+  "instagramCta": {
+    "title": "Follow us on",
+    "handle": "@skinbloom._aesthetics",
+    "subtitle": "Behind-the-scenes, treatment results and daily beauty inspiration – on Instagram.",
+    "cta": "Follow now"
+  },
+  "timedPopup": {
+    "eyebrow": "Still unsure?",
+    "headline": "Book a free consultation",
+    "body": "Our experts will advise you personally – free of charge & with no obligation.",
+    "cta": "Book appointment now",
+    "dismiss": "Maybe later"
+  }
+}
