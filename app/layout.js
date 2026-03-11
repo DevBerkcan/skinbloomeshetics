@@ -1,5 +1,4 @@
 // app/layout.js
-import { Montserrat, Playfair_Display, Lato } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 // Font Awesome
@@ -18,11 +17,6 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-
-// Google Fonts
-const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "700"] });
-const playfairDisplay = Playfair_Display({ subsets: ["latin"], weight: ["400", "700"] });
-const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.skinbloom-aesthetics.ch";
 
@@ -104,9 +98,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de-CH">
-      <head />
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.className} ${playfairDisplay.className} ${lato.className}`}
+        className={`${geistSans.variable} ${geistMono.variable}`}
       >
         {children}
       </body>
