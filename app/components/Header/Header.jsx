@@ -4,10 +4,9 @@ import { faPhone, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Preisliste from "../Modals/Preisliste/Preisliste";
 import React, { useEffect, useRef, useState } from "react";
-import Link from "next/link";
+import { Link, usePathname } from "../../../i18n/navigation";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useTranslations, useLocale } from "next-intl";
-import { usePathname } from "next/navigation";
 import { treatments } from "../../data/treatments";
 
 const CATEGORIES = [
@@ -50,11 +49,6 @@ export default function Header() {
     };
   }, []);
 
-  // Strip locale prefix to get the base path for locale switching
-  const basePath = locale === "en" ? pathname.replace(/^\/en/, "") || "/" : pathname;
-  const deHref = basePath;
-  const enHref = `/en${basePath === "/" ? "" : basePath}`;
-
   return (
     <>
       <div className="utility-bar">
@@ -66,14 +60,16 @@ export default function Header() {
           <div className="d-flex align-items-center gap-3">
             <div className="utility-lang">
               <Link
-                href={deHref}
+                href={pathname}
+                locale="de"
                 className={`lang-btn${locale === "de" ? " lang-active" : ""}`}
               >
                 DE
               </Link>
               <span className="utility-divider">|</span>
               <Link
-                href={enHref}
+                href={pathname}
+                locale="en"
                 className={`lang-btn${locale === "en" ? " lang-active" : ""}`}
               >
                 EN
@@ -134,7 +130,7 @@ export default function Header() {
                               .map((tr) => (
                                 <Link
                                   key={tr.slug}
-                                  href={`/${locale}/behandlungen/${tr.slug}`}
+                                  href={`/behandlungen/${tr.slug}`}
                                   className="mega-item"
                                   onClick={() => setMegaOpen(false)}
                                 >
@@ -146,7 +142,7 @@ export default function Header() {
                       </div>
                       <div className="mega-footer">
                         <Link
-                          href={`/${locale}/behandlungen`}
+                          href="/behandlungen"
                           className="mega-footer-link"
                           onClick={() => setMegaOpen(false)}
                         >
@@ -163,7 +159,9 @@ export default function Header() {
                   </Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Link href="/" className="nav-link" onClick={() => openModal("preisliste")}>{t("prices")}</Link>
+                  <button type="button" className="nav-link" onClick={() => openModal("preisliste")}>
+                    {t("prices")}
+                  </button>
                 </Nav.Item>
                 <Nav.Item>
                   <Link href="/kontakt" className="nav-link">{t("contact")}</Link>
